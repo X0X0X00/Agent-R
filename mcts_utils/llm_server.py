@@ -19,8 +19,11 @@ import csv
 import os
 import openai
 import tiktoken
+import asyncio
+import jsonlines
 from transformers import AutoTokenizer
 from mcts_utils.sciworld.eval_utils_sw import findValidActionNew
+from utils.logger import logger
 
 
 class FuncCallOffline:
@@ -38,16 +41,29 @@ class FuncCallOffline:
         self.encoding = tokenizer
 
     def llm_func(self, messages, model_name):
+        logger.debug(f"FuncCallOffline.llm_func - Messages: {messages}")
         outputs = self.llm.chat(messages, sampling_params=self.sampling_params)
         text = outputs[0].outputs[0].text.strip()
+        logger.debug(f"FuncCallOffline.llm_func - Cleaned Result: {text}")
+        return text
+    
+    async def llm_func_async(self, messages, model_name):
+        """Asynchronous version of llm_func"""
+        logger.debug(f"FuncCallOffline.llm_func_async - Messages: {messages}")
+        # Use asyncio.to_thread to run the synchronous method in a thread pool
+        text = await asyncio.to_thread(self.llm_func, messages, model_name)
         return text
     
 
 class FuncCall:
     def __init__(self, model_name=None):
         self.model_name = model_name
-        token_model = 'gpt-4'
-        self.encoding = tiktoken.encoding_for_model(token_model)
+        token_model = 'gpt-4o-mini'
+        # self.encoding = tiktoken.encoding_for_model(token_model)
+        self.encoding = tiktoken.get_encoding("cl100k_base")
+
+        # Create a semaphore to limit concurrent API calls
+        self.api_semaphore = asyncio.Semaphore(5)  # Limit to 5 concurrent API calls
 
     def message_construction(self, prompt, model_name=""):
         if model_name != 'gemini':
@@ -57,23 +73,49 @@ class FuncCall:
         return messages
 
     def llm_func(self, messages, model_name):
+        logger.debug(f"FuncCall.llm_func - Messages: {messages}")
         ind = 0
         while True:
             try:
-                if "gpt" in model_name:
-                    openai.api_key = os.environ["OPENAI_API_KEY"]
-                    openai.api_base = os.environ["OPENAI_API_BASE"]
-                    openai.api_type = "azure"
-                    openai.api_version = os.environ["OPENAI_API_VERSION"]
-                    result = openai.ChatCompletion.create(
-                        engine=model_name,
-                        messages=messages,
-                        temperature=0,
-                        stop=None)
-                    clean_result = result["choices"][0]["message"]["content"]
+                if "gpt" in model_name or True:
+                    client = openai.OpenAI(
+                       base_url = os.environ["OPENAI_API_BASE"],
+                        api_key = os.environ["OPENAI_API_KEY"],
+                    )
+                    temperature = float(os.environ["TEMP"])
+
+
+                    # result = client.chat.completions.create(
+                    #     model =model_name,
+                    #     messages=messages,
+                    #     temperature=temperature,
+                    #     stop=None)
+                    # clean_result = result.choices[0].message.content
+                    print("[LLM DEBUG] Sending prompt to model:", messages)
+                    print("[LLM DEBUG] Model name:", model_name)
+
+                    try:
+                        result = client.chat.completions.create(
+                            model = model_name,
+                            messages = messages,
+                            temperature = temperature,
+                            stop=None,
+                            max_tokens=512
+                        )
+                        print("[LLM] result:", result)
+                        clean_result = result.choices[0].message.content
+                    except Exception as e:
+                        print("[LLM ERROR] Failed:", e)
+                        return ""
+
+
+
+                    
+                logger.debug(f"FuncCall.llm_func - Cleaned Result: {clean_result}")
                 return clean_result
             except Exception as e:
-                if ind > 100000:
+                logger.error(f"FuncCall.llm_func - Error: {e}")
+                if ind > 100:
                     return -1
                 ind += 1
                 continue
@@ -107,7 +149,6 @@ def perform_test(calling, env, conv, model_name, idx, max_steps):
         new_action = agent_response.split('Action:')[-1].strip()
         if Task == "sciworld":
             new_action = findValidActionNew([new_action], env, env.get_look_around(), current_recent_actions)
-
         step_output = env.step(new_action)
         env_state, env_reward, env_done = (
                         step_output.state,
@@ -118,7 +159,6 @@ def perform_test(calling, env, conv, model_name, idx, max_steps):
         done = env_done
         new_env_score = env_reward
         conv.append_message(conv.roles[1], None)
-
         conv.update_last_message(agent_response)
         conv.append_message(conv.roles[0], current_obs)
 

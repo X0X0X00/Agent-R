@@ -67,6 +67,11 @@ def perform_mcts_search(Task, calling, env, conv, model_name, idx):
     dir_path = f"mcts_result/{Task}/{model_name}"
     file_path = f"{dir_path}/search_results_{idx}.json"
 
+    
+    # 测试
+    print(f"[MCTS] Start search on task idx {idx}")
+
+
     # 如果目录不存在则创建
     os.makedirs(dir_path, exist_ok=True)
     mcts_search.save(f"{file_path}")
@@ -119,10 +124,10 @@ def process_sciworld(Task, task_inds, task_num, task_iteration, model_name, env,
     Processes tasks for "sciworld".
     """
     for k in range(1, task_iteration + 1):
-        if k >= len(task_inds[str(task_num)]):
+        if k >= len(task_inds):
             break
         
-        idx = task_inds[str(task_num)][k]
+        idx = task_inds[k]
         dir_path = f"mcts_result/{Task}/{model_name}"
         os.makedirs(dir_path, exist_ok=True)
         file_path = f"{dir_path}/search_results_{idx}.json"
@@ -172,7 +177,11 @@ def main_script():
     model_name = args.model_name
     min_range = args.min
     max_range = args.max
-    calling = FuncCallOffline(model_name=model_name)
+
+    # 暂时防止同时在docker机器上运行VLLM，将来都用offline，但也通过api调用。基于tokenizer是否消耗资源，估计是放在cpu机器上。
+    # calling = FuncCallOffline(model_name=model_name)
+    calling = FuncCall(model_name=model_name)
+
 
     # Get the task from the environment variable
     Task = os.environ.get("TASK")

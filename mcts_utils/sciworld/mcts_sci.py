@@ -123,9 +123,14 @@ class ExtendedMCTS(MCTSAgent):
             if node.is_terminal:
                 print(f"Stop at Iter {iter}")
                 return
+            step_counter = 0
             while node and not node.is_terminal:
+                if step_counter >= self.generate_cfg.max_depth:
+                    print(f"[⚠️] Exceeded max depth ({self.generate_cfg.max_depth}) at Iter {iter}, breaking...")
+                    break
                 self.expand(node)
                 node = self._select(node)
+                step_counter += 1
         return
     
     def _generate(self, node):
@@ -140,7 +145,7 @@ class ExtendedMCTS(MCTSAgent):
         
         ind = 1
         disaster = False
-        agent_response = agent_response.strip()
+        agent_response = str(agent_response).strip()
         conv = deepcopy(node.state)
         _ = self.env.reset(self.idx)
         conv.append_message(conv.roles[1], None)
@@ -166,6 +171,25 @@ class ExtendedMCTS(MCTSAgent):
             new_action = agent_response.split('\n')[-1]
 
         new_action = findValidActionNew([new_action], current_env, current_env.get_look_around(), current_recent_actions)
+
+
+        # 立刻加一个判断：
+        if new_action in ["-1", "1", "", None] or "No known action matches" in current_env.info["observation"]:
+            print(f"[⛔️] Invalid action '{new_action}' → stopping this branch.")
+            return ExtendedNode(
+                obs="Invalid Action",
+                action=new_action,
+                env=current_env,
+                state=conv,
+                parent=node,
+                disaster=True,
+                recent_actions=current_recent_actions,
+                llm_response=agent_response,
+                depth=node.depth + 1,
+                env_score=0,
+                is_terminal=True
+            )
+
 
         step_output = current_env.step(new_action)
         current_env_state, current_env_reward, current_env_done = (

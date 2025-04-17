@@ -15,9 +15,10 @@ limitations under the License.
 """
 from fastchat.model.model_adapter import get_conversation_template
 from mcts_utils.llm_server import *
-from agentenv.envs import WebshopEnvClient, SciworldEnvClient, TextCraftEnvClient
+from agentenv.envs import WebshopEnvClient, SciworldEnvClient, TextCraftEnvClient, WebarenaEnvClient
 import argparse
 import os
+from mcts_utils.llm_server import FuncCall
 
 Task = os.environ["TASK"]
 
@@ -27,6 +28,8 @@ elif Task == "sciworld":
     from mcts_utils.sciworld.mcts_sci import *
 elif Task == "textcraft":
     from mcts_utils.textcraft.mcts_tc import *
+elif Task == "webarena":
+    from mcts_utils.webarena.mcts_we import *
 
 def initialize_environment(Task: str, env_server_base: str, data_len: int = 200):
     """
@@ -38,6 +41,8 @@ def initialize_environment(Task: str, env_server_base: str, data_len: int = 200)
         return SciworldEnvClient(env_server_base=env_server_base, data_len=data_len)
     elif Task == "textcraft":
         return TextCraftEnvClient(env_server_base=env_server_base, data_len=data_len)
+    elif Task == "webarena":
+        return WebarenaEnvClient(env_server_base=env_server_base, data_len=data_len)
     else:
         raise ValueError(f"Unknown Task: {Task}")
 
@@ -62,7 +67,8 @@ def main(Task: str, model_name: str, env_server_base: str, max_steps: int):
     env = initialize_environment(Task, env_server_base)
 
     # Load task indices
-    temp = read_json(f"test_id/{Task}_test.json")
+    # temp = read_json(f"test_id/{Task}_test.json")
+    temp = read_json(f"mcts_utils/{Task}/{Task}_test.json")
     task_inds = [ind["item_id"].replace(f"{Task}_", "") for ind in temp]
 
     # Process each task index
@@ -76,7 +82,8 @@ def main(Task: str, model_name: str, env_server_base: str, max_steps: int):
 
         env.reset(int(idx))
         conv = setup_conversation(env)
-        perform_test(FuncCallOffline(model_name=model_name), env, conv, model_name, idx, max_steps)
+        # perform_test(FuncCallOffline(model_name=model_name), env, conv, model_name, idx, max_steps)
+        perform_test(FuncCall(model_name=model_name), env, conv, model_name, idx, max_steps)
 
 if __name__ == "__main__":
     # Argument parsing

@@ -1,0 +1,89 @@
+[Config file]: /tmp/tmpsjmm_vs4/0.json
+[Unhandled Error] Error('net::ERR_CONNECTION_REFUSED at http://127.0.0.1:7780/admin\n=========================== logs ===========================\nnavigating to "127.0.0.1:7780/admin", waiting until "load"\n============================================================')
+Traceback (most recent call last):
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/run.py", line 282, in test
+    obs, info = env.reset(options={"config_file": config_file})
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x7f7be493add0>", line 51, in reset
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/browser_env/envs.py", line 203, in reset
+    self.setup(config_file=config_file)
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.setup) at 0x7f7be493ab00>", line 36, in setup
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/browser_env/envs.py", line 160, in setup
+    page.goto(url)
+  File "/home/ubuntu/anaconda3/envs/webarena/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 9221, in goto
+    self._sync(
+  File "/home/ubuntu/anaconda3/envs/webarena/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 104, in _sync
+    return task.result()
+  File "/home/ubuntu/anaconda3/envs/webarena/lib/python3.10/site-packages/playwright/_impl/_page.py", line 495, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/home/ubuntu/anaconda3/envs/webarena/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 147, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/home/ubuntu/anaconda3/envs/webarena/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+  File "/home/ubuntu/anaconda3/envs/webarena/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 461, in wrap_api_call
+    return await cb()
+  File "/home/ubuntu/anaconda3/envs/webarena/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 96, in inner_send
+    result = next(iter(done)).result()
+playwright._impl._api_types.Error: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:7780/admin
+=========================== logs ===========================
+navigating to "127.0.0.1:7780/admin", waiting until "load"
+============================================================
+[Config file]: /tmp/tmp_p_hw0zi/1.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+Traceback (most recent call last):
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/run.py", line 282, in test
+    obs, info = env.reset(options={"config_file": config_file})
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x7f7be493add0>", line 51, in reset
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/browser_env/envs.py", line 203, in reset
+    self.setup(config_file=config_file)
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.setup) at 0x7f7be493ab00>", line 36, in setup
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/browser_env/envs.py", line 127, in setup
+    self.playwright = self.context_manager.__enter__()
+  File "/home/ubuntu/anaconda3/envs/webarena/lib/python3.10/site-packages/playwright/sync_api/_context_manager.py", line 47, in __enter__
+    raise Error(
+playwright._impl._api_types.Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+[Config file]: /tmp/tmpl9k5tcj0/2.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+Traceback (most recent call last):
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/run.py", line 282, in test
+    obs, info = env.reset(options={"config_file": config_file})
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x7f7be493add0>", line 51, in reset
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/browser_env/envs.py", line 203, in reset
+    self.setup(config_file=config_file)
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.setup) at 0x7f7be493ab00>", line 36, in setup
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/browser_env/envs.py", line 127, in setup
+    self.playwright = self.context_manager.__enter__()
+  File "/home/ubuntu/anaconda3/envs/webarena/lib/python3.10/site-packages/playwright/sync_api/_context_manager.py", line 47, in __enter__
+    raise Error(
+playwright._impl._api_types.Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+[Config file]: /tmp/tmpgi0resjt/3.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+Traceback (most recent call last):
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/run.py", line 282, in test
+    obs, info = env.reset(options={"config_file": config_file})
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x7f7be493add0>", line 51, in reset
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/browser_env/envs.py", line 203, in reset
+    self.setup(config_file=config_file)
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.setup) at 0x7f7be493ab00>", line 36, in setup
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/browser_env/envs.py", line 127, in setup
+    self.playwright = self.context_manager.__enter__()
+  File "/home/ubuntu/anaconda3/envs/webarena/lib/python3.10/site-packages/playwright/sync_api/_context_manager.py", line 47, in __enter__
+    raise Error(
+playwright._impl._api_types.Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+[Config file]: /tmp/tmpglyrn4qh/4.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+Traceback (most recent call last):
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/run.py", line 282, in test
+    obs, info = env.reset(options={"config_file": config_file})
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x7f7be493add0>", line 51, in reset
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/browser_env/envs.py", line 203, in reset
+    self.setup(config_file=config_file)
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.setup) at 0x7f7be493ab00>", line 36, in setup
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/browser_env/envs.py", line 127, in setup
+    self.playwright = self.context_manager.__enter__()
+  File "/home/ubuntu/anaconda3/envs/webarena/lib/python3.10/site-packages/playwright/sync_api/_context_manager.py", line 47, in __enter__
+    raise Error(
+playwright._impl._api_types.Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.

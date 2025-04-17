@@ -161,6 +161,8 @@ def findValidActionNew(predictions, env, look, recent_actions, k=5):
     # Sanitize top action
     topAction = re.sub(r'[^A-Za-z0-9 ]+', '', topAction)
     action = topAction
+    if action.strip() == "" or action.strip().lower() == "none":
+        return "-1"
     return action
  
 
