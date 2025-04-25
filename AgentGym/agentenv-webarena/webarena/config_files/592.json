@@ -5,7 +5,7 @@
   "task_id": 592,
   "require_login": true,
   "storage_state": "./.auth/gitlab_state.json",
-  "start_url": "127.0.0.1:8023/primer/design",
+  "start_url": "127.0.0.1:9001/primer/design",
   "geolocation": null,
   "intent_template": "Create a milestone for the upcoming {{event}} starting on {{start_date}} and ending on {{end_date}}",
   "instantiation_dict": {
@@ -21,7 +21,7 @@
       "program_html"
     ],
     "reference_answers": null,
-    "reference_url": "127.0.0.1:8023/primer/design/-/milestones",
+    "reference_url": "127.0.0.1:9001/primer/design/-/milestones",
     "program_html": [
       {
         "url": "last",

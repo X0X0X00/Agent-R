@@ -1,0 +1,74 @@
+[OpenAI file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/1.json
+[OpenAI Error] APIError(message='do request failed: Post "https://api.chatanywhere.tech/v1/chat/completions": read tcp 10.88.0.7:33390->119.36.225.128:443: read: connection timed out (request id: 2025042222590643979294133477129) {"error":{"message":"do request failed: Post \\"https://api.chatanywhere.tech/v1/chat/completions\\": read tcp 10.88.0.7:33390-\\u003e119.36.225.128:443: read: connection timed out (request id: 2025042222590643979294133477129)","type":"one_api_error","param":"","code":"do_request_failed"}} 500 {\'error\': {\'message\': \'do request failed: Post "https://api.chatanywhere.tech/v1/chat/completions": read tcp 10.88.0.7:33390->119.36.225.128:443: read: connection timed out (request id: 2025042222590643979294133477129)\', \'type\': \'one_api_error\', \'param\': \'\', \'code\': \'do_request_failed\'}} {\'Content-Type\': \'application/json; charset=utf-8\', \'X-Oneapi-Request-Id\': \'2025042222590643979294133477129\', \'Date\': \'Tue, 22 Apr 2025 15:01:54 GMT\', \'Content-Length\': \'287\'}', http_status=500, request_id=None)
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/7.json
+[Unhandled Error] TimeoutError('Timeout 30000ms exceeded.\n=========================== logs ===========================\nnavigating to "127.0.0.1:8443", waiting until "load"\n============================================================')
+Traceback (most recent call last):
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/run.py", line 306, in test
+    obs, info = env.reset(options={"config_file": config_file})
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x7f4417adbec0>", line 51, in reset
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/browser_env/envs.py", line 204, in reset
+    self.setup(config_file=config_file)
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.setup) at 0x7f4417adba60>", line 36, in setup
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/browser_env/envs.py", line 161, in setup
+    page.goto(url)
+  File "/home/ubuntu/anaconda3/envs/agent-R-Z/lib/python3.11/site-packages/playwright/sync_api/_generated.py", line 9221, in goto
+    self._sync(
+  File "/home/ubuntu/anaconda3/envs/agent-R-Z/lib/python3.11/site-packages/playwright/_impl/_sync_base.py", line 104, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/home/ubuntu/anaconda3/envs/agent-R-Z/lib/python3.11/site-packages/playwright/_impl/_page.py", line 495, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/anaconda3/envs/agent-R-Z/lib/python3.11/site-packages/playwright/_impl/_frame.py", line 147, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/home/ubuntu/anaconda3/envs/agent-R-Z/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/anaconda3/envs/agent-R-Z/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 461, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "/home/ubuntu/anaconda3/envs/agent-R-Z/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 96, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+navigating to "127.0.0.1:8443", waiting until "load"
+============================================================
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/8.json
+[Unhandled Error] TimeoutError('Timeout 30000ms exceeded.\n=========================== logs ===========================\nnavigating to "127.0.0.1:8443", waiting until "load"\n============================================================')
+Traceback (most recent call last):
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/run.py", line 306, in test
+    obs, info = env.reset(options={"config_file": config_file})
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x7f4417adbec0>", line 51, in reset
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/browser_env/envs.py", line 204, in reset
+    self.setup(config_file=config_file)
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.setup) at 0x7f4417adba60>", line 36, in setup
+  File "/mount/local/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/browser_env/envs.py", line 161, in setup
+    page.goto(url)
+  File "/home/ubuntu/anaconda3/envs/agent-R-Z/lib/python3.11/site-packages/playwright/sync_api/_generated.py", line 9221, in goto
+    self._sync(
+  File "/home/ubuntu/anaconda3/envs/agent-R-Z/lib/python3.11/site-packages/playwright/_impl/_sync_base.py", line 104, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/home/ubuntu/anaconda3/envs/agent-R-Z/lib/python3.11/site-packages/playwright/_impl/_page.py", line 495, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/anaconda3/envs/agent-R-Z/lib/python3.11/site-packages/playwright/_impl/_frame.py", line 147, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/home/ubuntu/anaconda3/envs/agent-R-Z/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/anaconda3/envs/agent-R-Z/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 461, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+  File "/home/ubuntu/anaconda3/envs/agent-R-Z/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 96, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+playwright._impl._api_types.TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+navigating to "127.0.0.1:8443", waiting until "load"
+============================================================
+[OpenAI file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/110.json
+[OpenAI Error] APIError(message='do request failed: Post "https://api.chatanywhere.tech/v1/chat/completions": read tcp 10.88.0.7:51498->61.241.148.61:443: read: connection timed out (request id: 2025042301551245143127728391356) {"error":{"message":"do request failed: Post \\"https://api.chatanywhere.tech/v1/chat/completions\\": read tcp 10.88.0.7:51498-\\u003e61.241.148.61:443: read: connection timed out (request id: 2025042301551245143127728391356)","type":"one_api_error","param":"","code":"do_request_failed"}} 500 {\'error\': {\'message\': \'do request failed: Post "https://api.chatanywhere.tech/v1/chat/completions": read tcp 10.88.0.7:51498->61.241.148.61:443: read: connection timed out (request id: 2025042301551245143127728391356)\', \'type\': \'one_api_error\', \'param\': \'\', \'code\': \'do_request_failed\'}} {\'Content-Type\': \'application/json; charset=utf-8\', \'X-Oneapi-Request-Id\': \'2025042301551245143127728391356\', \'Date\': \'Tue, 22 Apr 2025 17:58:01 GMT\', \'Content-Length\': \'286\'}', http_status=500, request_id=None)

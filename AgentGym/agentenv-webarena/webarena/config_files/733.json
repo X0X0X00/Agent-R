@@ -5,7 +5,7 @@
   "task_id": 733,
   "require_login": true,
   "storage_state": "./.auth/reddit_state.json",
-  "start_url": "127.0.0.1:9999",
+  "start_url": "127.0.0.1:8080",
   "geolocation": null,
   "intent_template": "Edit my post on {{post}} by adding a line to the body that says \"{{content}}\"",
   "instantiation_dict": {
@@ -22,7 +22,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:9999/f/television/135201/star-trek-starfleet-academy-series-from-alex-kurtzman-and",
+        "url": "127.0.0.1:8080/f/television/135201/star-trek-starfleet-academy-series-from-alex-kurtzman-and",
         "locator": "document.querySelector('.submission__body').outerText",
         "required_contents": {
           "exact_match": "Every watch makes me feel like a kid again"

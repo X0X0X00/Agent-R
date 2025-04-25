@@ -1,22 +1,22 @@
 # websites domain
 import os
 
-REDDIT = os.environ.get("REDDIT", "")
-SHOPPING = os.environ.get("SHOPPING", "")
-SHOPPING_ADMIN = os.environ.get("SHOPPING_ADMIN", "")
-GITLAB = os.environ.get("GITLAB", "")
-WIKIPEDIA = os.environ.get("WIKIPEDIA", "")
-MAP = os.environ.get("MAP", "")
-HOMEPAGE = os.environ.get("HOMEPAGE", "")
+# REDDIT = os.environ.get("REDDIT", "")
+# SHOPPING = os.environ.get("SHOPPING", "")
+# SHOPPING_ADMIN = os.environ.get("SHOPPING_ADMIN", "")
+# GITLAB = os.environ.get("GITLAB", "")
+# WIKIPEDIA = os.environ.get("WIKIPEDIA", "")
+# MAP = os.environ.get("MAP", "")
+# HOMEPAGE = os.environ.get("HOMEPAGE", "")
 
 # test
-# REDDIT = "http://127.0.0.1:8080/reddit"
-# SHOPPING = "http://127.0.0.1:8082/shopping"
-# SHOPPING_ADMIN = "http://127.0.0.1:8084/admin"
-# GITLAB = "http://127.0.0.1:9001/gitlab"
-# WIKIPEDIA = "http://127.0.0.1:8081/wiki"
-# MAP = "http://127.0.0.1:8443/map"
-# HOMEPAGE = "http://127.0.0.1:8088"
+REDDIT = "http://127.0.0.1:8080"
+SHOPPING = "http://127.0.0.1:8082"
+SHOPPING_ADMIN = "http://127.0.0.1:8084/admin"
+GITLAB = "http://127.0.0.1:9001"
+WIKIPEDIA = "http://127.0.0.1:8081"
+MAP = "http://127.0.0.1:8443"
+HOMEPAGE = "http://127.0.0.1:8088"
 
 assert (
     REDDIT

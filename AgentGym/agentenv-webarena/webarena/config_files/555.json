@@ -6,7 +6,7 @@
   "task_id": 555,
   "require_login": true,
   "storage_state": "./.auth/gitlab.reddit_state.json",
-  "start_url": "127.0.0.1:8023",
+  "start_url": "127.0.0.1:9001",
   "geolocation": null,
   "intent_template": "Create a folder named {{directory}} in {{gitlab_repo}} repo. Within it, create a file named urls.txt that contains the URLs of the 5 most recent posts from the {{subreddit}}?",
   "instantiation_dict": {
@@ -24,15 +24,15 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:8023/byteblaze/gimmiethat.space/-/raw/main/funny_pic/urls.txt",
+        "url": "127.0.0.1:9001/byteblaze/gimmiethat.space/-/raw/main/funny_pic/urls.txt",
         "locator": "",
         "required_contents": {
           "must_include": [
-            "127.0.0.1:9999/f/memes/127991/it-do-be-like-that-tho",
-            "127.0.0.1:9999/f/memes/127990/thank-you-memers-this-wouldn-t-be-possible-without-you",
-            "127.0.0.1:9999/f/memes/127989/if-you-have-no-other-choice",
-            "127.0.0.1:9999/f/memes/127988/yes-yes-yes",
-            "127.0.0.1:9999/f/memes/127987/shagadelic-baby"
+            "127.0.0.1:8080/f/memes/127991/it-do-be-like-that-tho",
+            "127.0.0.1:8080/f/memes/127990/thank-you-memers-this-wouldn-t-be-possible-without-you",
+            "127.0.0.1:8080/f/memes/127989/if-you-have-no-other-choice",
+            "127.0.0.1:8080/f/memes/127988/yes-yes-yes",
+            "127.0.0.1:8080/f/memes/127987/shagadelic-baby"
           ]
         }
       }

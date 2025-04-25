@@ -5,7 +5,7 @@
   "task_id": 719,
   "require_login": true,
   "storage_state": "./.auth/reddit_state.json",
-  "start_url": "127.0.0.1:9999",
+  "start_url": "127.0.0.1:8080",
   "geolocation": null,
   "intent_template": "Like all submissions created by {{user}} in subreddit {{subreddit}}",
   "instantiation_dict": {
@@ -22,7 +22,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:9999/f/wallstreetbets/29478/how-will-airbnb-close-following-their-earnings-report-on",
+        "url": "127.0.0.1:8080/f/wallstreetbets/29478/how-will-airbnb-close-following-their-earnings-report-on",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [
@@ -31,7 +31,7 @@
         }
       },
       {
-        "url": "127.0.0.1:9999/f/wallstreetbets/29458/how-much-will-the-federal-reserve-raise-interest-rates-in",
+        "url": "127.0.0.1:8080/f/wallstreetbets/29458/how-much-will-the-federal-reserve-raise-interest-rates-in",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [

@@ -1,0 +1,7 @@
+2025-04-22 22:31:34,019 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/0.json
+2025-04-22 22:31:34,019 - INFO - [Intent]: What is the top-1 best-selling product in 2022
+2025-04-22 22:33:21,164 - INFO - [Result] (FAIL) /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/0.json
+2025-04-22 22:33:21,297 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/1.json
+2025-04-22 22:33:21,298 - INFO - [Intent]: What is the top-1 best-selling brand in Quarter 1 2022
+2025-04-22 22:35:15,263 - INFO - [Result] (FAIL) /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/1.json
+2025-04-22 22:35:15,697 - INFO - Average score: 0.0

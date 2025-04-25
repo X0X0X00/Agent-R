@@ -5,7 +5,7 @@
   "task_id": 384,
   "require_login": true,
   "storage_state": "./.auth/shopping_state.json",
-  "start_url": "127.0.0.1:7770",
+  "start_url": "127.0.0.1:8082",
   "geolocation": null,
   "intent_template": "List the customer names who complain about the quality of EYZUTAK phone cases",
   "instantiation_dict": {},

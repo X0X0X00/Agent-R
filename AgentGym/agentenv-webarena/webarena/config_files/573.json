@@ -5,7 +5,7 @@
   "task_id": 573,
   "require_login": true,
   "storage_state": "./.auth/shopping_state.json",
-  "start_url": "127.0.0.1:7770",
+  "start_url": "127.0.0.1:8082",
   "geolocation": null,
   "intent_template": "I recently moved, my address is {{address}}, update my information on OneStopShopping accordingly",
   "instantiation_dict": {
@@ -21,7 +21,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:7770/customer/address",
+        "url": "127.0.0.1:8082/customer/address",
         "locator": "document.querySelector(\".box.box-address-shipping > .box-content\").outerText",
         "required_contents": {
           "must_include": [
@@ -31,7 +31,7 @@
         }
       },
       {
-        "url": "127.0.0.1:7770/customer/address",
+        "url": "127.0.0.1:8082/customer/address",
         "locator": "document.querySelector(\".box.box-address-billing > .box-content\").outerText",
         "required_contents": {
           "must_include": [

@@ -5,7 +5,7 @@
   "task_id": 409,
   "require_login": true,
   "storage_state": "./.auth/reddit_state.json",
-  "start_url": "127.0.0.1:9999/f/books/59421/friendly-reminder-bookshop-org-exists",
+  "start_url": "127.0.0.1:8080/f/books/59421/friendly-reminder-bookshop-org-exists",
   "geolocation": null,
   "intent_template": "Reply to {{position_description}} in this post with \"{{content_description}}\"",
   "instantiation_dict": {
@@ -22,7 +22,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:9999/f/books/59421/-/comment/1235250",
+        "url": "127.0.0.1:8080/f/books/59421/-/comment/1235250",
         "locator": "",
         "required_contents": {
           "must_include": [

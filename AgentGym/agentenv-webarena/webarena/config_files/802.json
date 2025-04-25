@@ -5,7 +5,7 @@
   "task_id": 802,
   "require_login": true,
   "storage_state": "./.auth/gitlab_state.json",
-  "start_url": "127.0.0.1:8023",
+  "start_url": "127.0.0.1:9001",
   "geolocation": null,
   "intent_template": "create a new group \"{{name}}\" with members {{members}}",
   "instantiation_dict": {
@@ -22,7 +22,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:8023/groups/coding_friends/-/group_members",
+        "url": "127.0.0.1:9001/groups/coding_friends/-/group_members",
         "locator": "",
         "required_contents": {
           "must_include": [

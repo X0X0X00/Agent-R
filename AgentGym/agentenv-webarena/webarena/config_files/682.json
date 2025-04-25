@@ -6,7 +6,7 @@
   "task_id": 682,
   "require_login": true,
   "storage_state": "./.auth/gitlab.reddit_state.json",
-  "start_url": "127.0.0.1:9999",
+  "start_url": "127.0.0.1:8080",
   "geolocation": null,
   "intent_template": "Find a GitLab repository related to {{topic}} and make a Reddit post linking to it in a relevant subreddit",
   "instantiation_dict": {
@@ -20,7 +20,7 @@
       "program_html"
     ],
     "reference_answers": null,
-    "reference_url": "127.0.0.1:9999/f/machinelearning |OR| 127.0.0.1:9999/f/singularity |OR| 127.0.0.1:9999/f/deeplearning |OR| 127.0.0.1:9999/f/technology",
+    "reference_url": "127.0.0.1:8080/f/machinelearning |OR| 127.0.0.1:8080/f/singularity |OR| 127.0.0.1:8080/f/deeplearning |OR| 127.0.0.1:8080/f/technology",
     "program_html": [
       {
         "url": "last",
@@ -28,7 +28,7 @@
         "required_contents": {
           "must_include": [
             "chatgpt",
-            "127.0.0.1:8023/convexegg/chatgpt"
+            "127.0.0.1:9001/convexegg/chatgpt"
           ]
         }
       }

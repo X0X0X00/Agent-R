@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<head>
+    <style>
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<html>
+    <body>
+     <pre>sites: ['map']
+task_id: 356
+require_login: True
+storage_state: None
+start_url: 127.0.0.1:8443
+geolocation: None
+intent_template: Show the route from SCS CMU in Pittsburgh to the location where the Declaration of Independence and Constitution were signed
+instantiation_dict: {}
+intent: Show the route from SCS CMU in Pittsburgh to the location where the Declaration of Independence and Constitution were signed
+require_reset: False
+eval: {'eval_types': ['program_html'], 'reference_answers': None, 'reference_url': None, 'program_html': [{'url': 'last', 'locator': 'document.querySelector("div#content select.routing_engines").selectedIndex', 'required_contents': {'exact_match': '1'}}, {'url': 'last', 'locator': 'document.querySelector(\'[name="route_from"\').value', 'required_contents': {'must_include': ['Gates and Hillman Centers', 'Pittsburgh']}}, {'url': 'last', 'locator': 'document.querySelector(\'[name="route_to"\').value', 'required_contents': {'must_include': ['Independence Hall', 'Philadelphia']}}]}
+intent_template_id: 49
+</pre>
+
+    </body>
+</html>

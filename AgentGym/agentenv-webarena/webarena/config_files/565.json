@@ -6,7 +6,7 @@
   "task_id": 565,
   "require_login": true,
   "storage_state": "./.auth/gitlab.reddit_state.json",
-  "start_url": "127.0.0.1:8023",
+  "start_url": "127.0.0.1:9001",
   "geolocation": null,
   "intent_template": "create a repository named {{name}} that includes a README file with the links to the most active {{num}} DIY ideas on DIY subreddit?",
   "instantiation_dict": {
@@ -23,20 +23,20 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:8023/byteblaze/TODO/-/raw/main/README.md",
+        "url": "127.0.0.1:9001/byteblaze/TODO/-/raw/main/README.md",
         "locator": "",
         "required_contents": {
           "must_include": [
-            "127.0.0.1:9999/f/DIY/118903/separate-glued-plastic-parts",
-            "127.0.0.1:9999/f/DIY/118923/how-would-you-fix-this-dryer-vent-mess",
-            "127.0.0.1:9999/f/DIY/118935/basement-bulkhead-soffit-wall-framing",
-            "127.0.0.1:9999/f/DIY/118904/ge-water-heater-pilot-light-won-t-stay-lit",
-            "127.0.0.1:9999/f/DIY/118960/attempting-to-move-a-wall-outlet-in-my-basement-a-few-inches",
-            "127.0.0.1:9999/f/DIY/118931/afci-outlet-question",
-            "127.0.0.1:9999/f/DIY/118824/teflon-tape-to-attach-washing-machine-drain-hose-to-pipe",
-            "127.0.0.1:9999/f/DIY/118866/paver-base-for-shed",
-            "127.0.0.1:9999/f/DIY/118820/ways-to-locate-our-buried-electrical-service",
-            "127.0.0.1:9999/f/DIY/118836/how-to-eliminate-transitions-for-disability-mobility-reasons"
+            "127.0.0.1:8080/f/DIY/118903/separate-glued-plastic-parts",
+            "127.0.0.1:8080/f/DIY/118923/how-would-you-fix-this-dryer-vent-mess",
+            "127.0.0.1:8080/f/DIY/118935/basement-bulkhead-soffit-wall-framing",
+            "127.0.0.1:8080/f/DIY/118904/ge-water-heater-pilot-light-won-t-stay-lit",
+            "127.0.0.1:8080/f/DIY/118960/attempting-to-move-a-wall-outlet-in-my-basement-a-few-inches",
+            "127.0.0.1:8080/f/DIY/118931/afci-outlet-question",
+            "127.0.0.1:8080/f/DIY/118824/teflon-tape-to-attach-washing-machine-drain-hose-to-pipe",
+            "127.0.0.1:8080/f/DIY/118866/paver-base-for-shed",
+            "127.0.0.1:8080/f/DIY/118820/ways-to-locate-our-buried-electrical-service",
+            "127.0.0.1:8080/f/DIY/118836/how-to-eliminate-transitions-for-disability-mobility-reasons"
           ]
         }
       }

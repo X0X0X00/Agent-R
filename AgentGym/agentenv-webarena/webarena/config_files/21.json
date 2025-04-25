@@ -5,7 +5,7 @@
   "task_id": 21,
   "require_login": true,
   "storage_state": "./.auth/shopping_state.json",
-  "start_url": "127.0.0.1:7770/6s-wireless-headphones-over-ear-noise-canceling-hi-fi-bass-foldable-stereo-wireless-kid-headsets-earbuds-with-built-in-mic-micro-sd-tf-fm-for-iphone-samsung-ipad-pc-black-gold.html",
+  "start_url": "127.0.0.1:8082/6s-wireless-headphones-over-ear-noise-canceling-hi-fi-bass-foldable-stereo-wireless-kid-headsets-earbuds-with-built-in-mic-micro-sd-tf-fm-for-iphone-samsung-ipad-pc-black-gold.html",
   "geolocation": null,
   "intent_template": "List out reviewers, if exist, who mention about {{description}}",
   "instantiation_dict": {

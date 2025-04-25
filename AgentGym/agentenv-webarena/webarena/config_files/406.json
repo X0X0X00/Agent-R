@@ -5,7 +5,7 @@
   "task_id": 406,
   "require_login": true,
   "storage_state": "./.auth/reddit_state.json",
-  "start_url": "127.0.0.1:9999",
+  "start_url": "127.0.0.1:8080",
   "geolocation": null,
   "intent_template": "Upvote the newest post in {{subreddit}} subreddit",
   "instantiation_dict": {
@@ -21,7 +21,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:9999/f/Futurology/119517/openai-ceo-it-s-not-funny-that-i-m-afraid-of-the-ai-we-re",
+        "url": "127.0.0.1:8080/f/Futurology/119517/openai-ceo-it-s-not-funny-that-i-m-afraid-of-the-ai-we-re",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [

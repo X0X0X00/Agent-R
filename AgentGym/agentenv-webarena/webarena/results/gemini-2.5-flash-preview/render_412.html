@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<head>
+    <style>
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<html>
+    <body>
+     <pre>sites: ['gitlab']
+task_id: 412
+require_login: True
+storage_state: ./.auth/gitlab_state.json
+start_url: 127.0.0.1:9001
+geolocation: None
+intent_template: Make the LICENSE of {{repo}} to Apache License
+instantiation_dict: {'repo': 'byteblaze/accessible-html-content-patterns'}
+intent: Make the LICENSE of byteblaze/accessible-html-content-patterns to Apache License
+require_reset: False
+eval: {'eval_types': ['program_html'], 'reference_answers': None, 'reference_url': '', 'program_html': [{'url': '127.0.0.1:9001/byteblaze/accessible-html-content-patterns/-/blob/main/LICENSE', 'locator': '', 'required_contents': {'must_include': ['Apache License', 'http://www.apache.org/licenses/LICENSE-2.0']}}]}
+intent_template_id: 355
+</pre>
+
+    </body>
+</html>

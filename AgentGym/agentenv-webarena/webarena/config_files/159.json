@@ -5,7 +5,7 @@
   "task_id": 159,
   "require_login": true,
   "storage_state": "./.auth/shopping_state.json",
-  "start_url": "127.0.0.1:7770",
+  "start_url": "127.0.0.1:8082",
   "geolocation": null,
   "intent_template": "I have a lot of Nintendo Switch game cards now, help me find the best storage option to fit all {{num}} cards",
   "instantiation_dict": {
@@ -18,7 +18,7 @@
       "url_match"
     ],
     "reference_answers": null,
-    "reference_url": "127.0.0.1:7770/game-card-holder-storage-case-for-nintendo-switch-games-or-ps-vita-game-case-or-sd-memory-cards-black.html",
+    "reference_url": "127.0.0.1:8082/game-card-holder-storage-case-for-nintendo-switch-games-or-ps-vita-game-case-or-sd-memory-cards-black.html",
     "program_html": [],
     "url_note": "GOLD in PRED"
   },

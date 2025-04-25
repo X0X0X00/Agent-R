@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<head>
+    <style>
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<html>
+    <body>
+     <pre>sites: ['gitlab']
+task_id: 174
+require_login: True
+storage_state: ./.auth/gitlab_state.json
+start_url: 127.0.0.1:9001
+geolocation: None
+intent_template: Open my latest updated issue that has keyword "{{keyword}}" in its title to check if it is closed
+instantiation_dict: {'keyword': 'feature'}
+intent: Open my latest updated issue that has keyword "feature" in its title to check if it is closed
+require_reset: False
+eval: {'eval_types': ['string_match', 'url_match'], 'reference_answers': {'fuzzy_match': ['No, it is open']}, 'reference_url': '127.0.0.1:9001/byteblaze/a11y-webring.club/-/issues/71', 'program_html': [], 'reference_answer_raw_annotation': 'Not closed', 'string_note': ''}
+intent_template_id: 310
+</pre>
+
+    </body>
+</html>

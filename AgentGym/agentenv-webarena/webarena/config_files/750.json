@@ -5,7 +5,7 @@
   "task_id": 750,
   "require_login": true,
   "storage_state": "./.auth/gitlab_state.json",
-  "start_url": "127.0.0.1:8023",
+  "start_url": "127.0.0.1:9001",
   "geolocation": null,
   "intent_template": "Start a private project {{project_name}} with {{template}} template and add {{account_list}} as members",
   "instantiation_dict": {
@@ -23,7 +23,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:8023/byteblaze/agi_index",
+        "url": "127.0.0.1:9001/byteblaze/agi_index",
         "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
         "required_contents": {
           "must_include": [
@@ -32,7 +32,7 @@
         }
       },
       {
-        "url": "127.0.0.1:8023/byteblaze/agi_index",
+        "url": "127.0.0.1:9001/byteblaze/agi_index",
         "locator": "document.querySelector('.home-panel-description-markdown').outerText",
         "required_contents": {
           "must_include": [
@@ -41,7 +41,7 @@
         }
       },
       {
-        "url": "127.0.0.1:8023/byteblaze/agi_index/-/project_members",
+        "url": "127.0.0.1:9001/byteblaze/agi_index/-/project_members",
         "locator": "",
         "required_contents": {
           "must_include": [

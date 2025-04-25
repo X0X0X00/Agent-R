@@ -5,7 +5,7 @@
   "task_id": 652,
   "require_login": true,
   "storage_state": "./.auth/reddit_state.json",
-  "start_url": "127.0.0.1:9999/f/technology/134852/ai-experts-disown-musk-backed-campaign-citing-their-research",
+  "start_url": "127.0.0.1:8080/f/technology/134852/ai-experts-disown-musk-backed-campaign-citing-their-research",
   "geolocation": null,
   "intent_template": "Reply to {{position_description}} with my comment \"{{content_description}}\"",
   "instantiation_dict": {
@@ -20,7 +20,7 @@
       "program_html"
     ],
     "reference_answers": null,
-    "reference_url": "127.0.0.1:9999/f/technology/134852/ai-experts-disown-musk-backed-campaign-citing-their-research",
+    "reference_url": "127.0.0.1:8080/f/technology/134852/ai-experts-disown-musk-backed-campaign-citing-their-research",
     "program_html": [
       {
         "url": "last",

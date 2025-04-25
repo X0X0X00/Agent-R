@@ -5,7 +5,7 @@
   "task_id": 40,
   "require_login": true,
   "storage_state": null,
-  "start_url": "127.0.0.1:3000",
+  "start_url": "127.0.0.1:8443",
   "geolocation": null,
   "intent_template": "Check if the {{place}} in pittsburgh can be reached in one hour by car from {{location}}",
   "instantiation_dict": {

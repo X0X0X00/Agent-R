@@ -5,7 +5,7 @@
   "task_id": 732,
   "require_login": true,
   "storage_state": "./.auth/reddit_state.json",
-  "start_url": "127.0.0.1:9999",
+  "start_url": "127.0.0.1:8080",
   "geolocation": null,
   "intent_template": "Edit my post on {{post}} by adding a line to the body that says \"{{content}}\"",
   "instantiation_dict": {
@@ -22,7 +22,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:9999/f/television/134868/the-night-agent-renewed-for-season-2-at-netflix",
+        "url": "127.0.0.1:8080/f/television/134868/the-night-agent-renewed-for-season-2-at-netflix",
         "locator": "document.querySelector('.submission__body').outerText",
         "required_contents": {
           "exact_match": "Done watching, pretty cool!"

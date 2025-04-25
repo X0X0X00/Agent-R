@@ -5,7 +5,7 @@
   "task_id": 526,
   "require_login": true,
   "storage_state": "./.auth/gitlab_state.json",
-  "start_url": "127.0.0.1:8023",
+  "start_url": "127.0.0.1:9001",
   "geolocation": null,
   "intent_template": "Star the top {{number}} most stared repos in Gitlab",
   "instantiation_dict": {
@@ -21,7 +21,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:8023/users/byteblaze/starred",
+        "url": "127.0.0.1:9001/users/byteblaze/starred",
         "locator": "",
         "required_contents": {
           "must_include": [

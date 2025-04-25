@@ -5,7 +5,7 @@
   "task_id": 331,
   "require_login": true,
   "storage_state": "./.auth/shopping_state.json",
-  "start_url": "127.0.0.1:7770",
+  "start_url": "127.0.0.1:8082",
   "geolocation": null,
   "intent_template": "How much I spend {{time}} on shopping at One Stop Market?",
   "instantiation_dict": {

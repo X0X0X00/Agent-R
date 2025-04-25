@@ -5,7 +5,7 @@
   "task_id": 413,
   "require_login": true,
   "storage_state": "./.auth/gitlab_state.json",
-  "start_url": "127.0.0.1:8023",
+  "start_url": "127.0.0.1:9001",
   "geolocation": null,
   "intent_template": "Make the LICENSE of {{repo}} to one that mandates all copies and derivative works to be under the same license",
   "instantiation_dict": {
@@ -21,7 +21,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:8023/byteblaze/a11y-syntax-highlighting/-/blob/main/LICENSE",
+        "url": "127.0.0.1:9001/byteblaze/a11y-syntax-highlighting/-/blob/main/LICENSE",
         "locator": "",
         "required_contents": {
           "must_include": [

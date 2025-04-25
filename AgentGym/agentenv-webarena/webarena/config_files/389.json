@@ -5,7 +5,7 @@
   "task_id": 389,
   "require_login": true,
   "storage_state": "./.auth/gitlab_state.json",
-  "start_url": "127.0.0.1:8023",
+  "start_url": "127.0.0.1:9001",
   "geolocation": null,
   "intent_template": "Post \"{{content}}\" for the merge request related to {{mr}} in {{repo}} project",
   "instantiation_dict": {
@@ -23,7 +23,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:8023/primer/design/-/merge_requests/450",
+        "url": "127.0.0.1:9001/primer/design/-/merge_requests/450",
         "locator": "",
         "required_contents": {
           "must_include": [

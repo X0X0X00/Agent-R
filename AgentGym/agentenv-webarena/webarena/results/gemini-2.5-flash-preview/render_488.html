@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<head>
+    <style>
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<html>
+    <body>
+     <pre>sites: ['shopping_admin']
+task_id: 488
+require_login: True
+storage_state: ./.auth/shopping_admin_state.json
+start_url: 127.0.0.1:8084/admin
+geolocation: None
+intent_template: Change the page title of "{{old-heading}}" page on my site to "{{heading}}".
+instantiation_dict: {'old-heading': 'Home Page', 'heading': 'This is the home page!! Leave here!!'}
+intent: Change the page title of "Home Page" page on my site to "This is the home page!! Leave here!!".
+require_reset: False
+eval: {'eval_types': ['program_html'], 'reference_answers': None, 'reference_url': '', 'program_html': [{'url': '127.0.0.1:8084/admin/cms/page/edit/page_id/2/', 'locator': 'document.querySelector(\'input[name="title"\').value', 'required_contents': {'exact_match': 'This is the home page!! Leave here!!'}}]}
+intent_template_id: 275
+</pre>
+
+    </body>
+</html>

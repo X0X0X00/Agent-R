@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<head>
+    <style>
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<html>
+    <body>
+     <pre>sites: ['gitlab']
+task_id: 169
+require_login: True
+storage_state: ./.auth/gitlab_state.json
+start_url: 127.0.0.1:9001
+geolocation: None
+intent_template: Tell me the full names of the repositories where I made contributions and they got {{description}} stars?
+instantiation_dict: {'description': 'the most'}
+intent: Tell me the full names of the repositories where I made contributions and they got the most stars?
+require_reset: False
+eval: {'eval_types': ['string_match'], 'reference_answers': {'must_include': ['a11yproject.com', 'design']}, 'reference_url': '', 'program_html': [], 'string_note': '', 'reference_answer_raw_annotation': 'a11yproject.com, Primer/design'}
+intent_template_id: 289
+</pre>
+
+    </body>
+</html>

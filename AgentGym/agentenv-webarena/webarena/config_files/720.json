@@ -5,7 +5,7 @@
   "task_id": 720,
   "require_login": true,
   "storage_state": "./.auth/reddit_state.json",
-  "start_url": "127.0.0.1:9999",
+  "start_url": "127.0.0.1:8080",
   "geolocation": null,
   "intent_template": "Like all submissions created by {{user}} in subreddit {{subreddit}}",
   "instantiation_dict": {
@@ -22,7 +22,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:9999/f/EarthPorn/98332/my-favorite-place-on-the-planet-henry-s-fork-of-the-snake",
+        "url": "127.0.0.1:8080/f/EarthPorn/98332/my-favorite-place-on-the-planet-henry-s-fork-of-the-snake",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [
@@ -31,7 +31,7 @@
         }
       },
       {
-        "url": "127.0.0.1:9999/f/EarthPorn/98297/2-years-later-this-is-still-one-of-the-most-incredible",
+        "url": "127.0.0.1:8080/f/EarthPorn/98297/2-years-later-this-is-still-one-of-the-most-incredible",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [
@@ -40,7 +40,7 @@
         }
       },
       {
-        "url": "127.0.0.1:9999/f/EarthPorn/98256/i-can-t-wait-for-all-this-green-to-start-coming-back-little",
+        "url": "127.0.0.1:8080/f/EarthPorn/98256/i-can-t-wait-for-all-this-green-to-start-coming-back-little",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [

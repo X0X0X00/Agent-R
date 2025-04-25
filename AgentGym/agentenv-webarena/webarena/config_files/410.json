@@ -5,7 +5,7 @@
   "task_id": 410,
   "require_login": true,
   "storage_state": "./.auth/reddit_state.json",
-  "start_url": "127.0.0.1:9999/f/singularity/69404/this-is-how-chatgpt-sees-itself",
+  "start_url": "127.0.0.1:8080/f/singularity/69404/this-is-how-chatgpt-sees-itself",
   "geolocation": null,
   "intent_template": "Reply to {{position_description}} in this post with \"{{content_description}}\"",
   "instantiation_dict": {
@@ -22,7 +22,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:9999/f/singularity/69404/-/comment/1042264",
+        "url": "127.0.0.1:8080/f/singularity/69404/-/comment/1042264",
         "locator": "",
         "required_contents": {
           "must_include": [

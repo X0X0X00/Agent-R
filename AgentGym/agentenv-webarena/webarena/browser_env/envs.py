@@ -138,7 +138,8 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         storage_state = instance_config.get("storage_state", None)
         start_url = instance_config.get("start_url", None)
         geolocation = instance_config.get("geolocation", None)
-
+        # abs path
+        storage_state = str(Path("/home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena")/storage_state) if storage_state else None
         self.context = self.browser.new_context(
             viewport=self.viewport_size,
             storage_state=storage_state,
@@ -157,7 +158,11 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                 if self.text_observation_type == "accessibility_tree":
                     client.send("Accessibility.enable")
                 page.client = client  # type: ignore # TODO[shuyanzh], fix this hackey client
-                page.goto(url)
+                # page.goto(url)
+                # 修改 防止TimeoutError
+                print(f"Navigating to {url}")
+                page.goto(url, wait_until="domcontentloaded", timeout=60000)
+
             # set the first page as the current page
             self.page = self.context.pages[0]
             self.page.bring_to_front()

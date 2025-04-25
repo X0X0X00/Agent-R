@@ -5,7 +5,7 @@
   "task_id": 580,
   "require_login": true,
   "storage_state": "./.auth/reddit_state.json",
-  "start_url": "127.0.0.1:9999",
+  "start_url": "127.0.0.1:8080",
   "geolocation": null,
   "intent_template": "Create a new forum named {{name}}, with a description of {{description}}, and include {{sidebar_list}} in the sidebar?",
   "instantiation_dict": {
@@ -29,7 +29,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:9999/f/sci_fi/edit",
+        "url": "127.0.0.1:8080/f/sci_fi/edit",
         "locator": "document.querySelector(\"#forum_description\").value",
         "required_contents": {
           "must_include": [
@@ -38,7 +38,7 @@
         }
       },
       {
-        "url": "127.0.0.1:9999/f/sci_fi/edit",
+        "url": "127.0.0.1:8080/f/sci_fi/edit",
         "locator": "document.querySelector(\"#forum_sidebar\").value",
         "required_contents": {
           "must_include": [

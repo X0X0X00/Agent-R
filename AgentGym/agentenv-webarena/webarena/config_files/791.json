@@ -6,7 +6,7 @@
   "task_id": 791,
   "require_login": true,
   "storage_state": "./.auth/gitlab.reddit_state.json",
-  "start_url": "127.0.0.1:8023",
+  "start_url": "127.0.0.1:9001",
   "geolocation": null,
   "intent_template": "Make a folder named {{directory}} on the {{gitlab_repo}} repo and include a file called urls.txt that consists of the links to the 5 most recent posts from {{subreddit}}.",
   "instantiation_dict": {

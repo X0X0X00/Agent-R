@@ -5,7 +5,7 @@
   "task_id": 315,
   "require_login": true,
   "storage_state": "./.auth/gitlab_state.json",
-  "start_url": "127.0.0.1:8023",
+  "start_url": "127.0.0.1:9001",
   "geolocation": null,
   "intent_template": "List the {{attribute}} of the top 3 contributors to {{repo}} repo, ranked by the number of commits?",
   "instantiation_dict": {

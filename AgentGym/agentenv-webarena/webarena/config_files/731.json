@@ -5,7 +5,7 @@
   "task_id": 731,
   "require_login": true,
   "storage_state": "./.auth/reddit_state.json",
-  "start_url": "127.0.0.1:9999",
+  "start_url": "127.0.0.1:8080",
   "geolocation": null,
   "intent_template": "Edit my post on {{post}} by adding a line to the body that says \"{{content}}\"",
   "instantiation_dict": {
@@ -22,7 +22,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:9999/f/MachineLearning/1/nvidia-rtx-4090",
+        "url": "127.0.0.1:8080/f/MachineLearning/1/nvidia-rtx-4090",
         "locator": "document.querySelector('.submission__body').outerText",
         "required_contents": {
           "must_include": [

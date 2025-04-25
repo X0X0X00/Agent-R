@@ -5,7 +5,7 @@
   "task_id": 753,
   "require_login": true,
   "storage_state": "./.auth/gitlab_state.json",
-  "start_url": "127.0.0.1:8023",
+  "start_url": "127.0.0.1:9001",
   "geolocation": null,
   "intent_template": "Create a private {{template}} repository called \"{{project_name}}\" using the right template to speed up development.",
   "instantiation_dict": {
@@ -22,7 +22,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:8023/byteblaze/web_agent_android_xs",
+        "url": "127.0.0.1:9001/byteblaze/web_agent_android_xs",
         "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
         "required_contents": {
           "must_include": [
@@ -31,7 +31,7 @@
         }
       },
       {
-        "url": "127.0.0.1:8023/byteblaze/web_agent_android_xs/-/commits",
+        "url": "127.0.0.1:9001/byteblaze/web_agent_android_xs/-/commits",
         "locator": "",
         "required_contents": {
           "must_include": [

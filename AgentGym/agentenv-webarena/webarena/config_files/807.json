@@ -5,7 +5,7 @@
   "task_id": 807,
   "require_login": true,
   "storage_state": "./.auth/gitlab_state.json",
-  "start_url": "127.0.0.1:8023/primer/design",
+  "start_url": "127.0.0.1:9001/primer/design",
   "geolocation": null,
   "intent_template": "Submit a merge request for {{source_branch}} branch to be merged into {{target_branch}} branch, assign {{reviewer}} as the reviewer",
   "instantiation_dict": {
@@ -21,7 +21,7 @@
       "program_html"
     ],
     "reference_answers": null,
-    "reference_url": "127.0.0.1:8023/primer/design/-/merge_requests",
+    "reference_url": "127.0.0.1:9001/primer/design/-/merge_requests",
     "program_html": [
       {
         "url": "last",

@@ -5,7 +5,7 @@
   "task_id": 258,
   "require_login": true,
   "storage_state": "./.auth/gitlab_state.json",
-  "start_url": "127.0.0.1:8023",
+  "start_url": "127.0.0.1:9001",
   "geolocation": null,
   "intent_template": "See all public projects",
   "instantiation_dict": {},
@@ -16,7 +16,7 @@
       "url_match"
     ],
     "reference_answers": null,
-    "reference_url": "127.0.0.1:8023/explore",
+    "reference_url": "127.0.0.1:9001/explore",
     "program_html": [],
     "url_note": "GOLD in PRED"
   },

@@ -5,7 +5,7 @@
   "task_id": 278,
   "require_login": true,
   "storage_state": "./.auth/shopping_state.json",
-  "start_url": "127.0.0.1:7770",
+  "start_url": "127.0.0.1:8082",
   "geolocation": null,
   "intent_template": "Search for \"{{keyword}}\"",
   "instantiation_dict": {
@@ -18,7 +18,7 @@
       "url_match"
     ],
     "reference_answers": null,
-    "reference_url": "127.0.0.1:7770/catalogsearch/result/?q=green+tea+bag+for+weight+loss",
+    "reference_url": "127.0.0.1:8082/catalogsearch/result/?q=green+tea+bag+for+weight+loss",
     "program_html": [],
     "url_note": "GOLD in PRED"
   },

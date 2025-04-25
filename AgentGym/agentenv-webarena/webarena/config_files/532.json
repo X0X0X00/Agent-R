@@ -5,7 +5,7 @@
   "task_id": 532,
   "require_login": true,
   "storage_state": "./.auth/shopping_state.json",
-  "start_url": "127.0.0.1:7770",
+  "start_url": "127.0.0.1:8082",
   "geolocation": null,
   "intent_template": "Draft a refund message via their \"contact us\" form for the {{product}} I bought {{time}}. It broke after three days of use. The shop requires the order id, the reason and the amount to refund in the message. Don't submit yet",
   "instantiation_dict": {

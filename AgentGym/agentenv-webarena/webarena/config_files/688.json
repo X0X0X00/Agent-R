@@ -6,7 +6,7 @@
   "task_id": 688,
   "require_login": true,
   "storage_state": "./.auth/gitlab.reddit_state.json",
-  "start_url": "127.0.0.1:9999",
+  "start_url": "127.0.0.1:8080",
   "geolocation": null,
   "intent_template": "Promote {{repo}} to subreddit {{subreddit}} with the description from the repo itself.",
   "instantiation_dict": {
@@ -21,7 +21,7 @@
       "program_html"
     ],
     "reference_answers": null,
-    "reference_url": "127.0.0.1:9999/f/science",
+    "reference_url": "127.0.0.1:8080/f/science",
     "program_html": [
       {
         "url": "last",
@@ -29,7 +29,7 @@
         "required_contents": {
           "must_include": [
             "A script to download pages from Arch Wiki for offline browsing",
-            "127.0.0.1:8023/lahwaacz/arch-wiki-docs"
+            "127.0.0.1:9001/lahwaacz/arch-wiki-docs"
           ]
         }
       }

@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<head>
+    <style>
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<html>
+    <body>
+     <pre>sites: ['shopping']
+task_id: 465
+require_login: True
+storage_state: ./.auth/shopping_state.json
+start_url: 127.0.0.1:8082
+geolocation: None
+intent_template: Add {{product}} to my wish list
+instantiation_dict: {'product': 'Tide PODS Spring Meadow Scent HE Turbo Laundry Detergent Pacs, 81 Count'}
+intent: Add Tide PODS Spring Meadow Scent HE Turbo Laundry Detergent Pacs, 81 Count to my wish list
+require_reset: False
+eval: {'eval_types': ['program_html'], 'reference_answers': None, 'reference_url': '', 'program_html': [{'url': '127.0.0.1:8082/wishlist/', 'locator': "document.querySelector('.products-grid.wishlist').outerText", 'required_contents': {'must_include': ['Tide PODS Spring Meadow Scent HE Turbo Laundry Detergent Pacs, 81 Count']}}]}
+intent_template_id: 186
+</pre>
+
+    </body>
+</html>

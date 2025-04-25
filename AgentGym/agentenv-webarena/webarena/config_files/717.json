@@ -5,7 +5,7 @@
   "task_id": 717,
   "require_login": true,
   "storage_state": "./.auth/reddit_state.json",
-  "start_url": "127.0.0.1:9999",
+  "start_url": "127.0.0.1:8080",
   "geolocation": null,
   "intent_template": "Thumbs down the top {{k}} post ever in {{subreddit}}.",
   "instantiation_dict": {
@@ -22,7 +22,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:9999/f/movies/86174/who-will-win-the-oscar-for-actress-in-a-supporting-role",
+        "url": "127.0.0.1:8080/f/movies/86174/who-will-win-the-oscar-for-actress-in-a-supporting-role",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [
@@ -31,7 +31,7 @@
         }
       },
       {
-        "url": "127.0.0.1:9999/f/movies/86029/who-will-win-the-oscar-for-film-editing",
+        "url": "127.0.0.1:8080/f/movies/86029/who-will-win-the-oscar-for-film-editing",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [
@@ -40,7 +40,7 @@
         }
       },
       {
-        "url": "127.0.0.1:9999/f/movies/86055/cindy-williams-dies-laverne-amp-shirley-star-who-appeared-in",
+        "url": "127.0.0.1:8080/f/movies/86055/cindy-williams-dies-laverne-amp-shirley-star-who-appeared-in",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [
@@ -49,7 +49,7 @@
         }
       },
       {
-        "url": "127.0.0.1:9999/f/movies/42682/michelle-yeoh-to-receive-palm-springs-film-festival-s",
+        "url": "127.0.0.1:8080/f/movies/42682/michelle-yeoh-to-receive-palm-springs-film-festival-s",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [

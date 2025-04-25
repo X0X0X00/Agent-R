@@ -5,7 +5,7 @@
   "task_id": 730,
   "require_login": true,
   "storage_state": "./.auth/reddit_state.json",
-  "start_url": "127.0.0.1:9999",
+  "start_url": "127.0.0.1:8080",
   "geolocation": null,
   "intent_template": "DisLike all submissions created by {{user}} in subreddit {{subreddit}}",
   "instantiation_dict": {
@@ -22,7 +22,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:9999/f/news/129816/gov-whitmer-signs-bills-to-repeal-right-to-work-restore",
+        "url": "127.0.0.1:8080/f/news/129816/gov-whitmer-signs-bills-to-repeal-right-to-work-restore",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [
@@ -31,7 +31,7 @@
         }
       },
       {
-        "url": "127.0.0.1:9999/f/news/129808/disney-world-deal-with-union-will-raise-minimum-wage-to-18",
+        "url": "127.0.0.1:8080/f/news/129808/disney-world-deal-with-union-will-raise-minimum-wage-to-18",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [
@@ -40,7 +40,7 @@
         }
       },
       {
-        "url": "127.0.0.1:9999/f/news/129794/judge-halts-wyoming-abortion-ban-days-after-it-took-effect",
+        "url": "127.0.0.1:8080/f/news/129794/judge-halts-wyoming-abortion-ban-days-after-it-took-effect",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [
@@ -49,7 +49,7 @@
         }
       },
       {
-        "url": "127.0.0.1:9999/f/news/129783/don-t-say-gay-lawmaker-pleads-guilty-to-covid-relief-fraud",
+        "url": "127.0.0.1:8080/f/news/129783/don-t-say-gay-lawmaker-pleads-guilty-to-covid-relief-fraud",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [
@@ -58,7 +58,7 @@
         }
       },
       {
-        "url": "127.0.0.1:9999/f/news/129594/arizona-gov-katie-hobbs-refuses-to-proceed-with-execution",
+        "url": "127.0.0.1:8080/f/news/129594/arizona-gov-katie-hobbs-refuses-to-proceed-with-execution",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [
@@ -67,7 +67,7 @@
         }
       },
       {
-        "url": "127.0.0.1:9999/f/news/129508/tennessee-governor-oks-bill-to-cut-nashville-council-in-half",
+        "url": "127.0.0.1:8080/f/news/129508/tennessee-governor-oks-bill-to-cut-nashville-council-in-half",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [
@@ -76,7 +76,7 @@
         }
       },
       {
-        "url": "127.0.0.1:9999/f/news/43839/philadelphia-da-larry-krasner-impeached-by-pa-house",
+        "url": "127.0.0.1:8080/f/news/43839/philadelphia-da-larry-krasner-impeached-by-pa-house",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [
@@ -85,7 +85,7 @@
         }
       },
       {
-        "url": "127.0.0.1:9999/f/news/43781/crypto-giant-ftx-to-file-for-bankruptcy-ceo-sam-bankman",
+        "url": "127.0.0.1:8080/f/news/43781/crypto-giant-ftx-to-file-for-bankruptcy-ceo-sam-bankman",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [
@@ -94,7 +94,7 @@
         }
       },
       {
-        "url": "127.0.0.1:9999/f/news/43572/sec-doj-investigating-crypto-platform-ftx",
+        "url": "127.0.0.1:8080/f/news/43572/sec-doj-investigating-crypto-platform-ftx",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [
@@ -103,7 +103,7 @@
         }
       },
       {
-        "url": "127.0.0.1:9999/f/news/43558/kansas-gov-laura-kelly-wins-re-election-defeating-gop",
+        "url": "127.0.0.1:8080/f/news/43558/kansas-gov-laura-kelly-wins-re-election-defeating-gop",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [

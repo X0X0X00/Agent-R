@@ -5,7 +5,7 @@
   "task_id": 647,
   "require_login": true,
   "storage_state": "./.auth/reddit_state.json",
-  "start_url": "127.0.0.1:9999",
+  "start_url": "127.0.0.1:8080",
   "geolocation": null,
   "intent_template": "Post in {{subreddit}} forum about what could open-source LLMs help the correpong field.",
   "instantiation_dict": {
@@ -19,7 +19,7 @@
       "program_html"
     ],
     "reference_answers": null,
-    "reference_url": "127.0.0.1:9999/f/technology",
+    "reference_url": "127.0.0.1:8080/f/technology",
     "program_html": [
       {
         "url": "func:reddit_get_post_url('__last_url__')",

@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<head>
+    <style>
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<html>
+    <body>
+     <pre>sites: ['shopping_admin']
+task_id: 495
+require_login: True
+storage_state: ./.auth/shopping_admin_state.json
+start_url: 127.0.0.1:8084/admin
+geolocation: None
+intent_template: Notify {{name}} in their most recent pending order with message "{{message}}"
+instantiation_dict: {'name': 'Lily Potter', 'message': 'Thanks, your order is ready to be shipped!'}
+intent: Notify Lily Potter in their most recent pending order with message "Thanks, your order is ready to be shipped!"
+require_reset: False
+eval: {'eval_types': ['program_html'], 'reference_answers': None, 'reference_url': '', 'program_html': [{'url': '127.0.0.1:8084/admin/sales/order/view/order_id/303/', 'locator': 'document.querySelector("#order_history_block").querySelector(".note-list").firstElementChild.querySelector(".note-list-comment").outerText', 'required_contents': {'exact_match': 'Thanks, your order is ready to be shipped!'}}]}
+intent_template_id: 280
+</pre>
+
+    </body>
+</html>

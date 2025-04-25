@@ -42,27 +42,53 @@ def initialize_environment(Task: str, env_server_base: str, data_len: int = 200)
     elif Task == "textcraft":
         return TextCraftEnvClient(env_server_base=env_server_base, data_len=data_len)
     elif Task == "webarena":
-        return WebarenaEnvClient(env_server_base=env_server_base, data_len=data_len)
+        from mcts_utils.webarena.env_local import WebarenaEnvLocal
+        return WebarenaEnvLocal(data_len=data_len)
     else:
         raise ValueError(f"Unknown Task: {Task}")
 
-def setup_conversation(env):
-    """
-    Sets up the initial conversation for the environment.
-    """
-    conversation = list(env.conversation_start)
-    conv = get_conversation_template('gpt-4')
+# def setup_conversation(env):
+#     """
+#     Sets up the initial conversation for the environment.
+#     """
+#     conversation = list(env.conversation_start)
+#     conv = get_conversation_template('gpt-4')
 
-    conv.append_message(conv.roles[0], conversation[0]["value"])
-    conv.append_message(conv.roles[1], 'Ok.')
-    observation = env.observe() if os.environ["TASK"] == "webshop" else env.info["observation"]
+#     conv.append_message(conv.roles[0], conversation[0]["value"])
+#     conv.append_message(conv.roles[1], 'Ok.')
+#     observation = env.observe() if os.environ["TASK"] == "webshop" else env.info["observation"]
+#     conv.append_message(conv.roles[0], observation)
+#     return conv
+
+# 更新
+def setup_conversation(env):
+    from fastchat.model.model_adapter import get_conversation_template
+    conv = get_conversation_template("gpt-4")
+    # 起始任务描述
+    conv.append_message(conv.roles[0], env.conversation_start[0]["value"])
+    conv.append_message(conv.roles[1], "Ok.")
+
+    # 对不同环境分别处理
+    task = os.environ.get("TASK", "")
+    if task == "webshop":
+        observation = env.observe()
+    elif hasattr(env, "info"):  # 原来的客户端有 .info
+        observation = env.info["observation"]
+    else:  # Webarena 本地逻辑
+        observation = env.observe()
+
     conv.append_message(conv.roles[0], observation)
     return conv
+
+
 
 def main(Task: str, model_name: str, env_server_base: str, max_steps: int):
     """
     Main execution function for handling tasks and initiating tests.
     """
+    if Task == "webarena":
+        test_webarena(args)
+        return
     # Initialize environment
     env = initialize_environment(Task, env_server_base)
 
@@ -85,12 +111,46 @@ def main(Task: str, model_name: str, env_server_base: str, max_steps: int):
         # perform_test(FuncCallOffline(model_name=model_name), env, conv, model_name, idx, max_steps)
         perform_test(FuncCall(model_name=model_name), env, conv, model_name, idx, max_steps)
 
+def test_webarena(args=None):
+    # using subprocess to run test webarena
+    import subprocess
+    from pathlib import Path
+    import os
+    os.environ["TMPDIR"] = "/tmp"
+    import sys
+    CURRENT_DIR = Path(__file__).resolve().parent
+    run_file = CURRENT_DIR / 'AgentGym/agentenv-webarena/webarena/run.py'
+    # add args to run the script
+    args = [
+        'python3',
+        str(run_file.absolute()),
+        '--test_start_idx', '0',
+        # 目前只测试 0
+        '--test_end_idx', '201',
+        '--model', f'{args.model_name}'
+    ]
+    # Use shell to activate conda environment and run the script in one command
+    # command = f"conda init && conda activate webarena && {' '.join(args)}"
+    command = f"{' '.join(args)}"
+    
+    subprocess.run(
+        command,
+        shell=True,
+        check=True,
+        stdout=sys.stdout,
+        stderr=sys.stderr
+    )
+    # '/home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/run.py'
+    # '/home/ubuntu/zhangzhenhao/Agent-R/eval.py'
+    return
+
 if __name__ == "__main__":
     # Argument parsing
     parser = argparse.ArgumentParser(description="Run MCTS tests for specified tasks.")
     parser.add_argument("--env_server_base", type=str, default="http://127.0.0.1:8000", help="Base URL for the environment server.")
     parser.add_argument("--model_name", type=str, default="gpt-4o-2024-08-06", help="Model name to be used.")
     parser.add_argument("--max_steps", type=int, default=100, help="Maximum steps allowed for a task.")
+    # parser.add_argument("--model_name", type=str, default='gpt-4o-mini')
     args = parser.parse_args()
 
     # Load environment variables

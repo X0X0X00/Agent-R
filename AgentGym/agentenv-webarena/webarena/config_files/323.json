@@ -5,7 +5,7 @@
   "task_id": 323,
   "require_login": true,
   "storage_state": "./.auth/shopping_state.json",
-  "start_url": "127.0.0.1:7770",
+  "start_url": "127.0.0.1:8082",
   "geolocation": null,
   "intent_template": "How much refund I should expect from my order canlled in {{time}}? I only kept the AC-DC Adapter and the shop told me that I cannot get the shipping fee back",
   "instantiation_dict": {

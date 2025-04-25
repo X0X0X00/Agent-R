@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<head>
+    <style>
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<html>
+    <body>
+     <pre>sites: ['gitlab']
+task_id: 178
+require_login: True
+storage_state: ./.auth/gitlab_state.json
+start_url: 127.0.0.1:9001
+geolocation: None
+intent_template: Open my latest created issue that has {{keyword}} in its title to check if it is closed
+instantiation_dict: {'keyword': 'better'}
+intent: Open my latest created issue that has better in its title to check if it is closed
+require_reset: False
+eval: {'eval_types': ['string_match', 'url_match'], 'reference_answers': {'exact_match': 'Yes'}, 'reference_url': '127.0.0.1:9001/a11yproject/a11yproject.com/-/issues/566', 'program_html': [], 'reference_answer_raw_annotation': 'Closed', 'string_note': ''}
+intent_template_id: 500
+</pre>
+
+    </body>
+</html>

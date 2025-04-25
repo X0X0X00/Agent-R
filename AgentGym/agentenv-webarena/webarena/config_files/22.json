@@ -5,7 +5,7 @@
   "task_id": 22,
   "require_login": true,
   "storage_state": "./.auth/shopping_state.json",
-  "start_url": "127.0.0.1:7770/fujifilm-finepix-z200fd-10mp-digital-camera-with-5x-optical-dual-image-stabilized-zoom-black.html",
+  "start_url": "127.0.0.1:8082/fujifilm-finepix-z200fd-10mp-digital-camera-with-5x-optical-dual-image-stabilized-zoom-black.html",
   "geolocation": null,
   "intent_template": "List out reviewers, if exist, who mention about {{description}}",
   "instantiation_dict": {

@@ -1,4 +1,16 @@
 """Script to run end-to-end evaluation on the benchmark"""
+import os
+
+# 测试
+# openAI gpt-4o-mini
+# os.environ["OPENAI_API_KEY"] = "sk-iNUPz3eXLdha41JD14E3CaAaF4Fb4f11927723Dc8eBa2eA3"
+# os.environ["OPENAI_API_BASE"] = "http://10.112.59.240:3001/v1"
+
+# Gemini 2.5 Flash
+os.environ["OPENAI_API_KEY"] = "sk-yE4vSQpw9eluzB4DBdB03eBa226a4f668b1aBcC3FeAb10A5"
+os.environ["OPENAI_API_BASE"] = "http://10.112.59.240:3001/v1"
+
+
 import argparse
 import glob
 import json
@@ -95,7 +107,7 @@ def config() -> argparse.Namespace:
     parser.add_argument(
         "--instruction_path",
         type=str,
-        default="agents/prompts/state_action_agent.json",
+        default="/home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/agent/prompts/jsons/p_cot_id_actree_2s.json",
     )
     parser.add_argument(
         "--parsing_failure_th",
@@ -112,8 +124,10 @@ def config() -> argparse.Namespace:
 
     # lm config
     parser.add_argument("--provider", type=str, default="openai")
-    parser.add_argument("--model", type=str, default="gpt-3.5-turbo-0613")
+    parser.add_argument("--model", type=str, default="gpt-4o-mini")
     parser.add_argument("--mode", type=str, default="chat")
+    
+    # temperature 改为0
     parser.add_argument("--temperature", type=float, default=1.0)
     parser.add_argument("--top_p", type=float, default=0.9)
     parser.add_argument("--context_length", type=int, default=0)
@@ -140,10 +154,10 @@ def config() -> argparse.Namespace:
 
     # example config
     parser.add_argument("--test_start_idx", type=int, default=0)
-    parser.add_argument("--test_end_idx", type=int, default=1000)
+    parser.add_argument("--test_end_idx", type=int, default=3)
 
     # logging related
-    parser.add_argument("--result_dir", type=str, default="")
+    parser.add_argument("--result_dir", type=str, default="results/gpt-4o-mini")
     args = parser.parse_args()
 
     # check the whether the action space is compatible with the observation space
@@ -239,13 +253,16 @@ def test(
         save_trace_enabled=args.save_trace_enabled,
         sleep_after_execution=args.sleep_after_execution,
     )
-
+    all_logs = dict()
+    base_path = Path("/home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/")
+    log_file = base_path / f'results/log-{args.model.replace("/", "-")}-{time.strftime("%Y-%m-%d-%H-%M-%S")}.json'
     for config_file in config_file_list:
         try:
+            config_file = str(base_path / config_file)
             render_helper = RenderHelper(
                 config_file, args.result_dir, args.action_set_tag
             )
-
+            all_logs[str(config_file)] = list()
             # get intent
             with open(config_file) as f:
                 _c = json.load(f)
@@ -254,7 +271,8 @@ def test(
 
                 # 替换
                 if _c["storage_state"]:
-                    assert os.path.exists(_c["storage_state"]), f"Missing cookie: {_c['storage_state']}"
+                    cookie_path = str(base_path / _c["storage_state"])
+                    assert os.path.exists(cookie_path), f"Missing cookie: {_c['storage_state']}"
 
                 # 临时修改 
                 # automatically login
@@ -317,6 +335,7 @@ def test(
                     if isinstance(agent, PromptAgent)
                     else None,
                 )
+                all_logs[str(config_file)].append(action_str)
                 render_helper.render(
                     action, state_info, meta_data, args.render_screenshot
                 )
@@ -328,6 +347,9 @@ def test(
                 obs, _, terminated, _, info = env.step(action)
                 state_info = {"observation": obs, "info": info}
                 trajectory.append(state_info)
+                
+                with open(log_file, "w") as f:
+                    json.dump(all_logs, f, indent=4)
 
                 if terminated:
                     # add a action place holder
@@ -355,16 +377,22 @@ def test(
                 )
 
         except openai.error.OpenAIError as e:
+            # import traceback
             logger.info(f"[OpenAI Error] {repr(e)}")
+            with open(Path(args.result_dir) / "error.txt", "a") as f:
+                f.write(f"[OpenAI file]: {config_file}\n")
+                f.write(f"[OpenAI Error] {repr(e)}\n")
+                # f.write(traceback.format_exc())  # write stack trace to file
+                
         except Exception as e:
             logger.info(f"[Unhandled Error] {repr(e)}]")
-            import traceback
-
+            # raise e
+            # import traceback
             # write to error file
             with open(Path(args.result_dir) / "error.txt", "a") as f:
                 f.write(f"[Config file]: {config_file}\n")
                 f.write(f"[Unhandled Error] {repr(e)}\n")
-                f.write(traceback.format_exc())  # write stack trace to file
+                # f.write(traceback.format_exc())  # write stack trace to file
 
         render_helper.close()
 
@@ -428,8 +456,8 @@ if __name__ == "__main__":
     ed_idx = args.test_end_idx
     for i in range(st_idx, ed_idx):
         test_file_list.append(f"config_files/{i}.json")
-    if "debug" not in args.result_dir:
-        test_file_list = get_unfinished(test_file_list, args.result_dir)
+    # if "debug" not in args.result_dir:
+    #     test_file_list = get_unfinished(test_file_list, args.result_dir)
 
     if len(test_file_list) == 0:
         logger.info("No task left to run")

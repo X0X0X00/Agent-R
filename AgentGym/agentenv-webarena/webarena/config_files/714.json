@@ -5,7 +5,7 @@
   "task_id": 714,
   "require_login": true,
   "storage_state": "./.auth/reddit_state.json",
-  "start_url": "127.0.0.1:9999",
+  "start_url": "127.0.0.1:8080",
   "geolocation": null,
   "intent_template": "Thumbs down the top {{k}} post ever in {{subreddit}}.",
   "instantiation_dict": {
@@ -22,7 +22,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:9999/f/gadgets/19459/a-custom-gaming-pc-built-inside-a-vintage-1940s-motorola",
+        "url": "127.0.0.1:8080/f/gadgets/19459/a-custom-gaming-pc-built-inside-a-vintage-1940s-motorola",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [

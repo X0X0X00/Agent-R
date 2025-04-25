@@ -5,7 +5,7 @@
   "task_id": 279,
   "require_login": true,
   "storage_state": "./.auth/shopping_state.json",
-  "start_url": "127.0.0.1:7770",
+  "start_url": "127.0.0.1:8082",
   "geolocation": null,
   "intent_template": "Provide me with the complete names of Bluetooth headphones from Sony, and also share the price range for the available models",
   "instantiation_dict": {},

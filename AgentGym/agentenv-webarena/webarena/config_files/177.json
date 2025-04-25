@@ -5,7 +5,7 @@
   "task_id": 177,
   "require_login": true,
   "storage_state": "./.auth/gitlab_state.json",
-  "start_url": "127.0.0.1:8023",
+  "start_url": "127.0.0.1:9001",
   "geolocation": null,
   "intent_template": "Open my latest updated issue that has keyword \"{{keyword}}\" in its title to check if it is closed",
   "instantiation_dict": {
@@ -23,7 +23,7 @@
         "Yes, it is closed"
       ]
     },
-    "reference_url": "127.0.0.1:8023/a11yproject/a11yproject.com/-/issues/719",
+    "reference_url": "127.0.0.1:9001/a11yproject/a11yproject.com/-/issues/719",
     "program_html": [],
     "reference_answer_raw_annotation": "closed",
     "string_note": ""

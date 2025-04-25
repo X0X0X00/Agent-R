@@ -5,7 +5,7 @@
   "task_id": 729,
   "require_login": true,
   "storage_state": "./.auth/reddit_state.json",
-  "start_url": "127.0.0.1:9999",
+  "start_url": "127.0.0.1:8080",
   "geolocation": null,
   "intent_template": "DisLike all submissions created by {{user}} in subreddit {{subreddit}}",
   "instantiation_dict": {
@@ -22,7 +22,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:9999/f/UpliftingNews/16087/same-sex-marriage-is-now-legal-in-all-of-mexico-s-states",
+        "url": "127.0.0.1:8080/f/UpliftingNews/16087/same-sex-marriage-is-now-legal-in-all-of-mexico-s-states",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [

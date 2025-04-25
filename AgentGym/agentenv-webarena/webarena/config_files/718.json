@@ -5,7 +5,7 @@
   "task_id": 718,
   "require_login": true,
   "storage_state": "./.auth/reddit_state.json",
-  "start_url": "127.0.0.1:9999",
+  "start_url": "127.0.0.1:8080",
   "geolocation": null,
   "intent_template": "Thumbs down the top {{k}} post ever in {{subreddit}}.",
   "instantiation_dict": {
@@ -22,7 +22,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:9999/f/technology/48670/brain-cancer-vaccine-succeeds-at-prolonging-survival-in",
+        "url": "127.0.0.1:8080/f/technology/48670/brain-cancer-vaccine-succeeds-at-prolonging-survival-in",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [
@@ -31,7 +31,7 @@
         }
       },
       {
-        "url": "127.0.0.1:9999/f/technology/134696/india-cuts-internet-for-27-million-people-amid-search-for",
+        "url": "127.0.0.1:8080/f/technology/134696/india-cuts-internet-for-27-million-people-amid-search-for",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [
@@ -40,7 +40,7 @@
         }
       },
       {
-        "url": "127.0.0.1:9999/f/technology/48785/us-judge-orders-amazon-to-cease-and-desist-anti-union",
+        "url": "127.0.0.1:8080/f/technology/48785/us-judge-orders-amazon-to-cease-and-desist-anti-union",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [
@@ -49,7 +49,7 @@
         }
       },
       {
-        "url": "127.0.0.1:9999/f/technology/70354/activision-s-boston-studio-workers-announce-unionization",
+        "url": "127.0.0.1:8080/f/technology/70354/activision-s-boston-studio-workers-announce-unionization",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [
@@ -58,7 +58,7 @@
         }
       },
       {
-        "url": "127.0.0.1:9999/f/technology/70233/social-media-influencers-are-charged-with-feeding-followers",
+        "url": "127.0.0.1:8080/f/technology/70233/social-media-influencers-are-charged-with-feeding-followers",
         "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
         "required_contents": {
           "must_include": [

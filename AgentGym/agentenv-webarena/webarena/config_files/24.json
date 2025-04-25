@@ -5,7 +5,7 @@
   "task_id": 24,
   "require_login": true,
   "storage_state": "./.auth/shopping_state.json",
-  "start_url": "127.0.0.1:7770/haflinger-men-s-wool-felt-open-back-slippers-beige-550-peat-us-7.html",
+  "start_url": "127.0.0.1:8082/haflinger-men-s-wool-felt-open-back-slippers-beige-550-peat-us-7.html",
   "geolocation": null,
   "intent_template": "List out reviewers, if exist, who mention about {{description}}",
   "instantiation_dict": {

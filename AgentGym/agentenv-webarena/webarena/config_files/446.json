@@ -5,7 +5,7 @@
   "task_id": 446,
   "require_login": true,
   "storage_state": "./.auth/gitlab_state.json",
-  "start_url": "127.0.0.1:8023",
+  "start_url": "127.0.0.1:9001",
   "geolocation": null,
   "intent_template": "Assign the issue regarding {{issue}} in {{repo}} to {{account}}.",
   "instantiation_dict": {
@@ -23,7 +23,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:8023/dashboard/issues?scope=all&state=opened&assignee_username=Roshanjossey",
+        "url": "127.0.0.1:9001/dashboard/issues?scope=all&state=opened&assignee_username=Roshanjossey",
         "locator": "",
         "required_contents": {
           "must_include": [

@@ -1,0 +1,31 @@
+2025-04-22 23:04:36,191 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/0.json
+2025-04-22 23:04:36,191 - INFO - [Intent]: What is the top-1 best-selling product in 2022
+2025-04-22 23:06:33,953 - INFO - [Result] (FAIL) /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/0.json
+2025-04-22 23:06:34,200 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/1.json
+2025-04-22 23:06:34,201 - INFO - [Intent]: What is the top-1 best-selling brand in Quarter 1 2022
+2025-04-22 23:07:47,763 - INFO - [Result] (FAIL) /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/1.json
+2025-04-22 23:07:47,959 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/2.json
+2025-04-22 23:07:47,959 - INFO - [Intent]: What is the top-1 best-selling product type in Quarter 1 2022
+2025-04-22 23:09:04,978 - INFO - [Result] (FAIL) /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/2.json
+2025-04-22 23:09:05,114 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/3.json
+2025-04-22 23:09:05,114 - INFO - [Intent]: What are the top-2 best-selling product in 2022
+2025-04-22 23:10:26,142 - INFO - [Result] (FAIL) /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/3.json
+2025-04-22 23:10:26,283 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/4.json
+2025-04-22 23:10:26,283 - INFO - [Intent]: What are the top-3 best-selling product in Jan 2023
+2025-04-22 23:11:22,904 - INFO - [Result] (FAIL) /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/4.json
+2025-04-22 23:11:23,026 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/5.json
+2025-04-22 23:11:23,027 - INFO - [Intent]: What is the top-1 best-selling product type in Jan 2023
+2025-04-22 23:12:12,808 - INFO - [Result] (FAIL) /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/5.json
+2025-04-22 23:12:12,933 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/6.json
+2025-04-22 23:12:12,933 - INFO - [Intent]: What are the top-5 best-selling product in 2023
+2025-04-22 23:12:48,465 - INFO - [Result] (FAIL) /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/6.json
+2025-04-22 23:12:48,605 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/7.json
+2025-04-22 23:12:48,605 - INFO - [Intent]: Tell me the full address of all international airports that are within a driving distance of 50 km to Carnegie Mellon University
+2025-04-22 23:13:19,533 - INFO - [Unhandled Error] TimeoutError('Timeout 30000ms exceeded.\n=========================== logs ===========================\nnavigating to "127.0.0.1:8443", waiting until "load"\n============================================================')]
+2025-04-22 23:13:19,535 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/8.json
+2025-04-22 23:13:19,535 - INFO - [Intent]: Tell me the full address of all international airports that are within a driving distance of 5 km to Carnegie Mellon University
+2025-04-22 23:13:50,530 - INFO - [Unhandled Error] TimeoutError('Timeout 30000ms exceeded.\n=========================== logs ===========================\nnavigating to "127.0.0.1:8443", waiting until "load"\n============================================================')]
+2025-04-22 23:13:50,532 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/9.json
+2025-04-22 23:13:50,532 - INFO - [Intent]: Tell me the full address of all international airports that are within a driving distance of 30 km to Carnegie Art Museum
+2025-04-22 23:15:21,120 - INFO - [Result] (FAIL) /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/9.json
+2025-04-22 23:15:23,163 - INFO - Average score: 0.0

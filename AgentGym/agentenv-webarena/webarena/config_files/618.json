@@ -5,7 +5,7 @@
   "task_id": 618,
   "require_login": true,
   "storage_state": "./.auth/reddit_state.json",
-  "start_url": "127.0.0.1:9999/f/pics",
+  "start_url": "127.0.0.1:8080/f/pics",
   "geolocation": null,
   "intent_template": "Re-post the image of {{content}} in this page to {{subreddit}} subreddit and note \"from /f/pics\"",
   "instantiation_dict": {
@@ -20,7 +20,7 @@
       "program_html"
     ],
     "reference_answers": null,
-    "reference_url": "127.0.0.1:9999/f/funny",
+    "reference_url": "127.0.0.1:8080/f/funny",
     "program_html": [
       {
         "url": "func:reddit_get_post_url('__last_url__')",

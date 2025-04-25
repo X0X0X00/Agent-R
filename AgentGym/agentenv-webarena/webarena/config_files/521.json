@@ -5,7 +5,7 @@
   "task_id": 521,
   "require_login": true,
   "storage_state": "./.auth/shopping_state.json",
-  "start_url": "127.0.0.1:7770",
+  "start_url": "127.0.0.1:8082",
   "geolocation": null,
   "intent_template": "Subscribe to the newsletter of OneStopMarket",
   "instantiation_dict": {},
@@ -19,7 +19,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:7770/newsletter/manage/",
+        "url": "127.0.0.1:8082/newsletter/manage/",
         "locator": "document.querySelector('[title=\"General Subscription\"').checked.toString()",
         "required_contents": {
           "exact_match": "true"

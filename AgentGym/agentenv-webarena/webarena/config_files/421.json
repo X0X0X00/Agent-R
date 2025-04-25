@@ -5,7 +5,7 @@
   "task_id": 421,
   "require_login": true,
   "storage_state": "./.auth/gitlab_state.json",
-  "start_url": "127.0.0.1:8023",
+  "start_url": "127.0.0.1:9001",
   "geolocation": null,
   "intent_template": "Set my gitlab status as {{status}}.",
   "instantiation_dict": {
@@ -21,7 +21,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:8023/byteblaze",
+        "url": "127.0.0.1:9001/byteblaze",
         "locator": "document.querySelector('.cover-status').lastChild.textContent",
         "required_contents": {
           "exact_match": "Resting due to leg injury"

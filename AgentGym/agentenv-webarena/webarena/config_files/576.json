@@ -5,7 +5,7 @@
   "task_id": 576,
   "require_login": true,
   "storage_state": "./.auth/gitlab_state.json",
-  "start_url": "127.0.0.1:8023",
+  "start_url": "127.0.0.1:9001",
   "geolocation": null,
   "intent_template": "Add the following users to repo {{repo}} as {{role}}: {{user_list}}",
   "instantiation_dict": {
@@ -26,7 +26,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:8023/byteblaze/a11y-webring.club/-/project_members",
+        "url": "127.0.0.1:9001/byteblaze/a11y-webring.club/-/project_members",
         "locator": "func:gitlab_get_project_memeber_role(__page__, 'abisubramanya27')",
         "required_contents": {
           "must_include": [
@@ -35,7 +35,7 @@
         }
       },
       {
-        "url": "127.0.0.1:8023/byteblaze/a11y-webring.club/-/project_members",
+        "url": "127.0.0.1:9001/byteblaze/a11y-webring.club/-/project_members",
         "locator": "func:gitlab_get_project_memeber_role(__page__, 'lahwaacz')",
         "required_contents": {
           "must_include": [

@@ -5,7 +5,7 @@
   "task_id": 46,
   "require_login": true,
   "storage_state": "./.auth/gitlab_state.json",
-  "start_url": "127.0.0.1:8023/primer/design",
+  "start_url": "127.0.0.1:9001/primer/design",
   "geolocation": null,
   "intent_template": "Check out the most recent open issues",
   "instantiation_dict": {},
@@ -16,7 +16,7 @@
       "url_match"
     ],
     "reference_answers": null,
-    "reference_url": "127.0.0.1:8023/primer/design/-/issues/?sort=created_date&state=opened",
+    "reference_url": "127.0.0.1:9001/primer/design/-/issues/?sort=created_date&state=opened",
     "program_html": [],
     "url_note": "GOLD in PRED"
   },

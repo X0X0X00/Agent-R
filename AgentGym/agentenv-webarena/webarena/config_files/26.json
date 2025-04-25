@@ -5,7 +5,7 @@
   "task_id": 26,
   "require_login": true,
   "storage_state": "./.auth/shopping_state.json",
-  "start_url": "127.0.0.1:7770/epson-workforce-wf-3620-wifi-direct-all-in-one-color-inkjet-printer-copier-scanner-amazon-dash-replenishment-ready.html",
+  "start_url": "127.0.0.1:8082/epson-workforce-wf-3620-wifi-direct-all-in-one-color-inkjet-printer-copier-scanner-amazon-dash-replenishment-ready.html",
   "geolocation": null,
   "intent_template": "List out reviewers, if exist, who mention about {{description}}",
   "instantiation_dict": {

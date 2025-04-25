@@ -5,7 +5,7 @@
   "task_id": 692,
   "require_login": true,
   "storage_state": "./.auth/shopping_state.json",
-  "start_url": "127.0.0.1:7770",
+  "start_url": "127.0.0.1:8082",
   "geolocation": null,
   "intent_template": "Draft an email to the shop owner via their contact us function for a coupon as {{reason}}",
   "instantiation_dict": {
@@ -19,7 +19,7 @@
       "program_html"
     ],
     "reference_answers": null,
-    "reference_url": "127.0.0.1:7770/contact",
+    "reference_url": "127.0.0.1:8082/contact",
     "program_html": [
       {
         "url": "last",

@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<head>
+    <style>
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<html>
+    <body>
+     <pre>sites: ['gitlab']
+task_id: 417
+require_login: True
+storage_state: ./.auth/gitlab_state.json
+start_url: 127.0.0.1:9001
+geolocation: None
+intent_template: Go to the merge request on {{topic}} I have to review, find if the author of the merge request responded at the end, and reply "Thank you" if he did. Otherwise remind him with a simple @.
+instantiation_dict: {'topic': '404 link'}
+intent: Go to the merge request on 404 link I have to review, find if the author of the merge request responded at the end, and reply "Thank you" if he did. Otherwise remind him with a simple @.
+require_reset: False
+eval: {'eval_types': ['program_html'], 'reference_answers': None, 'reference_url': '', 'program_html': [{'url': '127.0.0.1:9001/a11yproject/a11yproject.com/-/merge_requests/1485', 'locator': 'document.querySelector(\'[id="notes-list"\').lastElementChild.querySelector(\'.timeline-discussion-body\').outerText', 'required_contents': {'exact_match': '@Roshanjossey'}}]}
+intent_template_id: 360
+</pre>
+
+    </body>
+</html>

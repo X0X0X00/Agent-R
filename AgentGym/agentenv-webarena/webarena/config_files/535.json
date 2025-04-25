@@ -5,7 +5,7 @@
   "task_id": 535,
   "require_login": true,
   "storage_state": "./.auth/gitlab_state.json",
-  "start_url": "127.0.0.1:8023",
+  "start_url": "127.0.0.1:9001",
   "geolocation": null,
   "intent_template": "Follow {{account_list}} on Gitlab",
   "instantiation_dict": {
@@ -25,7 +25,7 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:8023/users/byteblaze/following",
+        "url": "127.0.0.1:9001/users/byteblaze/following",
         "locator": "document.querySelector('.user-profile').outerText",
         "required_contents": {
           "must_include": [

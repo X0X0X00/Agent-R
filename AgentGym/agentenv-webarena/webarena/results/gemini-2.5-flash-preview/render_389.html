@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<head>
+    <style>
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<html>
+    <body>
+     <pre>sites: ['gitlab']
+task_id: 389
+require_login: True
+storage_state: ./.auth/gitlab_state.json
+start_url: 127.0.0.1:9001
+geolocation: None
+intent_template: Post "{{content}}" for the merge request related to {{mr}} in {{repo}} project
+instantiation_dict: {'mr': 'octovisuals page', 'repo': 'primer/design', 'content': 'Thanks, working on reviews'}
+intent: Post "Thanks, working on reviews" for the merge request related to octovisuals page in primer/design project
+require_reset: False
+eval: {'eval_types': ['program_html'], 'reference_answers': None, 'reference_url': '', 'program_html': [{'url': '127.0.0.1:9001/primer/design/-/merge_requests/450', 'locator': '', 'required_contents': {'must_include': ['Thanks, working on reviews']}}]}
+intent_template_id: 348
+</pre>
+
+    </body>
+</html>

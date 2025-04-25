@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<head>
+    <style>
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<html>
+    <body>
+     <pre>sites: ['gitlab']
+task_id: 393
+require_login: True
+storage_state: ./.auth/gitlab_state.json
+start_url: 127.0.0.1:9001
+geolocation: None
+intent_template: Post "{{content}}" for the merge request related to {{mr}} in {{repo}} project
+instantiation_dict: {'mr': 'fixing the broken links', 'repo': 'byteblaze/empathy-prompts', 'content': 'lgtm'}
+intent: Post "lgtm" for the merge request related to fixing the broken links in byteblaze/empathy-prompts project
+require_reset: False
+eval: {'eval_types': ['program_html'], 'reference_answers': None, 'reference_url': '', 'program_html': [{'url': '127.0.0.1:9001/byteblaze/empathy-prompts/-/merge_requests/19', 'locator': 'document.querySelector(\'[id="notes-list"\').lastElementChild.querySelector(\'.timeline-discussion-body\').outerText', 'required_contents': {'exact_match': 'lgtm'}}]}
+intent_template_id: 348
+</pre>
+
+    </body>
+</html>

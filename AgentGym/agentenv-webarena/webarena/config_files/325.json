@@ -5,7 +5,7 @@
   "task_id": 325,
   "require_login": true,
   "storage_state": "./.auth/shopping_state.json",
-  "start_url": "127.0.0.1:7770",
+  "start_url": "127.0.0.1:8082",
   "geolocation": null,
   "intent_template": "Show me the \"{{product}}\" listings by {{sorting_order}}.",
   "instantiation_dict": {
@@ -19,7 +19,7 @@
       "url_match"
     ],
     "reference_answers": null,
-    "reference_url": "127.0.0.1:7770/catalogsearch/result/index/?q=mouth%20night%20guard%20&product_list_order=price",
+    "reference_url": "127.0.0.1:8082/catalogsearch/result/index/?q=mouth%20night%20guard%20&product_list_order=price",
     "program_html": [],
     "url_note": "GOLD in PRED"
   },

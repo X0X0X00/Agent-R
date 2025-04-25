@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<head>
+    <style>
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<html>
+    <body>
+     <pre>sites: ['gitlab']
+task_id: 484
+require_login: True
+storage_state: ./.auth/gitlab_state.json
+start_url: 127.0.0.1:9001
+geolocation: None
+intent_template: {{name}} wants to check my dotfile configurations. Please invite him to the repo as a guest.
+instantiation_dict: {'name': 'Jakub Klinkovský'}
+intent: Jakub Klinkovský wants to check my dotfile configurations. Please invite him to the repo as a guest.
+require_reset: False
+eval: {'eval_types': ['program_html'], 'reference_answers': None, 'reference_url': '', 'program_html': [{'url': '127.0.0.1:9001/byteblaze/dotfiles/-/project_members', 'locator': "func:gitlab_get_project_memeber_role(__page__, 'lahwaacz')", 'required_contents': {'must_include': ['Guest']}}]}
+intent_template_id: 294
+</pre>
+
+    </body>
+</html>

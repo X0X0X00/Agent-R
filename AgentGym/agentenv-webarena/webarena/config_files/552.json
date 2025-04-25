@@ -6,7 +6,7 @@
   "task_id": 552,
   "require_login": true,
   "storage_state": "./.auth/gitlab.reddit_state.json",
-  "start_url": "127.0.0.1:8023",
+  "start_url": "127.0.0.1:9001",
   "geolocation": null,
   "intent_template": "Create a folder named {{directory}} in {{gitlab_repo}} repo. Within it, create a file named urls.txt that contains the URLs of the 5 most recent posts from the {{subreddit}}?",
   "instantiation_dict": {
@@ -24,15 +24,15 @@
     "reference_url": "",
     "program_html": [
       {
-        "url": "127.0.0.1:8023/byteblaze/gimmiethat.space/-/raw/main/real_space/urls.txt",
+        "url": "127.0.0.1:9001/byteblaze/gimmiethat.space/-/raw/main/real_space/urls.txt",
         "locator": "",
         "required_contents": {
           "must_include": [
-            "127.0.0.1:9999/f/space/134164/scientists-erupt-at-nasa-gutting-funding-for-crucial-venus",
-            "127.0.0.1:9999/f/space/134163/virgin-orbit-fails-to-secure-funding-will-cease-operations",
-            "127.0.0.1:9999/f/space/134162/nasa-to-name-artemis-2-crew-next-week-the-first-moon",
-            "127.0.0.1:9999/f/space/134161/bent-light-in-deep-space-reveals-one-of-the-biggest-black",
-            "127.0.0.1:9999/f/space/134160/seti-s-new-machine-learning-algorithm-works-like-google-s"
+            "127.0.0.1:8080/f/space/134164/scientists-erupt-at-nasa-gutting-funding-for-crucial-venus",
+            "127.0.0.1:8080/f/space/134163/virgin-orbit-fails-to-secure-funding-will-cease-operations",
+            "127.0.0.1:8080/f/space/134162/nasa-to-name-artemis-2-crew-next-week-the-first-moon",
+            "127.0.0.1:8080/f/space/134161/bent-light-in-deep-space-reveals-one-of-the-biggest-black",
+            "127.0.0.1:8080/f/space/134160/seti-s-new-machine-learning-algorithm-works-like-google-s"
           ]
         }
       }
