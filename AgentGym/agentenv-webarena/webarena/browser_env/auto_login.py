@@ -6,9 +6,12 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from itertools import combinations
 from pathlib import Path
+import sys
 
 from playwright.sync_api import sync_playwright
 
+sys.path.append("/home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/browser_env/")
+sys.path.append("/home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/")
 from browser_env.env_config import (
     ACCOUNTS,
     GITLAB,

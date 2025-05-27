@@ -15,13 +15,22 @@ limitations under the License.
 """
 from fastchat.model.model_adapter import get_conversation_template
 from mcts_utils.llm_server import *
-from agentenv.envs import WebshopEnvClient, SciworldEnvClient, TextCraftEnvClient, WebarenaEnvClient
+
+# 手动添加路径
+import sys
+sys.path.append("/home/ubuntu/zhangzhenhao/Agent-R/agentenv/envs")
+sys.path.append("/home/ubuntu/zhangzhenhao/Agent-R/agentenv")
+from AgentGym.agentenv.agentenv.envs import WebshopEnvClient, SciworldEnvClient, TextCraftEnvClient, WebarenaEnvClient
+# from agentenv.envs import WebshopEnvClient, SciworldEnvClient, TextCraftEnvClient, WebarenaEnvClient
+# ...existing code...
+# from agentenv.envs import WebshopEnvClient, SciworldEnvClient, TextCraftEnvClient, WebarenaEnvClient
+
 import argparse
 import os
 from mcts_utils.llm_server import FuncCall
 
+# os.environ["TASK"] = 'webarena'
 Task = os.environ["TASK"]
-
 if Task == "webshop":
     from mcts_utils.webshop.mcts_ws import *
 elif Task == "sciworld":
@@ -31,6 +40,8 @@ elif Task == "textcraft":
 elif Task == "webarena":
     from mcts_utils.webarena.mcts_we import *
 
+
+# 环境初始化
 def initialize_environment(Task: str, env_server_base: str, data_len: int = 200):
     """
     Initializes the appropriate environment based on the task type.
@@ -42,10 +53,14 @@ def initialize_environment(Task: str, env_server_base: str, data_len: int = 200)
     elif Task == "textcraft":
         return TextCraftEnvClient(env_server_base=env_server_base, data_len=data_len)
     elif Task == "webarena":
-        from mcts_utils.webarena.env_local import WebarenaEnvLocal
-        return WebarenaEnvLocal(data_len=data_len)
+        return WebarenaEnvClient(env_server_base=env_server_base, data_len=data_len)
+        # from mcts_utils.webarena.env_local import WebarenaEnvLocal
+        # return WebarenaEnvLocal(data_len=data_len)
     else:
         raise ValueError(f"Unknown Task: {Task}")
+
+# 对话设置
+# 对于每个测试用例，系统都会建立一个对话上下文，作为代理与环境交互的起点。
 
 # def setup_conversation(env):
 #     """
@@ -81,23 +96,27 @@ def setup_conversation(env):
     return conv
 
 
+# 测试执行
+# 系统对测试集中的每个任务索引执行测试，使用指定的语言模型生成代理响应。 
 
 def main(Task: str, model_name: str, env_server_base: str, max_steps: int):
     """
     Main execution function for handling tasks and initiating tests.
     """
-    if Task == "webarena":
-        test_webarena(args)
-        return
+
     # Initialize environment
     env = initialize_environment(Task, env_server_base)
 
     # Load task indices
     # temp = read_json(f"test_id/{Task}_test.json")
+    # 载荷试验指标
+    # 评估系统从test_id目录中存储的 JSON 文件中加载预定义的测试指标。每个支持的任务都有自己的测试集文件。
     temp = read_json(f"mcts_utils/{Task}/{Task}_test.json")
     task_inds = [ind["item_id"].replace(f"{Task}_", "") for ind in temp]
 
     # Process each task index
+    # 结果存储
+    # 测试结果存储在结构化的目录层次中：
     for idx in task_inds:
         dir_path = f"test_result/{Task}/{model_name}"
         file_path = f"{dir_path}/search_results_{idx}.json"
@@ -111,44 +130,12 @@ def main(Task: str, model_name: str, env_server_base: str, max_steps: int):
         # perform_test(FuncCallOffline(model_name=model_name), env, conv, model_name, idx, max_steps)
         perform_test(FuncCall(model_name=model_name), env, conv, model_name, idx, max_steps)
 
-def test_webarena(args=None):
-    # using subprocess to run test webarena
-    import subprocess
-    from pathlib import Path
-    import os
-    os.environ["TMPDIR"] = "/tmp"
-    import sys
-    CURRENT_DIR = Path(__file__).resolve().parent
-    run_file = CURRENT_DIR / 'AgentGym/agentenv-webarena/webarena/run.py'
-    # add args to run the script
-    args = [
-        'python3',
-        str(run_file.absolute()),
-        '--test_start_idx', '0',
-        # 目前只测试 0
-        '--test_end_idx', '201',
-        '--model', f'{args.model_name}'
-    ]
-    # Use shell to activate conda environment and run the script in one command
-    # command = f"conda init && conda activate webarena && {' '.join(args)}"
-    command = f"{' '.join(args)}"
-    
-    subprocess.run(
-        command,
-        shell=True,
-        check=True,
-        stdout=sys.stdout,
-        stderr=sys.stderr
-    )
-    # '/home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/run.py'
-    # '/home/ubuntu/zhangzhenhao/Agent-R/eval.py'
-    return
 
 if __name__ == "__main__":
     # Argument parsing
     parser = argparse.ArgumentParser(description="Run MCTS tests for specified tasks.")
     parser.add_argument("--env_server_base", type=str, default="http://127.0.0.1:8000", help="Base URL for the environment server.")
-    parser.add_argument("--model_name", type=str, default="gpt-4o-2024-08-06", help="Model name to be used.")
+    parser.add_argument("--model_name", type=str, default="google/gemini-2.5-flash-preview", help="Model name to be used.")
     parser.add_argument("--max_steps", type=int, default=100, help="Maximum steps allowed for a task.")
     # parser.add_argument("--model_name", type=str, default='gpt-4o-mini')
     args = parser.parse_args()

@@ -6,7 +6,7 @@ from torch.nn.parallel import DistributedDataParallel
 from transformers import GenerationConfig, PreTrainedModel, PreTrainedTokenizerBase
 from transformers.generation.utils import GenerateOutput
 
-from agentenv.controller import BaseEnvClient
+from AgentGym.agentenv.agentenv.controller import BaseEnvClient
 
 ConversationMessage = TypedDict(
     "ConversationMessage", {"from": str, "loss": Optional[bool], "value": str}

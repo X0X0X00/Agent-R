@@ -5,7 +5,7 @@ import re
 import requests
 from requests.exceptions import RequestException
 
-from agentenv.controller import BaseEnvClient, BaseTask, ConversationMessage, StepOutput
+from AgentGym.agentenv.agentenv.controller import BaseEnvClient, BaseTask, ConversationMessage, StepOutput
 
 
 class TextCraftEnvClient(BaseEnvClient):
