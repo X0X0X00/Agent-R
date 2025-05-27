@@ -1,0 +1,52 @@
+{
+    "/home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/0.json": [],
+    "/tmp/tmpkdzyhs1a/0.json": [
+        "click [67] where [67] is link 'The information in this tab has been changed. This tab contains invalid data. Please resolve this before saving. Loading... Bestsellers'",
+        "stop [Sprite Yoga Strap 6 foot]"
+    ],
+    "/home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/1.json": [],
+    "/tmp/tmpwnhjwwc5/1.json": [
+        "click [90] where [90] is link '\\ue60b SALES'",
+        "click [120] where [120] is link '\\ue60a REPORTS'",
+        "hover [120] where [120] is link '\\ue60a REPORTS' focused: True",
+        "click [132] where [132] is link 'Advanced Reporting\\ue644'",
+        "click [132] where [132] is link 'Advanced Reporting\\ue644' focused: True",
+        "scroll [down]",
+        "click [120] where [120] is link '\\ue60a REPORTS'",
+        "click [87] where [87] is link '\\ue604 DASHBOARD'",
+        "click [1289] where [1289] is link '\\ue60b SALES'",
+        "click [1266] where [1266] is link 'The information in this tab has been changed. This tab contains invalid data. Please resolve this before saving. Loading... Bestsellers'",
+        "Attempt to perfom \"click\" on element \"[1290]\" but no matching element found. Please check the observation more carefully.",
+        "click [1289] where [1289] is link '\\ue60b SALES'",
+        "click [1494] where [1494] is link 'Orders'",
+        "click [2420] where [2420] is link '\\ue60a REPORTS'",
+        "click [14044] where [14044] is link '\\ue604 DASHBOARD'",
+        "click [14771] where [14771] is link '\\ue60b SALES'",
+        "click [14976] where [14976] is link 'Orders'",
+        "click [15896] where [15896] is link '\\ue60a REPORTS'",
+        "click [27568] where [27568] is link '\\ue60d STORES'",
+        "go_back",
+        "click [28285] where [28285] is link '\\ue60a REPORTS'",
+        "click [28716] where [28716] is link 'Orders'",
+        "type [29523] [01/01/2022] [press_enter_after=0 ] where [29523] is textbox 'From *' required: True",
+        "type [29525] [03/31/2022] [press_enter_after=0 ] where [29525] is textbox 'To *' required: True",
+        "type [29523] [01/01/2022] [press_enter_after=0 ] where [29523] is textbox 'From *' required: True",
+        "type [29525] [03/31/2022 ] where [29525] is textbox 'To *' required: True",
+        "type [29523] [01/01/2022 ] where [29523] is textbox 'From *' required: True",
+        "stop [Early stop: Same typing action for 3 times]"
+    ],
+    "/home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/2.json": [],
+    "/tmp/tmpsacc6r03/2.json": [
+        "click [120] where [120] is link '\\ue60a REPORTS'",
+        "click [526] where [526] is StaticText 'Reviews'",
+        "click [90] where [90] is link '\\ue60b SALES'",
+        "click [295] where [295] is link 'Orders'",
+        "click [1227] where [1227] is link '\\ue60a REPORTS'",
+        "click [13199] where [13199] is link 'Orders'",
+        "type [13659] [01/01/2022 ] where [13659] is textbox 'From *' required: True",
+        "type [13661] [03/31/2022 ] where [13661] is textbox 'To *' required: True",
+        "type [13659] [01/01/2022 ] where [13659] is textbox 'From *' required: True",
+        "type [13661] [03/31/2022 ] where [13661] is textbox 'To *' required: True",
+        "type [13659] [01/01/2022 ] where [13659] is textbox 'From *' required: True"
+    ]
+}

@@ -16,7 +16,8 @@ SHOPPING_ADMIN = "http://127.0.0.1:8084/admin"
 GITLAB = "http://127.0.0.1:9001"
 WIKIPEDIA = "http://127.0.0.1:8081"
 MAP = "http://127.0.0.1:8443"
-HOMEPAGE = "http://127.0.0.1:8088"
+# 用Agent Gym的homepage 不用webarnea docker的homepage
+HOMEPAGE = "http://127.0.0.1:4399"
 
 assert (
     REDDIT

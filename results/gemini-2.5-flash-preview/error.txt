@@ -72,3 +72,291 @@ navigating to "127.0.0.1:8443", waiting until "load"
 ============================================================
 [OpenAI file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/110.json
 [OpenAI Error] APIError(message='do request failed: Post "https://api.chatanywhere.tech/v1/chat/completions": read tcp 10.88.0.7:51498->61.241.148.61:443: read: connection timed out (request id: 2025042301551245143127728391356) {"error":{"message":"do request failed: Post \\"https://api.chatanywhere.tech/v1/chat/completions\\": read tcp 10.88.0.7:51498-\\u003e61.241.148.61:443: read: connection timed out (request id: 2025042301551245143127728391356)","type":"one_api_error","param":"","code":"do_request_failed"}} 500 {\'error\': {\'message\': \'do request failed: Post "https://api.chatanywhere.tech/v1/chat/completions": read tcp 10.88.0.7:51498->61.241.148.61:443: read: connection timed out (request id: 2025042301551245143127728391356)\', \'type\': \'one_api_error\', \'param\': \'\', \'code\': \'do_request_failed\'}} {\'Content-Type\': \'application/json; charset=utf-8\', \'X-Oneapi-Request-Id\': \'2025042301551245143127728391356\', \'Date\': \'Tue, 22 Apr 2025 17:58:01 GMT\', \'Content-Length\': \'286\'}', http_status=500, request_id=None)
+[Config file]: /tmp/tmp4p51h_ov/0.json
+[Unhandled Error] FileNotFoundError(2, 'No such file or directory')
+[Config file]: /tmp/tmp5zlewasg/1.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpw4rp1fvi/2.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpi9tzqop9/3.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp257hdwft/4.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpx_ndym8h/5.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp0g_mtw2z/6.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/7.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/8.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/9.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/10.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpbg229dq9/11.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmppaoa72jo/12.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp6vzkrse2/0.json
+[Unhandled Error] FileNotFoundError(2, 'No such file or directory')
+[Config file]: /tmp/tmpo67p7y60/1.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmprrrwb_zg/2.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp4ca3zzc6/3.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp5t69aynh/4.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp4zq7iptf/0.json
+[Unhandled Error] FileNotFoundError(2, 'No such file or directory')
+[Config file]: /tmp/tmp8yqu9chy/0.json
+[Unhandled Error] FileNotFoundError(2, 'No such file or directory')
+[Config file]: /tmp/tmpjok3z22q/1.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpeijrt9p4/2.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpwx85ei86/3.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpidr3wg5m/4.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpmygojnuq/5.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpef82oje8/6.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/7.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/8.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/9.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/10.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpv8dgb4hg/11.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpe9zeaq1n/12.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpspwgbku2/13.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpqjxz4mep/14.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmplryw8l53/15.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/16.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/17.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/18.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/19.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/20.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmps7dqwcao/21.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpriphti66/22.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp_6wffuvf/23.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp3y8ltmko/24.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmppmx2l8bb/25.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp7iyhedtn/26.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp75iui8qb/27.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp2mkj7u8c/28.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp4zi_2yug/29.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpty57z2g8/30.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpr0swd90d/31.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/32.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/33.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/34.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/35.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/36.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/37.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/38.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/39.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/40.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpkcjgbznt/41.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp9r3f7y0a/42.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpw5tdl6_d/43.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpvfd_lv5f/44.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp_cda0zvu/45.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmppgtaexs8/46.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpdzjd77zz/47.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpe9a96r50/48.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp5tzr8itz/49.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpa21357wy/50.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpp1kvkhfe/51.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/52.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/53.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/54.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/55.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/56.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/57.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/58.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/59.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/60.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/61.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpf7jy79j_/62.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpy9mywrzi/63.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpmpfdav2i/64.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmptb195kny/65.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpketkx1ra/66.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpqpix7r6d/67.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpg4_r_25c/68.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp3zhgu0dj/69.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/70.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/71.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/72.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/73.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/74.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/75.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/76.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp_t9d2g2g/77.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp3aj8znyy/78.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp3tjq1ujb/79.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/80.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/81.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/82.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/83.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/84.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/85.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/86.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/87.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/88.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/89.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/90.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/91.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/92.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/93.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpl166f51p/94.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpnamblhzj/95.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmptjdbiyjd/96.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/97.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/98.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/99.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/100.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/101.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpkt0d_13x/102.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpo4f0b9cz/103.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpumrr9ibk/104.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp_8aptddk/105.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpmkz654pm/106.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpn7dy5rpt/107.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpi7sujnb7/108.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpzvkdj6hq/109.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpnno5lggt/110.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpmeygivsm/111.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmprvus_gwi/112.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp4ua_z_wh/113.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp06ip7f6i/114.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpjxn8x0y6/115.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp43ovdxm4/116.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpqmtcci6j/117.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpmpcttom0/118.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpq21hohmr/119.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp1093jh0y/120.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmpf1m82a29/121.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp0tg7t847/122.json
+[Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')
+[Config file]: /tmp/tmp9crr009m/0.json
+[Unhandled Error] FileNotFoundError(2, 'No such file or directory')
+[Config file]: /tmp/tmp6q_r19_m/0.json
+[Unhandled Error] FileNotFoundError(2, 'No such file or directory')

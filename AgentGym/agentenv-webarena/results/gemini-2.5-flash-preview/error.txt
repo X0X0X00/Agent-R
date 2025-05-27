@@ -1,0 +1,6 @@
+[OpenAI file]: /tmp/tmpgk83ky_n/0.json
+[OpenAI Error] ServiceUnavailableError(message='The server is overloaded or not ready yet.', http_status=503, request_id=None)
+[OpenAI file]: /tmp/tmpxx4hi9fq/1.json
+[OpenAI Error] ServiceUnavailableError(message='The server is overloaded or not ready yet.', http_status=503, request_id=None)
+[OpenAI file]: /tmp/tmp0fs51s__/2.json
+[OpenAI Error] ServiceUnavailableError(message='The server is overloaded or not ready yet.', http_status=503, request_id=None)

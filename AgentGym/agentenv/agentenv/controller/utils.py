@@ -3,8 +3,8 @@ from typing import Optional, Sequence, TypedDict
 
 import numpy as np
 
-from agentenv.controller.agent import Agent
-from agentenv.controller.task import BaseTask, ExperienceOutput, GenerationConfig
+from AgentGym.agentenv.agentenv.controller.agent import Agent
+from AgentGym.agentenv.agentenv.controller.task import BaseTask, ExperienceOutput, GenerationConfig
 
 ConversationMessage = TypedDict(
     "ConversationMessage", {"from": str, "loss": Optional[bool], "value": str}

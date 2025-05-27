@@ -14,6 +14,37 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and 
 limitations under the License. 
 """
+
+
+
+'''
+SciWorld 环境包含多个相互连接的房间：
+
+Hallway (Central Hub)
+
+Greenhouse
+
+Kitchen
+
+Bathroom
+
+Outside
+
+Workshop
+
+Art Studio
+
+Foundry
+
+Bedroom
+
+Living Room
+
+每个房间都包含与特定科学实验相关的不同物品和设备
+
+'''
+
+
 import re
 import numpy as np
 from mcts_utils.sciworld.data_utils_sw import formalize_action, recover_action

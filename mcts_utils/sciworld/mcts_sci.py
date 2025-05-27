@@ -71,7 +71,8 @@ class ExtendedNode(MCTSNode):
         }
 
 
-# 新的 MCTS 类，继承原始的 MCTS 类并重写相关功能
+# 新的 MCTS 类，继承原始的 MCTS 类并重写相关功能 
+# 针对 SciWorld 优化的基础 MCTS 算法的扩展
 class ExtendedMCTS(MCTSAgent):
     def __init__(self, 
                  idx=0,

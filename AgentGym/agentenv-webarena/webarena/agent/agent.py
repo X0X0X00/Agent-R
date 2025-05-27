@@ -125,6 +125,7 @@ class PromptAgent(Agent):
         lm_config = self.lm_config
         n = 0
         while True:
+            # print(f"Test calling llm with {lm_config}")
             response = call_llm(lm_config, prompt)
             force_prefix = self.prompt_constructor.instruction[
                 "meta_data"

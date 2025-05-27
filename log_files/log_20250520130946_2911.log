@@ -1,0 +1,369 @@
+2025-05-20 13:09:46,650 - INFO - [Config file]: /tmp/tmp8yqu9chy/0.json
+2025-05-20 13:09:46,650 - INFO - [Intent]: What is the top-1 best-selling product in 2022
+2025-05-20 13:09:47,106 - INFO - [Unhandled Error] FileNotFoundError(2, 'No such file or directory')]
+2025-05-20 13:09:47,135 - INFO - [Config file]: /tmp/tmpjok3z22q/1.json
+2025-05-20 13:09:47,135 - INFO - [Intent]: What is the top-1 best-selling brand in Quarter 1 2022
+2025-05-20 13:09:47,135 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,163 - INFO - [Config file]: /tmp/tmpeijrt9p4/2.json
+2025-05-20 13:09:47,163 - INFO - [Intent]: What is the top-1 best-selling product type in Quarter 1 2022
+2025-05-20 13:09:47,163 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,191 - INFO - [Config file]: /tmp/tmpwx85ei86/3.json
+2025-05-20 13:09:47,191 - INFO - [Intent]: What are the top-2 best-selling product in 2022
+2025-05-20 13:09:47,191 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,221 - INFO - [Config file]: /tmp/tmpidr3wg5m/4.json
+2025-05-20 13:09:47,221 - INFO - [Intent]: What are the top-3 best-selling product in Jan 2023
+2025-05-20 13:09:47,221 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,249 - INFO - [Config file]: /tmp/tmpmygojnuq/5.json
+2025-05-20 13:09:47,249 - INFO - [Intent]: What is the top-1 best-selling product type in Jan 2023
+2025-05-20 13:09:47,250 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,275 - INFO - [Config file]: /tmp/tmpef82oje8/6.json
+2025-05-20 13:09:47,276 - INFO - [Intent]: What are the top-5 best-selling product in 2023
+2025-05-20 13:09:47,276 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,276 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/7.json
+2025-05-20 13:09:47,277 - INFO - [Intent]: Tell me the full address of all international airports that are within a driving distance of 50 km to Carnegie Mellon University
+2025-05-20 13:09:47,277 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,277 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/8.json
+2025-05-20 13:09:47,277 - INFO - [Intent]: Tell me the full address of all international airports that are within a driving distance of 5 km to Carnegie Mellon University
+2025-05-20 13:09:47,278 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,278 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/9.json
+2025-05-20 13:09:47,278 - INFO - [Intent]: Tell me the full address of all international airports that are within a driving distance of 30 km to Carnegie Art Museum
+2025-05-20 13:09:47,278 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,279 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/10.json
+2025-05-20 13:09:47,279 - INFO - [Intent]: Tell me the full address of all US international airports that are within a driving distance of 60 km to Niagara Falls
+2025-05-20 13:09:47,279 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,310 - INFO - [Config file]: /tmp/tmpv8dgb4hg/11.json
+2025-05-20 13:09:47,310 - INFO - [Intent]: Tell me the the number of reviews that our store received by far that mention term "disappointed"
+2025-05-20 13:09:47,310 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,337 - INFO - [Config file]: /tmp/tmpe9zeaq1n/12.json
+2025-05-20 13:09:47,337 - INFO - [Intent]: Tell me the the number of reviews that our store received by far that mention term "satisfied"
+2025-05-20 13:09:47,338 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,365 - INFO - [Config file]: /tmp/tmpspwgbku2/13.json
+2025-05-20 13:09:47,366 - INFO - [Intent]: Tell me the the number of reviews that our store received by far that mention term "decent"
+2025-05-20 13:09:47,366 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,401 - INFO - [Config file]: /tmp/tmpqjxz4mep/14.json
+2025-05-20 13:09:47,401 - INFO - [Intent]: Tell me the the number of reviews that our store received by far that mention term "not useful"
+2025-05-20 13:09:47,401 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,432 - INFO - [Config file]: /tmp/tmplryw8l53/15.json
+2025-05-20 13:09:47,432 - INFO - [Intent]: Tell me the the number of reviews that our store received by far that mention term "best"
+2025-05-20 13:09:47,432 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,433 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/16.json
+2025-05-20 13:09:47,433 - INFO - [Intent]: Compare the time for walking and driving route from 5000 Fifth Avenue, Pittsburgh to UPMC family health center
+2025-05-20 13:09:47,433 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,434 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/17.json
+2025-05-20 13:09:47,435 - INFO - [Intent]: Compare the time for walking and driving route from AMC Waterfront to Carnegie Mellon University
+2025-05-20 13:09:47,435 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,436 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/18.json
+2025-05-20 13:09:47,436 - INFO - [Intent]: Compare the time for walking and driving route from AMC Waterfront to Univ of Pittsburgh
+2025-05-20 13:09:47,437 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,437 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/19.json
+2025-05-20 13:09:47,438 - INFO - [Intent]: Compare the time for walking and driving route from Carnegie Science Center to Carnegie Mellon University
+2025-05-20 13:09:47,438 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,439 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/20.json
+2025-05-20 13:09:47,439 - INFO - [Intent]: Compare the difference in time for walking and driving route from Randyland to Carnegie Mellon University
+2025-05-20 13:09:47,439 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,471 - INFO - [Config file]: /tmp/tmps7dqwcao/21.json
+2025-05-20 13:09:47,471 - INFO - [Intent]: List out reviewers, if exist, who mention about ear cups being small
+2025-05-20 13:09:47,472 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,501 - INFO - [Config file]: /tmp/tmpriphti66/22.json
+2025-05-20 13:09:47,501 - INFO - [Intent]: List out reviewers, if exist, who mention about under water photo
+2025-05-20 13:09:47,502 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,531 - INFO - [Config file]: /tmp/tmp_6wffuvf/23.json
+2025-05-20 13:09:47,531 - INFO - [Intent]: List out reviewers, if exist, who mention about good fingerprint resistant
+2025-05-20 13:09:47,531 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,561 - INFO - [Config file]: /tmp/tmp3y8ltmko/24.json
+2025-05-20 13:09:47,561 - INFO - [Intent]: List out reviewers, if exist, who mention about price being unfair
+2025-05-20 13:09:47,562 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,592 - INFO - [Config file]: /tmp/tmppmx2l8bb/25.json
+2025-05-20 13:09:47,592 - INFO - [Intent]: List out reviewers, if exist, who mention about average print quality
+2025-05-20 13:09:47,592 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,622 - INFO - [Config file]: /tmp/tmp7iyhedtn/26.json
+2025-05-20 13:09:47,622 - INFO - [Intent]: List out reviewers, if exist, who mention about complain of the customer service
+2025-05-20 13:09:47,623 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,652 - INFO - [Config file]: /tmp/tmp75iui8qb/27.json
+2025-05-20 13:09:47,652 - INFO - [Intent]: Tell me the count of comments that have received more downvotes than upvotes for the user who made the latest post on the Showerthoughts forum.
+2025-05-20 13:09:47,653 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,677 - INFO - [Config file]: /tmp/tmp2mkj7u8c/28.json
+2025-05-20 13:09:47,678 - INFO - [Intent]: Tell me the count of comments that have received more downvotes than upvotes for the user who made the latest post on the Worcester forum.
+2025-05-20 13:09:47,678 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,708 - INFO - [Config file]: /tmp/tmp4zi_2yug/29.json
+2025-05-20 13:09:47,708 - INFO - [Intent]: Tell me the count of comments that have received more downvotes than upvotes for the user who made the latest post on the DIY forum.
+2025-05-20 13:09:47,708 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,734 - INFO - [Config file]: /tmp/tmpty57z2g8/30.json
+2025-05-20 13:09:47,734 - INFO - [Intent]: Tell me the count of comments that have received more downvotes than upvotes for the user who made the latest post on the space forum.
+2025-05-20 13:09:47,734 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,765 - INFO - [Config file]: /tmp/tmpr0swd90d/31.json
+2025-05-20 13:09:47,765 - INFO - [Intent]: Tell me the count of comments that have received more downvotes than upvotes for the user who made the latest post on the photoshopbattles forum.
+2025-05-20 13:09:47,765 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,766 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/32.json
+2025-05-20 13:09:47,766 - INFO - [Intent]: I will arrive Pittsburgh Airport soon. Provide the name of a Hilton hotel in the vicinity, if available. Then, tell me the the walking distance to the nearest supermarket own by a local company from the hotel.
+2025-05-20 13:09:47,767 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,768 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/33.json
+2025-05-20 13:09:47,768 - INFO - [Intent]: I will arrive Pittsburgh Airport soon. Provide the name of a Hilton hotel in the vicinity, if available. Then, tell me the the shortest walking distance to a supermarket from the hotel.
+2025-05-20 13:09:47,768 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,769 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/34.json
+2025-05-20 13:09:47,769 - INFO - [Intent]: I will arrive Pittsburgh Airport soon. Provide the name of a Hyatt hotel in the vicinity, if available. Then, tell me the the shortest walking time to a supermarket from the hotel.
+2025-05-20 13:09:47,769 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,770 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/35.json
+2025-05-20 13:09:47,770 - INFO - [Intent]: I will arrive Pittsburgh Airport soon. Provide the name of a Hyatt hotel in the vicinity, if available. Then, tell me the the minimal driving time to a supermarket from the hotel.
+2025-05-20 13:09:47,770 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,771 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/36.json
+2025-05-20 13:09:47,771 - INFO - [Intent]: Check if the social security administration in pittsburgh can be reached in one hour by car from Carnegie Mellon University
+2025-05-20 13:09:47,772 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,772 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/37.json
+2025-05-20 13:09:47,772 - INFO - [Intent]: Check if the police station in pittsburgh can be reached in one hour by car from gates building at CMU
+2025-05-20 13:09:47,773 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,773 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/38.json
+2025-05-20 13:09:47,773 - INFO - [Intent]: Check if the duquesne university in pittsburgh can be reached in one hour by car from pittsburgh airport
+2025-05-20 13:09:47,773 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,774 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/39.json
+2025-05-20 13:09:47,774 - INFO - [Intent]: Check if the walmart in pittsburgh can be reached in one hour by car from 5600 fifth avenue
+2025-05-20 13:09:47,774 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,775 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/40.json
+2025-05-20 13:09:47,775 - INFO - [Intent]: Check if the amc theatre in pittsburgh can be reached in one hour by car from hobart street
+2025-05-20 13:09:47,775 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,806 - INFO - [Config file]: /tmp/tmpkcjgbznt/41.json
+2025-05-20 13:09:47,806 - INFO - [Intent]: List the top 1 search terms in my store
+2025-05-20 13:09:47,806 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,836 - INFO - [Config file]: /tmp/tmp9r3f7y0a/42.json
+2025-05-20 13:09:47,836 - INFO - [Intent]: List the top 2 search terms in my store
+2025-05-20 13:09:47,836 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,867 - INFO - [Config file]: /tmp/tmpw5tdl6_d/43.json
+2025-05-20 13:09:47,867 - INFO - [Intent]: List the top 3 search terms in my store
+2025-05-20 13:09:47,867 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,892 - INFO - [Config file]: /tmp/tmpvfd_lv5f/44.json
+2025-05-20 13:09:47,892 - INFO - [Intent]: Check out my todos
+2025-05-20 13:09:47,893 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,923 - INFO - [Config file]: /tmp/tmp_cda0zvu/45.json
+2025-05-20 13:09:47,923 - INFO - [Intent]: Check out the most recent open issues
+2025-05-20 13:09:47,923 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,954 - INFO - [Config file]: /tmp/tmppgtaexs8/46.json
+2025-05-20 13:09:47,954 - INFO - [Intent]: Check out the most recent open issues
+2025-05-20 13:09:47,954 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:47,983 - INFO - [Config file]: /tmp/tmpdzjd77zz/47.json
+2025-05-20 13:09:47,983 - INFO - [Intent]: Today is 6/12/2023. Tell me how many fulfilled orders I have over the past month, and the total amount of money I spent.
+2025-05-20 13:09:47,984 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,009 - INFO - [Config file]: /tmp/tmpe9a96r50/48.json
+2025-05-20 13:09:48,009 - INFO - [Intent]: Today is 6/12/2023. Tell me how many fulfilled orders I have over the past three days, and the total amount of money I spent.
+2025-05-20 13:09:48,009 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,037 - INFO - [Config file]: /tmp/tmp5tzr8itz/49.json
+2025-05-20 13:09:48,037 - INFO - [Intent]: Today is 6/12/2023. Tell me how many fulfilled orders I have over the past four month, and the total amount of money I spent.
+2025-05-20 13:09:48,037 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,066 - INFO - [Config file]: /tmp/tmpa21357wy/50.json
+2025-05-20 13:09:48,066 - INFO - [Intent]: Today is 6/12/2023. Tell me how many fulfilled orders I have over the past year, and the total amount of money I spent.
+2025-05-20 13:09:48,066 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,096 - INFO - [Config file]: /tmp/tmpp1kvkhfe/51.json
+2025-05-20 13:09:48,096 - INFO - [Intent]: Today is 6/12/2023. Tell me how many fulfilled orders I have over the past six month, and the total amount of money I spent.
+2025-05-20 13:09:48,097 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,098 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/52.json
+2025-05-20 13:09:48,098 - INFO - [Intent]: How long does it take to walk from Carnegie Mellon University to starbucks on Craig Street?
+2025-05-20 13:09:48,098 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,099 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/53.json
+2025-05-20 13:09:48,099 - INFO - [Intent]: How long does it take to walk from Univ of Pittsburgh to starbucks on Craig Street?
+2025-05-20 13:09:48,099 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,100 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/54.json
+2025-05-20 13:09:48,100 - INFO - [Intent]: How long does it take to walk from Carnegie Mellon University to Univ of Pittsburgh?
+2025-05-20 13:09:48,100 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,101 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/55.json
+2025-05-20 13:09:48,101 - INFO - [Intent]: How long does it take to walk from the starbuck near CMU to Chatham university?
+2025-05-20 13:09:48,101 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,102 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/56.json
+2025-05-20 13:09:48,102 - INFO - [Intent]: How long does it take to walk from Carnegie Museum of Art to a library at CMU?
+2025-05-20 13:09:48,102 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,103 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/57.json
+2025-05-20 13:09:48,103 - INFO - [Intent]: Tell me the closest restaurant(s) to university center at Carnegie Mellon University
+2025-05-20 13:09:48,103 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,103 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/58.json
+2025-05-20 13:09:48,103 - INFO - [Intent]: Tell me the closest cafe(s) to CMU Hunt library
+2025-05-20 13:09:48,103 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,104 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/59.json
+2025-05-20 13:09:48,104 - INFO - [Intent]: Tell me the closest restaurant(s) to CMU Hunt library
+2025-05-20 13:09:48,104 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,105 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/60.json
+2025-05-20 13:09:48,105 - INFO - [Intent]: Tell me the closest restaurant(s) to CMU Posner Hall
+2025-05-20 13:09:48,105 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,105 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/61.json
+2025-05-20 13:09:48,105 - INFO - [Intent]: Tell me the closest restaurant(s) to CMU Sorrells Library
+2025-05-20 13:09:48,106 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,133 - INFO - [Config file]: /tmp/tmpf7jy79j_/62.json
+2025-05-20 13:09:48,133 - INFO - [Intent]: Which customer has completed the most number of orders in the entire history?
+2025-05-20 13:09:48,133 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,162 - INFO - [Config file]: /tmp/tmpy9mywrzi/63.json
+2025-05-20 13:09:48,162 - INFO - [Intent]: Which customer(s) has completed the second most number of orders in the entire history?
+2025-05-20 13:09:48,162 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,192 - INFO - [Config file]: /tmp/tmpmpfdav2i/64.json
+2025-05-20 13:09:48,192 - INFO - [Intent]: Which customer has placed 2 orders in the entire history?
+2025-05-20 13:09:48,192 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,218 - INFO - [Config file]: /tmp/tmptb195kny/65.json
+2025-05-20 13:09:48,218 - INFO - [Intent]: Which customer has completed the fifth most number of orders in the entire history?
+2025-05-20 13:09:48,218 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,247 - INFO - [Config file]: /tmp/tmpketkx1ra/66.json
+2025-05-20 13:09:48,247 - INFO - [Intent]: Among the top 10 post in "books" forum, show me the post URLs that recommand a single book
+2025-05-20 13:09:48,247 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,278 - INFO - [Config file]: /tmp/tmpqpix7r6d/67.json
+2025-05-20 13:09:48,278 - INFO - [Intent]: Among the top 10 post in "books" forum, show me the book names from posts that recommand a single book
+2025-05-20 13:09:48,278 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,310 - INFO - [Config file]: /tmp/tmpg4_r_25c/68.json
+2025-05-20 13:09:48,310 - INFO - [Intent]: Among the top 10 post in "books" forum, show me the author name and the book name from posts that recommand a single book
+2025-05-20 13:09:48,310 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,340 - INFO - [Config file]: /tmp/tmp3zhgu0dj/69.json
+2025-05-20 13:09:48,340 - INFO - [Intent]: Among the top 10 post in "books" forum, is there any post talks about supporting local book stores? If so, tell me the organizations involved
+2025-05-20 13:09:48,341 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,341 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/70.json
+2025-05-20 13:09:48,341 - INFO - [Intent]: What is the zip code of Carnegie Mellon University?
+2025-05-20 13:09:48,342 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,342 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/71.json
+2025-05-20 13:09:48,342 - INFO - [Intent]: What is the zip code of Chatham University?
+2025-05-20 13:09:48,342 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,343 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/72.json
+2025-05-20 13:09:48,343 - INFO - [Intent]: What is the zip code of Yale University?
+2025-05-20 13:09:48,343 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,344 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/73.json
+2025-05-20 13:09:48,344 - INFO - [Intent]: What is the zip code of Columbia University?
+2025-05-20 13:09:48,344 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,345 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/74.json
+2025-05-20 13:09:48,345 - INFO - [Intent]: Given the following locations, ['Carnegie Mellon University', 'apple store shadyside', 'starbucks on craig street'], what would be the optimal route to travel through them all in order to minimize total travel time? Please note the journey begins at the first place listed.
+2025-05-20 13:09:48,345 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,346 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/75.json
+2025-05-20 13:09:48,346 - INFO - [Intent]: Given the following locations, ['Massachusetts Institute of Technology', 'Harvard University', 'Boston Logan International Airport'], what would be the optimal route to travel through them all in order to minimize total travel time? Please note the journey begins at the first place listed.
+2025-05-20 13:09:48,346 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,347 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/76.json
+2025-05-20 13:09:48,347 - INFO - [Intent]: Given the following locations, ['Princeton University', 'Yale University', 'Harvard University'], what would be the optimal route to travel through them all in order to minimize total travel time? Please note the journey begins at the first place listed.
+2025-05-20 13:09:48,347 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,377 - INFO - [Config file]: /tmp/tmp_t9d2g2g/77.json
+2025-05-20 13:09:48,378 - INFO - [Intent]: What is the total count of Pending reviews amongst all the reviews?
+2025-05-20 13:09:48,378 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,408 - INFO - [Config file]: /tmp/tmp3aj8znyy/78.json
+2025-05-20 13:09:48,408 - INFO - [Intent]: What is the total count of Approved reviews amongst all the reviews?
+2025-05-20 13:09:48,409 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,438 - INFO - [Config file]: /tmp/tmp3tjq1ujb/79.json
+2025-05-20 13:09:48,438 - INFO - [Intent]: What is the total count of Not Approved reviews amongst all the reviews?
+2025-05-20 13:09:48,439 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,439 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/80.json
+2025-05-20 13:09:48,439 - INFO - [Intent]: What is the duration required to first walk from Carnegie Mellon University to Starbucks on Craig Street, and then drive to Pittsburgh International Airport?
+2025-05-20 13:09:48,440 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,440 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/81.json
+2025-05-20 13:09:48,440 - INFO - [Intent]: What is the duration required to first walk from Univ of Pittsburgh to starbucks on Craig Street, and then drive to Pittsburgh International Airport?
+2025-05-20 13:09:48,440 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,442 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/82.json
+2025-05-20 13:09:48,442 - INFO - [Intent]: What is the duration required to first walk from Massachusetts Institute of Technology to Harvard University, and then drive to Boston Logan International Airport?
+2025-05-20 13:09:48,442 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,443 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/83.json
+2025-05-20 13:09:48,443 - INFO - [Intent]: What is the duration required to first walk from Carnegie Mellon University to apple store shadyside, and then drive to starbucks on craig street?
+2025-05-20 13:09:48,444 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,444 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/84.json
+2025-05-20 13:09:48,445 - INFO - [Intent]: From my stay at DoubleTree by Hilton New York Downtown, what's the estimated driving time to reach Keens Steakhouse?
+2025-05-20 13:09:48,445 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,445 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/85.json
+2025-05-20 13:09:48,445 - INFO - [Intent]: From my stay at La Quinta Inn near the airport, what's the estimated driving time to reach Carnegie Mellon University?
+2025-05-20 13:09:48,446 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,446 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/86.json
+2025-05-20 13:09:48,446 - INFO - [Intent]: From my stay at La Quinta Inn near the airport, what's the estimated driving time to reach Upitt?
+2025-05-20 13:09:48,446 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,447 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/87.json
+2025-05-20 13:09:48,447 - INFO - [Intent]: From my stay at red roof inn, what's the estimated driving time to reach Pittsburgh science museum?
+2025-05-20 13:09:48,447 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,448 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/88.json
+2025-05-20 13:09:48,448 - INFO - [Intent]: From my stay at Homewood Suites Southpointe, what's the estimated driving time to reach PPG Paints Arena?
+2025-05-20 13:09:48,448 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,448 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/89.json
+2025-05-20 13:09:48,448 - INFO - [Intent]: Which US states border Connecticut?
+2025-05-20 13:09:48,449 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,449 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/90.json
+2025-05-20 13:09:48,449 - INFO - [Intent]: Which US states border Pennsylvania?
+2025-05-20 13:09:48,449 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,450 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/91.json
+2025-05-20 13:09:48,450 - INFO - [Intent]: Which US states border Massachusetts?
+2025-05-20 13:09:48,450 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,450 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/92.json
+2025-05-20 13:09:48,450 - INFO - [Intent]: Which US states border Vermont?
+2025-05-20 13:09:48,451 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,451 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/93.json
+2025-05-20 13:09:48,451 - INFO - [Intent]: Which US states border New Hampshire?
+2025-05-20 13:09:48,451 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,481 - INFO - [Config file]: /tmp/tmpl166f51p/94.json
+2025-05-20 13:09:48,481 - INFO - [Intent]: Telll me the grand total of invoice 000000001.
+2025-05-20 13:09:48,481 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,511 - INFO - [Config file]: /tmp/tmpnamblhzj/95.json
+2025-05-20 13:09:48,511 - INFO - [Intent]: Telll me the grand total of invoice 000000002.
+2025-05-20 13:09:48,511 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,544 - INFO - [Config file]: /tmp/tmptjdbiyjd/96.json
+2025-05-20 13:09:48,544 - INFO - [Intent]: Tell me the status of my latest order and when will it arrive
+2025-05-20 13:09:48,544 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,545 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/97.json
+2025-05-20 13:09:48,545 - INFO - [Intent]: Tell me the distance to drive from Carnegie Mellon University to the top computer science school in massachusetts
+2025-05-20 13:09:48,545 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,546 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/98.json
+2025-05-20 13:09:48,546 - INFO - [Intent]: Where is the nearest tea cafe to University of Pittsburgh, and what is the walking distance to it?
+2025-05-20 13:09:48,546 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,547 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/99.json
+2025-05-20 13:09:48,547 - INFO - [Intent]: Where is the nearest Five Guys to 5700 Penn Ave, and what is the walking distance to it?
+2025-05-20 13:09:48,547 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,548 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/100.json
+2025-05-20 13:09:48,548 - INFO - [Intent]: Where is the nearest Starbucks to Carnegie Mellon, and what is the walking distance to it?
+2025-05-20 13:09:48,548 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,548 - INFO - [Config file]: /home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/101.json
+2025-05-20 13:09:48,549 - INFO - [Intent]: Where is the nearest In-N-Out to Upitts, and what is the walking distance to it?
+2025-05-20 13:09:48,549 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,579 - INFO - [Config file]: /tmp/tmpkt0d_13x/102.json
+2025-05-20 13:09:48,579 - INFO - [Intent]: Display the list of issues in the a11yproject/a11yproject.com repository that have labels related to help needed
+2025-05-20 13:09:48,579 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,607 - INFO - [Config file]: /tmp/tmpo4f0b9cz/103.json
+2025-05-20 13:09:48,607 - INFO - [Intent]: Display the list of issues in the kkroening/ffmpeg-python repository that have labels related to questions
+2025-05-20 13:09:48,608 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,638 - INFO - [Config file]: /tmp/tmpumrr9ibk/104.json
+2025-05-20 13:09:48,639 - INFO - [Intent]: Display the list of issues in the keycloak/keycloak repository that have labels related to flaky-test
+2025-05-20 13:09:48,639 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,671 - INFO - [Config file]: /tmp/tmp_8aptddk/105.json
+2025-05-20 13:09:48,671 - INFO - [Intent]: Display the list of issues in the OpenAPITools/openapi-generator repository that have labels related to OpenAPI Generator CLI
+2025-05-20 13:09:48,671 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,702 - INFO - [Config file]: /tmp/tmpmkz654pm/106.json
+2025-05-20 13:09:48,702 - INFO - [Intent]: Display the list of issues in the umano/AndroidSlidingUpPanel repository that have labels related to BUG
+2025-05-20 13:09:48,702 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,736 - INFO - [Config file]: /tmp/tmpn7dy5rpt/107.json
+2025-05-20 13:09:48,736 - INFO - [Intent]: Presents the monthly count of successful orders from May to December 2022 in MM:COUNT format
+2025-05-20 13:09:48,736 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,767 - INFO - [Config file]: /tmp/tmpi7sujnb7/108.json
+2025-05-20 13:09:48,767 - INFO - [Intent]: Presents the monthly count of successful orders 01/2023-05/2023 in MM:COUNT format
+2025-05-20 13:09:48,767 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,799 - INFO - [Config file]: /tmp/tmpzvkdj6hq/109.json
+2025-05-20 13:09:48,799 - INFO - [Intent]: Presents the monthly count of successful orders from Jan to December 2022 in MM:COUNT format
+2025-05-20 13:09:48,799 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,828 - INFO - [Config file]: /tmp/tmpnno5lggt/110.json
+2025-05-20 13:09:48,828 - INFO - [Intent]: Presents the monthly count of successful orders from Jan to Nov 2022 in MM:COUNT format
+2025-05-20 13:09:48,828 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,862 - INFO - [Config file]: /tmp/tmpmeygivsm/111.json
+2025-05-20 13:09:48,862 - INFO - [Intent]: Presents the monthly count of successful orders from Feb to Nov 2022 in MM:COUNT format
+2025-05-20 13:09:48,862 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,894 - INFO - [Config file]: /tmp/tmprvus_gwi/112.json
+2025-05-20 13:09:48,894 - INFO - [Intent]: Show me the customers who have expressed dissatisfaction with Circe fleece?
+2025-05-20 13:09:48,894 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,928 - INFO - [Config file]: /tmp/tmp4ua_z_wh/113.json
+2025-05-20 13:09:48,928 - INFO - [Intent]: Show me the customers who have expressed dissatisfaction with Olivia zip jacket?
+2025-05-20 13:09:48,928 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,959 - INFO - [Config file]: /tmp/tmp06ip7f6i/114.json
+2025-05-20 13:09:48,959 - INFO - [Intent]: Show me the customers who have expressed dissatisfaction with Antonia racer tank?
+2025-05-20 13:09:48,959 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:48,985 - INFO - [Config file]: /tmp/tmpjxn8x0y6/115.json
+2025-05-20 13:09:48,985 - INFO - [Intent]: Show me the name of the customers who have expressed dissatisfaction with Chloe tank
+2025-05-20 13:09:48,986 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:49,015 - INFO - [Config file]: /tmp/tmp43ovdxm4/116.json
+2025-05-20 13:09:49,016 - INFO - [Intent]: Show me the name of the customers who have expressed dissatisfaction with tanks products?
+2025-05-20 13:09:49,016 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:49,047 - INFO - [Config file]: /tmp/tmpqmtcci6j/117.json
+2025-05-20 13:09:49,047 - INFO - [Intent]: What is the date when I made my first purchase on this site?
+2025-05-20 13:09:49,047 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:49,078 - INFO - [Config file]: /tmp/tmpmpcttom0/118.json
+2025-05-20 13:09:49,078 - INFO - [Intent]: I have jaw bruxism problem, show me something that could alleviate the problem.
+2025-05-20 13:09:49,078 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:49,106 - INFO - [Config file]: /tmp/tmpq21hohmr/119.json
+2025-05-20 13:09:49,106 - INFO - [Intent]: Tell me the reasons why customers like Antonia Racer Tank
+2025-05-20 13:09:49,106 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:49,136 - INFO - [Config file]: /tmp/tmp1093jh0y/120.json
+2025-05-20 13:09:49,136 - INFO - [Intent]: Tell me the reasons why customers like Ana Running Short
+2025-05-20 13:09:49,136 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:49,167 - INFO - [Config file]: /tmp/tmpf1m82a29/121.json
+2025-05-20 13:09:49,167 - INFO - [Intent]: Tell me the reasons why customers like Circe hooded fleece
+2025-05-20 13:09:49,167 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 13:09:49,197 - INFO - [Config file]: /tmp/tmp0tg7t847/122.json
+2025-05-20 13:09:49,197 - INFO - [Intent]: Tell me the reasons why customers like Olivia zip jacket
+2025-05-20 13:09:49,197 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]

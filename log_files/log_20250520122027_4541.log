@@ -1,0 +1,15 @@
+2025-05-20 12:20:28,399 - INFO - [Config file]: /tmp/tmp6vzkrse2/0.json
+2025-05-20 12:20:28,400 - INFO - [Intent]: What is the top-1 best-selling product in 2022
+2025-05-20 12:20:28,933 - INFO - [Unhandled Error] FileNotFoundError(2, 'No such file or directory')]
+2025-05-20 12:20:29,684 - INFO - [Config file]: /tmp/tmpo67p7y60/1.json
+2025-05-20 12:20:29,684 - INFO - [Intent]: What is the top-1 best-selling brand in Quarter 1 2022
+2025-05-20 12:20:29,685 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 12:20:30,433 - INFO - [Config file]: /tmp/tmprrrwb_zg/2.json
+2025-05-20 12:20:30,433 - INFO - [Intent]: What is the top-1 best-selling product type in Quarter 1 2022
+2025-05-20 12:20:30,433 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 12:20:31,184 - INFO - [Config file]: /tmp/tmp4ca3zzc6/3.json
+2025-05-20 12:20:31,185 - INFO - [Intent]: What are the top-2 best-selling product in 2022
+2025-05-20 12:20:31,185 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]
+2025-05-20 12:20:31,938 - INFO - [Config file]: /tmp/tmp5t69aynh/4.json
+2025-05-20 12:20:31,938 - INFO - [Intent]: What are the top-3 best-selling product in Jan 2023
+2025-05-20 12:20:31,938 - INFO - [Unhandled Error] Error('It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead.')]

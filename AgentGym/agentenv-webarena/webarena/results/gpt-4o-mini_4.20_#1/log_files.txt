@@ -1,2 +1,0 @@
-log_files/log_20250421103524_5155.log
-log_files/log_20250421024830_5427.log

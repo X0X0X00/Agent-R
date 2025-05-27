@@ -1,0 +1,3 @@
+2025-05-20 12:24:24,817 - INFO - [Config file]: /tmp/tmp4zq7iptf/0.json
+2025-05-20 12:24:25,671 - INFO - [Intent]: What is the top-1 best-selling product in 2022
+2025-05-20 12:25:01,585 - INFO - [Unhandled Error] FileNotFoundError(2, 'No such file or directory')]

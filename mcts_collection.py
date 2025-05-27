@@ -77,6 +77,8 @@ def perform_mcts_search(Task, calling, env, conv, model_name, idx):
     mcts_search.save(f"{file_path}")
     print("MCTS Done")
 
+
+# 环境初始化
 def initialize_environment(Task, env_server_base, data_len = 200):
     """
     Initializes the environment based on the task type.
