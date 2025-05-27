@@ -9,7 +9,7 @@ from dataclasses import dataclass
 import mmengine
 import warnings
 from fastchat.model.model_adapter import get_conversation_template
-from agentenv.envs import WebarenaEnvClient
+from AgentGym.agentenv.agentenv.envs import WebarenaEnvClient
 from mcts_utils.mcts_raw import MCTSNode, MCTSAgent
 from mcts_utils.llm_server import FuncCall
 

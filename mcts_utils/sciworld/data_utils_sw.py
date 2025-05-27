@@ -16,6 +16,19 @@ limitations under the License.
 import re
 import random 
 
+'''
+状态变化（沸腾、融化、冻结）
+温度测量
+电力和电导率
+生物/非生物的分类
+植物生长
+化学混合
+比较寿命
+识别人生阶段
+力学（斜面、摩擦）
+孟德尔遗传学
+'''
+
 
 def get_real_task_id(task_name):
     task_name = task_name.replace("mendelian", "mendellian")

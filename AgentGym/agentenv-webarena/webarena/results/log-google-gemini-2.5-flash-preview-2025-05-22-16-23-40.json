@@ -1,0 +1,74 @@
+{
+    "/home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/0.json": [
+        "click [120] where [120] is link '\\ue60a REPORTS'",
+        "click [59] where [59] is tab 'The information in this tab has been changed. This tab contains invalid data. Please resolve this before saving. Loading... Bestsellers' expanded: True selected: True controls: grid_tab_ordered_products_content",
+        "click [120] where [120] is link '\\ue60a REPORTS'",
+        "click [120] where [120] is link '\\ue60a REPORTS' focused: True",
+        "click [597] where [597] is link 'Bestsellers'",
+        "click [2316] where [2316] is combobox 'Period' hasPopup: menu expanded: False",
+        "scroll [down]",
+        "click [2316] where [2316] is combobox 'Period' focused: True hasPopup: menu expanded: True",
+        "scroll [down]",
+        "type [1362] [01/01/2022] where [1362] is textbox 'From *' required: True",
+        "type [1365] [12/31/2022 ] where [1365] is textbox 'To *' required: True",
+        "type [1362] [01/01/2022] where [1362] is textbox 'From *' required: True",
+        "type [1365] [12/31/2022 ] where [1365] is textbox 'To *' required: True",
+        "type [1362] [01/01/2022] where [1362] is textbox 'From *' required: True",
+        "stop [Early stop: Same typing action for 3 times]"
+    ],
+    "/tmp/tmp_yne8n78/0.json": [
+        "click [120] where [120] is link '\\ue60a REPORTS'",
+        "click [59] where [59] is tab 'The information in this tab has been changed. This tab contains invalid data. Please resolve this before saving. Loading... Bestsellers' expanded: True selected: True controls: grid_tab_ordered_products_content",
+        "click [120] where [120] is link '\\ue60a REPORTS'",
+        "click [120] where [120] is link '\\ue60a REPORTS' focused: True",
+        "click [597] where [597] is link 'Bestsellers'",
+        "click [2316] where [2316] is combobox 'Period' hasPopup: menu expanded: False",
+        "scroll [down]",
+        "click [2316] where [2316] is combobox 'Period' focused: True hasPopup: menu expanded: True",
+        "scroll [down]",
+        "type [1362] [01/01/2022] where [1362] is textbox 'From *' required: True",
+        "type [1365] [12/31/2022 ] where [1365] is textbox 'To *' required: True",
+        "type [1362] [01/01/2022] where [1362] is textbox 'From *' required: True",
+        "type [1365] [12/31/2022 ] where [1365] is textbox 'To *' required: True",
+        "type [1362] [01/01/2022] where [1362] is textbox 'From *' required: True",
+        "stop [Early stop: Same typing action for 3 times]"
+    ],
+    "/home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/1.json": [
+        "click [120] where [120] is link '\\ue60a REPORTS'",
+        "click [597] where [597] is link 'Bestsellers'",
+        "type [1348] [01/01/2022 ] where [1348] is textbox 'From *' required: True",
+        "type [1351] [03/31/2022 ] where [1351] is textbox 'To *' required: True",
+        "type [1348] [01/01/2022 ] where [1348] is textbox 'From *' required: True",
+        "type [1351] [03/31/2022 ] where [1351] is textbox 'To *' required: True",
+        "type [1348] [01/01/2022 ] where [1348] is textbox 'From *' required: True",
+        "stop [Early stop: Same typing action for 3 times]"
+    ],
+    "/tmp/tmpf55gvikb/1.json": [
+        "click [120] where [120] is link '\\ue60a REPORTS'",
+        "click [597] where [597] is link 'Bestsellers'",
+        "type [1348] [01/01/2022 ] where [1348] is textbox 'From *' required: True",
+        "type [1351] [03/31/2022 ] where [1351] is textbox 'To *' required: True",
+        "type [1348] [01/01/2022 ] where [1348] is textbox 'From *' required: True",
+        "type [1351] [03/31/2022 ] where [1351] is textbox 'To *' required: True",
+        "type [1348] [01/01/2022 ] where [1348] is textbox 'From *' required: True",
+        "stop [Early stop: Same typing action for 3 times]"
+    ],
+    "/home/ubuntu/zhangzhenhao/Agent-R/AgentGym/agentenv-webarena/webarena/config_files/2.json": [
+        "click [120] where [120] is link '\\ue60a REPORTS'",
+        "click [597] where [597] is link 'Bestsellers'",
+        "type [1348] [01/01/2022 ] where [1348] is textbox 'From *' required: True",
+        "type [1351] [03/31/2022 ] where [1351] is textbox 'To *' required: True",
+        "type [1348] [01/01/2022 ] where [1348] is textbox 'From *' required: True",
+        "type [1351] [03/31/2022 ] where [1351] is textbox 'To *' required: True",
+        "type [1348] [01/01/2022 ] where [1348] is textbox 'From *' required: True"
+    ],
+    "/tmp/tmp798n5klt/2.json": [
+        "click [120] where [120] is link '\\ue60a REPORTS'",
+        "click [597] where [597] is link 'Bestsellers'",
+        "type [1348] [01/01/2022 ] where [1348] is textbox 'From *' required: True",
+        "type [1351] [03/31/2022 ] where [1351] is textbox 'To *' required: True",
+        "type [1348] [01/01/2022 ] where [1348] is textbox 'From *' required: True",
+        "type [1351] [03/31/2022 ] where [1351] is textbox 'To *' required: True",
+        "type [1348] [01/01/2022 ] where [1348] is textbox 'From *' required: True"
+    ]
+}
