@@ -1,0 +1,353 @@
+2025-06-07 08:02:39,451 - LLM_API_Logger - INFO - === LLM API Logger Started - Log file: llm_api_detailed_20250607_080239.log ===
+2025-06-07 08:02:39,453 - LLM_API_Logger - INFO - === Environment Variables ===
+2025-06-07 08:02:39,453 - LLM_API_Logger - INFO - OPENAI_API_KEY: sk-yE4vSQp...***
+2025-06-07 08:02:39,453 - LLM_API_Logger - INFO - OPENAI_API_BASE: http://10.112.59.240:3001/v1
+2025-06-07 08:02:39,453 - LLM_API_Logger - INFO - OPENAI_API_TYPE: NOT SET
+2025-06-07 08:02:39,453 - LLM_API_Logger - INFO - OPENAI_API_VERSION: NOT SET
+2025-06-07 08:02:39,453 - LLM_API_Logger - INFO - MODEL_DIR: NOT SET
+2025-06-07 08:02:39,453 - LLM_API_Logger - INFO - TASK: webarena
+2025-06-07 08:02:39,453 - LLM_API_Logger - INFO - MODEL_TYPE: google
+2025-06-07 08:02:39,453 - LLM_API_Logger - INFO - MAX_TOKEN_LENGTH: 4096
+2025-06-07 08:02:39,453 - LLM_API_Logger - INFO - TEMP: 0.7
+2025-06-07 08:02:39,454 - LLM_API_Logger - INFO - ========================================
+2025-06-07 08:02:39,454 - LLM_API_Logger - INFO - LLM API Logger module loaded successfully
+2025-06-07 08:03:27,137 - LLM_API_Logger - INFO - === Initializing FuncCall ===
+2025-06-07 08:03:27,137 - LLM_API_Logger - INFO - === Environment Variables ===
+2025-06-07 08:03:27,137 - LLM_API_Logger - INFO - OPENAI_API_KEY: sk-yE4vSQp...***
+2025-06-07 08:03:27,138 - LLM_API_Logger - INFO - OPENAI_API_BASE: http://10.112.59.240:3001/v1
+2025-06-07 08:03:27,138 - LLM_API_Logger - INFO - OPENAI_API_TYPE: NOT SET
+2025-06-07 08:03:27,138 - LLM_API_Logger - INFO - OPENAI_API_VERSION: NOT SET
+2025-06-07 08:03:27,138 - LLM_API_Logger - INFO - MODEL_DIR: NOT SET
+2025-06-07 08:03:27,138 - LLM_API_Logger - INFO - TASK: webarena
+2025-06-07 08:03:27,139 - LLM_API_Logger - INFO - MODEL_TYPE: google
+2025-06-07 08:03:27,139 - LLM_API_Logger - INFO - MAX_TOKEN_LENGTH: 4096
+2025-06-07 08:03:27,139 - LLM_API_Logger - INFO - TEMP: 0.7
+2025-06-07 08:03:27,139 - LLM_API_Logger - INFO - ========================================
+2025-06-07 08:03:27,406 - LLM_API_Logger - INFO - FuncCall initialized with model: google/gemini-2.5-flash-preview
+2025-06-07 08:03:27,407 - LLM_API_Logger - INFO - Using tokenizer for: gpt-4
+2025-06-07 08:03:27,407 - LLM_API_Logger - INFO - === Starting perform_test for task 0 ===
+2025-06-07 08:03:27,407 - LLM_API_Logger - INFO - Model: google/gemini-2.5-flash-preview, Max steps: 100
+2025-06-07 08:03:27,407 - LLM_API_Logger - INFO - Results will be saved to: test_result/webarena/google/gemini-2.5-flash-preview_google/search_results_0.json
+2025-06-07 08:03:27,408 - LLM_API_Logger - INFO - === Step 1/100 ===
+2025-06-07 08:03:27,408 - LLM_API_Logger - INFO - Token limit: 4096
+2025-06-07 08:03:27,417 - LLM_API_Logger - INFO - Current conversation length after content truncation: 2753 tokens
+2025-06-07 08:04:24,987 - LLM_API_Logger - INFO - Getting LLM response...
+2025-06-07 08:04:26,164 - LLM_API_Logger - INFO - === FuncCall.llm_func Called ===
+2025-06-07 08:04:26,165 - LLM_API_Logger - INFO - Target model: google/gemini-2.5-flash-preview
+2025-06-07 08:04:26,165 - LLM_API_Logger - INFO - === Attempt 1/5 ===
+2025-06-07 08:04:26,166 - LLM_API_Logger - INFO - === API Request Details (Attempt 1) ===
+2025-06-07 08:04:26,166 - LLM_API_Logger - INFO - Model Name: google/gemini-2.5-flash-preview
+2025-06-07 08:04:26,166 - LLM_API_Logger - INFO - Message Count: 4
+2025-06-07 08:04:26,166 - LLM_API_Logger - INFO - Message 1:
+2025-06-07 08:04:26,166 - LLM_API_Logger - INFO -   Role: system
+2025-06-07 08:04:26,167 - LLM_API_Logger - INFO -   Content: You are a helpful assistant.
+2025-06-07 08:04:26,167 - LLM_API_Logger - INFO - Message 2:
+2025-06-07 08:04:26,167 - LLM_API_Logger - INFO -   Role: user
+2025-06-07 08:04:26,167 - LLM_API_Logger - INFO -   Content: You are an autonomous intelligent agent tasked with navigating a web browser. You will be given web-based tasks. These tasks will be accomplished through the use of specific actions you can issue.
+
+Here's the information you'll have:
+The user's objective: This is the task you're trying to complete.
+The current web page's accessibility tree: This is a simplified representation of the webpage, providing key information.
+The current web page's URL: This is the page you're currently navigating.
+The ... (truncated, total length: 2773)
+2025-06-07 08:04:26,167 - LLM_API_Logger - INFO - Message 3:
+2025-06-07 08:04:26,168 - LLM_API_Logger - INFO -   Role: assistant
+2025-06-07 08:04:26,168 - LLM_API_Logger - INFO -   Content: Ok.
+2025-06-07 08:04:26,168 - LLM_API_Logger - INFO - Message 4:
+2025-06-07 08:04:26,168 - LLM_API_Logger - INFO -   Role: user
+2025-06-07 08:04:26,168 - LLM_API_Logger - INFO -   Content: Tab 0 (current): Dashboard / Magento Admin
+
+[1] RootWebArea 'Dashboard / Magento Admin' focused: True
+	[178] link 'Magento Admin Panel'
+		[201] img 'Magento Admin Panel'
+	[85] menubar '' orientation: horizontal
+		[87] link '\ue604 DASHBOARD'
+		[90] link '\ue60b SALES'
+		[96] link '\ue608 CATALOG'
+		[102] link '\ue603 CUSTOMERS'
+		[108] link '\ue609 MARKETING'
+		[114] link '\ue602 CONTENT'
+		[120] link '\ue60a REPORTS'
+		[138] link '\ue60d STORES'
+		[144] link '\ue610 SYSTEM'
+		[150] link '\ue612... (truncated, total length: 4330)
+2025-06-07 08:04:26,168 - LLM_API_Logger - INFO - Total request size: 7134 characters
+2025-06-07 08:04:26,169 - LLM_API_Logger - DEBUG - Full Request JSON size: 7805 characters
+2025-06-07 08:04:26,169 - LLM_API_Logger - DEBUG - Full Request JSON (truncated): {
+  "model": "google/gemini-2.5-flash-preview",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "You are an autonomous intelligent agent tasked with navigating a web browser. You will be given web-based tasks. These tasks will be accomplished through the use of specific actions you can issue.\n\nHere's the information you'll have:\nThe user's objective: This is the task you're trying to complete.\nThe current web page's accessibility tree: This is a simplified representation of the webpage, providing key information.\nThe current web page's URL: This is the page you're currently navigating.\nThe open tabs: These are the tabs you have open.\nThe previous action: This is the action you just performed. It may be helpful to track your progress.\n\nThe actions you can perform fall into several categories:\n\nPage Operation Actions:\n`click [id]`: This action clicks on an element with a specific...
+2025-06-07 08:04:26,170 - LLM_API_Logger - INFO - ========================================
+2025-06-07 08:04:27,585 - LLM_API_Logger - INFO - === Calling Legacy OpenAI API ===
+2025-06-07 08:04:28,569 - LLM_API_Logger - INFO - API Base: http://10.112.59.240:3001/v1
+2025-06-07 08:04:28,569 - LLM_API_Logger - INFO - API Key: sk-yE4vSQp...
+2025-06-07 08:04:28,570 - LLM_API_Logger - INFO - Using standard OpenAI API or compatible
+2025-06-07 08:04:28,570 - LLM_API_Logger - INFO - Model: google/gemini-2.5-flash-preview
+2025-06-07 08:04:28,571 - LLM_API_Logger - INFO - Final request size: 7806 characters
+2025-06-07 08:04:28,571 - LLM_API_Logger - INFO - Sending request to OpenAI API...
+2025-06-07 08:04:32,303 - LLM_API_Logger - INFO - Request completed in 3.73 seconds
+2025-06-07 08:04:32,304 - LLM_API_Logger - DEBUG - Full API Response: {
+  "id": "gen-1749283469-5FhpB9D1ypTWueijDJcf",
+  "provider": "Google",
+  "model": "google/gemini-2.5-flash-preview",
+  "object": "chat.completion",
+  "created": 1749283469,
+  "choices": [
+    {
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The user is on the Magento Admin dashboard. The objective is not explicitly stated, but the current view shows sales and product information. I will examine the available links and tabs to understand the possible actions and determine the next step based on a potential objective related to sales, catalog, customers, or reports. Since the objective is not specified, I will assume the user wants to view the sales report.\n\nIn summary, the next action I will perform is ```click [90]```",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2139,
+    "completion_tokens": 97,
+    "total_tokens": 2236
+  }
+}
+2025-06-07 08:04:32,304 - LLM_API_Logger - INFO - API call successful!
+2025-06-07 08:04:32,304 - LLM_API_Logger - INFO - === API Response Details ===
+2025-06-07 08:04:32,304 - LLM_API_Logger - INFO - Status: SUCCESS
+2025-06-07 08:04:32,304 - LLM_API_Logger - INFO - Response: The user is on the Magento Admin dashboard. The objective is not explicitly stated, but the current view shows sales and product information. I will examine the available links and tabs to understand the possible actions and determine the next step based on a potential objective related to sales, catalog, customers, or reports. Since the objective is not specified, I will assume the user wants to view the sales report.
+
+In summary, the next action I will perform is ```click [90]```
+2025-06-07 08:04:32,305 - LLM_API_Logger - INFO - Response Length: 486
+2025-06-07 08:04:32,305 - LLM_API_Logger - INFO - ========================================
+2025-06-07 08:04:35,216 - LLM_API_Logger - INFO - Agent response received: The user is on the Magento Admin dashboard. The objective is not explicitly stated, but the current view shows sales and product information. I will examine the available links and tabs to understand ...
+2025-06-07 08:04:35,216 - LLM_API_Logger - DEBUG - Extracting action from WebArena response: The user is on the Magento Admin dashboard. The objective is not explicitly stated, but the current view shows sales and product information. I will examine the available links and tabs to understand ...
+2025-06-07 08:04:35,217 - LLM_API_Logger - INFO - Found action using '```' method: click [90]
+2025-06-07 08:04:35,217 - LLM_API_Logger - INFO - Extracted action: click [90]
+2025-06-07 08:04:35,217 - LLM_API_Logger - INFO - Executing action in environment...
+2025-06-07 08:05:36,013 - LLM_API_Logger - INFO - Environment response - State: {'text': 'Tab 0 (current): Dashboard / Magento Admin\n\n[1] RootWebArea \'Dashboard / Magento Admin\...
+2025-06-07 08:05:36,013 - LLM_API_Logger - INFO - Reward: 1.0, Done: False
+2025-06-07 08:05:36,014 - LLM_API_Logger - INFO - === Step 2/100 ===
+2025-06-07 08:05:36,014 - LLM_API_Logger - INFO - Token limit: 4096
+2025-06-07 08:05:36,019 - LLM_API_Logger - INFO - Current conversation length after content truncation: 4494 tokens
+2025-06-07 08:05:36,019 - LLM_API_Logger - INFO - Truncating conversation to fit token limit
+2025-06-07 08:05:36,021 - LLM_API_Logger - INFO - New conversation length: 2855 tokens
+2025-06-07 08:05:39,799 - LLM_API_Logger - INFO - Getting LLM response...
+2025-06-07 08:05:42,102 - LLM_API_Logger - INFO - === FuncCall.llm_func Called ===
+2025-06-07 08:05:42,103 - LLM_API_Logger - INFO - Target model: google/gemini-2.5-flash-preview
+2025-06-07 08:05:42,104 - LLM_API_Logger - INFO - === Attempt 1/5 ===
+2025-06-07 08:05:42,104 - LLM_API_Logger - INFO - === API Request Details (Attempt 1) ===
+2025-06-07 08:05:42,104 - LLM_API_Logger - INFO - Model Name: google/gemini-2.5-flash-preview
+2025-06-07 08:05:42,104 - LLM_API_Logger - INFO - Message Count: 5
+2025-06-07 08:05:42,104 - LLM_API_Logger - INFO - Message 1:
+2025-06-07 08:05:42,105 - LLM_API_Logger - INFO -   Role: system
+2025-06-07 08:05:42,105 - LLM_API_Logger - INFO -   Content: You are a helpful assistant.
+2025-06-07 08:05:42,105 - LLM_API_Logger - INFO - Message 2:
+2025-06-07 08:05:42,105 - LLM_API_Logger - INFO -   Role: user
+2025-06-07 08:05:42,105 - LLM_API_Logger - INFO -   Content: You are an autonomous intelligent agent tasked with navigating a web browser. You will be given web-based tasks. These tasks will be accomplished through the use of specific actions you can issue.
+
+Here's the information you'll have:
+The user's objective: This is the task you're trying to complete.
+The current web page's accessibility tree: This is a simplified representation of the webpage, providing key information.
+The current web page's URL: This is the page you're currently navigating.
+The ... (truncated, total length: 2773)
+2025-06-07 08:05:42,105 - LLM_API_Logger - INFO - Message 3:
+2025-06-07 08:05:42,106 - LLM_API_Logger - INFO -   Role: assistant
+2025-06-07 08:05:42,106 - LLM_API_Logger - INFO -   Content: Ok.
+2025-06-07 08:05:42,106 - LLM_API_Logger - INFO - Message 4:
+2025-06-07 08:05:42,106 - LLM_API_Logger - INFO -   Role: user
+2025-06-07 08:05:42,106 - LLM_API_Logger - INFO -   Content: Tab 0 (current): Dashboard / Magento Admin
+
+[1] RootWebArea 'Dashboard / Magento Admin' focused: True
+	[178] link 'Magento Admin Panel'
+		[201] img 'Magento Admin Panel'
+	[85] menubar '' orientation: horizontal
+		[87] link '\ue604 DASHBOARD'
+		[90] link '\ue60b SALES'
+		[96] link '\ue608 CATALOG'
+		[102] link '\ue603 CUSTOMERS'
+		[108] link '\ue609 MARKETING'
+		[114] link '\ue602 CONTENT'
+		[120] link '\ue60a REPORTS'
+		[138] link '\ue60d STORES'
+		[144] link '\ue610 SYSTEM'
+		[150] link '\ue612... (truncated, total length: 4330)
+2025-06-07 08:05:42,107 - LLM_API_Logger - INFO - Message 5:
+2025-06-07 08:05:42,107 - LLM_API_Logger - INFO -   Role: assistant
+2025-06-07 08:05:42,107 - LLM_API_Logger - INFO -   Content: The user is on the Magento Admin dashboard. The objective is not explicitly stated, but the current view shows sales and product information. I will examine the available links and tabs to understand the possible actions and determine the next step based on a potential objective related to sales, catalog, customers, or reports. Since the objective is not specified, I will assume the user wants to view the sales report.
+
+In summary, the next action I will perform is ```click [90]```
+2025-06-07 08:05:42,107 - LLM_API_Logger - INFO - Total request size: 7620 characters
+2025-06-07 08:05:42,108 - LLM_API_Logger - DEBUG - Full Request JSON size: 8353 characters
+2025-06-07 08:05:42,108 - LLM_API_Logger - DEBUG - Full Request JSON (truncated): {
+  "model": "google/gemini-2.5-flash-preview",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "You are an autonomous intelligent agent tasked with navigating a web browser. You will be given web-based tasks. These tasks will be accomplished through the use of specific actions you can issue.\n\nHere's the information you'll have:\nThe user's objective: This is the task you're trying to complete.\nThe current web page's accessibility tree: This is a simplified representation of the webpage, providing key information.\nThe current web page's URL: This is the page you're currently navigating.\nThe open tabs: These are the tabs you have open.\nThe previous action: This is the action you just performed. It may be helpful to track your progress.\n\nThe actions you can perform fall into several categories:\n\nPage Operation Actions:\n`click [id]`: This action clicks on an element with a specific...
+2025-06-07 08:05:42,108 - LLM_API_Logger - INFO - ========================================
+2025-06-07 08:05:45,779 - LLM_API_Logger - INFO - === Calling Legacy OpenAI API ===
+2025-06-07 08:05:47,098 - LLM_API_Logger - INFO - API Base: http://10.112.59.240:3001/v1
+2025-06-07 08:05:47,099 - LLM_API_Logger - INFO - API Key: sk-yE4vSQp...
+2025-06-07 08:05:47,099 - LLM_API_Logger - INFO - Using standard OpenAI API or compatible
+2025-06-07 08:05:47,099 - LLM_API_Logger - INFO - Model: google/gemini-2.5-flash-preview
+2025-06-07 08:05:47,100 - LLM_API_Logger - INFO - Final request size: 8354 characters
+2025-06-07 08:05:47,100 - LLM_API_Logger - INFO - Sending request to OpenAI API...
+2025-06-07 08:05:49,375 - LLM_API_Logger - INFO - Request completed in 2.27 seconds
+2025-06-07 08:05:49,376 - LLM_API_Logger - DEBUG - Full API Response: {
+  "id": "gen-1749283547-70VmL3PgTAKOp1148aZL",
+  "provider": "Google",
+  "model": "google/gemini-2.5-flash-preview",
+  "object": "chat.completion",
+  "created": 1749283547,
+  "choices": [
+    {
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2236,
+    "completion_tokens": 0,
+    "total_tokens": 2236
+  }
+}
+2025-06-07 08:05:49,376 - LLM_API_Logger - INFO - API call successful!
+2025-06-07 08:05:49,376 - LLM_API_Logger - INFO - === API Response Details ===
+2025-06-07 08:05:49,377 - LLM_API_Logger - INFO - Status: SUCCESS
+2025-06-07 08:05:49,377 - LLM_API_Logger - INFO - Response: 
+2025-06-07 08:05:49,377 - LLM_API_Logger - INFO - Response Length: 0
+2025-06-07 08:05:49,377 - LLM_API_Logger - INFO - ========================================
+2025-06-07 08:05:53,962 - LLM_API_Logger - INFO - Agent response received: ...
+2025-06-07 08:05:53,963 - LLM_API_Logger - DEBUG - Extracting action from WebArena response: ...
+2025-06-07 08:05:53,968 - LLM_API_Logger - WARNING - Could not extract action using standard methods, returning full response
+2025-06-07 08:05:53,968 - LLM_API_Logger - INFO - Extracted action: 
+2025-06-07 08:05:53,968 - LLM_API_Logger - INFO - Executing action in environment...
+2025-06-07 08:06:37,434 - LLM_API_Logger - INFO - Environment response - State: {'text': 'Tab 0 (current): Dashboard / Magento Admin\n\n[1] RootWebArea \'Dashboard / Magento Admin\...
+2025-06-07 08:06:37,435 - LLM_API_Logger - INFO - Reward: 1.0, Done: False
+2025-06-07 08:06:37,435 - LLM_API_Logger - INFO - === Step 3/100 ===
+2025-06-07 08:06:37,435 - LLM_API_Logger - INFO - Token limit: 4096
+2025-06-07 08:06:37,440 - LLM_API_Logger - INFO - Current conversation length after content truncation: 4499 tokens
+2025-06-07 08:06:37,440 - LLM_API_Logger - INFO - Truncating conversation to fit token limit
+2025-06-07 08:06:37,443 - LLM_API_Logger - INFO - New conversation length: 2855 tokens
+2025-06-07 08:15:29,597 - LLM_API_Logger - INFO - Getting LLM response...
+2025-06-07 08:15:49,700 - LLM_API_Logger - INFO - === FuncCall.llm_func Called ===
+2025-06-07 08:15:49,701 - LLM_API_Logger - INFO - Target model: google/gemini-2.5-flash-preview
+2025-06-07 08:15:49,702 - LLM_API_Logger - INFO - === Attempt 1/5 ===
+2025-06-07 08:15:49,702 - LLM_API_Logger - INFO - === API Request Details (Attempt 1) ===
+2025-06-07 08:15:49,702 - LLM_API_Logger - INFO - Model Name: google/gemini-2.5-flash-preview
+2025-06-07 08:15:49,703 - LLM_API_Logger - INFO - Message Count: 5
+2025-06-07 08:15:49,703 - LLM_API_Logger - INFO - Message 1:
+2025-06-07 08:15:49,703 - LLM_API_Logger - INFO -   Role: system
+2025-06-07 08:15:49,703 - LLM_API_Logger - INFO -   Content: You are a helpful assistant.
+2025-06-07 08:15:49,703 - LLM_API_Logger - INFO - Message 2:
+2025-06-07 08:15:49,703 - LLM_API_Logger - INFO -   Role: user
+2025-06-07 08:15:49,704 - LLM_API_Logger - INFO -   Content: You are an autonomous intelligent agent tasked with navigating a web browser. You will be given web-based tasks. These tasks will be accomplished through the use of specific actions you can issue.
+
+Here's the information you'll have:
+The user's objective: This is the task you're trying to complete.
+The current web page's accessibility tree: This is a simplified representation of the webpage, providing key information.
+The current web page's URL: This is the page you're currently navigating.
+The ... (truncated, total length: 2773)
+2025-06-07 08:15:49,704 - LLM_API_Logger - INFO - Message 3:
+2025-06-07 08:15:49,704 - LLM_API_Logger - INFO -   Role: assistant
+2025-06-07 08:15:49,704 - LLM_API_Logger - INFO -   Content: Ok.
+2025-06-07 08:15:49,704 - LLM_API_Logger - INFO - Message 4:
+2025-06-07 08:15:49,704 - LLM_API_Logger - INFO -   Role: user
+2025-06-07 08:15:49,705 - LLM_API_Logger - INFO -   Content: Tab 0 (current): Dashboard / Magento Admin
+
+[1] RootWebArea 'Dashboard / Magento Admin' focused: True
+	[178] link 'Magento Admin Panel'
+		[201] img 'Magento Admin Panel'
+	[85] menubar '' orientation: horizontal
+		[87] link '\ue604 DASHBOARD'
+		[90] link '\ue60b SALES'
+		[96] link '\ue608 CATALOG'
+		[102] link '\ue603 CUSTOMERS'
+		[108] link '\ue609 MARKETING'
+		[114] link '\ue602 CONTENT'
+		[120] link '\ue60a REPORTS'
+		[138] link '\ue60d STORES'
+		[144] link '\ue610 SYSTEM'
+		[150] link '\ue612... (truncated, total length: 4330)
+2025-06-07 08:15:49,705 - LLM_API_Logger - INFO - Message 5:
+2025-06-07 08:15:49,705 - LLM_API_Logger - INFO -   Role: assistant
+2025-06-07 08:15:49,705 - LLM_API_Logger - INFO -   Content: The user is on the Magento Admin dashboard. The objective is not explicitly stated, but the current view shows sales and product information. I will examine the available links and tabs to understand the possible actions and determine the next step based on a potential objective related to sales, catalog, customers, or reports. Since the objective is not specified, I will assume the user wants to view the sales report.
+
+In summary, the next action I will perform is ```click [90]```
+2025-06-07 08:15:49,705 - LLM_API_Logger - INFO - Total request size: 7620 characters
+2025-06-07 08:15:49,706 - LLM_API_Logger - DEBUG - Full Request JSON size: 8353 characters
+2025-06-07 08:15:49,706 - LLM_API_Logger - DEBUG - Full Request JSON (truncated): {
+  "model": "google/gemini-2.5-flash-preview",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "You are an autonomous intelligent agent tasked with navigating a web browser. You will be given web-based tasks. These tasks will be accomplished through the use of specific actions you can issue.\n\nHere's the information you'll have:\nThe user's objective: This is the task you're trying to complete.\nThe current web page's accessibility tree: This is a simplified representation of the webpage, providing key information.\nThe current web page's URL: This is the page you're currently navigating.\nThe open tabs: These are the tabs you have open.\nThe previous action: This is the action you just performed. It may be helpful to track your progress.\n\nThe actions you can perform fall into several categories:\n\nPage Operation Actions:\n`click [id]`: This action clicks on an element with a specific...
+2025-06-07 08:15:49,706 - LLM_API_Logger - INFO - ========================================
+2025-06-07 08:19:21,130 - LLM_API_Logger - INFO - === Calling Legacy OpenAI API ===
+2025-06-07 08:19:25,612 - LLM_API_Logger - INFO - API Base: http://10.112.59.240:3001/v1
+2025-06-07 08:19:25,612 - LLM_API_Logger - INFO - API Key: sk-yE4vSQp...
+2025-06-07 08:19:25,612 - LLM_API_Logger - INFO - Using standard OpenAI API or compatible
+2025-06-07 08:19:25,613 - LLM_API_Logger - INFO - Model: google/gemini-2.5-flash-preview
+2025-06-07 08:19:25,613 - LLM_API_Logger - INFO - Final request size: 8354 characters
+2025-06-07 08:19:25,614 - LLM_API_Logger - INFO - Sending request to OpenAI API...
+2025-06-07 08:19:28,733 - LLM_API_Logger - INFO - Request completed in 3.12 seconds
+2025-06-07 08:19:28,733 - LLM_API_Logger - DEBUG - Full API Response: {
+  "id": "gen-1749284367-KkCPsE2kt5UgKICBrYly",
+  "provider": "Google",
+  "model": "google/gemini-2.5-flash-preview",
+  "object": "chat.completion",
+  "created": 1749284367,
+  "choices": [
+    {
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2236,
+    "completion_tokens": 0,
+    "total_tokens": 2236
+  }
+}
+2025-06-07 08:19:28,734 - LLM_API_Logger - INFO - API call successful!
+2025-06-07 08:19:28,734 - LLM_API_Logger - INFO - === API Response Details ===
+2025-06-07 08:19:28,734 - LLM_API_Logger - INFO - Status: SUCCESS
+2025-06-07 08:19:28,734 - LLM_API_Logger - INFO - Response: 
+2025-06-07 08:19:28,734 - LLM_API_Logger - INFO - Response Length: 0
+2025-06-07 08:19:28,734 - LLM_API_Logger - INFO - ========================================
+2025-06-07 08:20:01,720 - LLM_API_Logger - INFO - Agent response received: ...
+2025-06-07 08:20:03,248 - LLM_API_Logger - DEBUG - Extracting action from WebArena response: ...
+2025-06-07 08:20:03,249 - LLM_API_Logger - WARNING - Could not extract action using standard methods, returning full response
+2025-06-07 08:20:06,275 - LLM_API_Logger - INFO - Extracted action: 
+2025-06-07 08:20:07,750 - LLM_API_Logger - INFO - Executing action in environment...

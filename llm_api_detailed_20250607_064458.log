@@ -1,0 +1,79 @@
+2025-06-07 06:44:58,390 - LLM_API_Logger - INFO - === LLM API Logger Started - Log file: llm_api_detailed_20250607_064458.log ===
+2025-06-07 06:44:58,392 - LLM_API_Logger - INFO - === Environment Variables ===
+2025-06-07 06:44:58,392 - LLM_API_Logger - INFO - OPENAI_API_KEY: sk-yE4vSQp...***
+2025-06-07 06:44:58,392 - LLM_API_Logger - INFO - OPENAI_API_BASE: http://10.112.59.240:3001/v1
+2025-06-07 06:44:58,392 - LLM_API_Logger - INFO - OPENAI_API_TYPE: NOT SET
+2025-06-07 06:44:58,392 - LLM_API_Logger - INFO - OPENAI_API_VERSION: NOT SET
+2025-06-07 06:44:58,392 - LLM_API_Logger - INFO - MODEL_DIR: NOT SET
+2025-06-07 06:44:58,392 - LLM_API_Logger - INFO - TASK: webarena
+2025-06-07 06:44:58,393 - LLM_API_Logger - INFO - MODEL_TYPE: google
+2025-06-07 06:44:58,393 - LLM_API_Logger - INFO - MAX_TOKEN_LENGTH: 4096
+2025-06-07 06:44:58,393 - LLM_API_Logger - INFO - TEMP: 0.7
+2025-06-07 06:44:58,393 - LLM_API_Logger - INFO - ========================================
+2025-06-07 06:44:58,393 - LLM_API_Logger - INFO - LLM API Logger module loaded successfully
+2025-06-07 06:46:49,856 - LLM_API_Logger - INFO - === Initializing FuncCall ===
+2025-06-07 06:46:49,856 - LLM_API_Logger - INFO - === Environment Variables ===
+2025-06-07 06:46:49,857 - LLM_API_Logger - INFO - OPENAI_API_KEY: sk-yE4vSQp...***
+2025-06-07 06:46:49,857 - LLM_API_Logger - INFO - OPENAI_API_BASE: http://10.112.59.240:3001/v1
+2025-06-07 06:46:49,857 - LLM_API_Logger - INFO - OPENAI_API_TYPE: NOT SET
+2025-06-07 06:46:49,857 - LLM_API_Logger - INFO - OPENAI_API_VERSION: NOT SET
+2025-06-07 06:46:49,857 - LLM_API_Logger - INFO - MODEL_DIR: NOT SET
+2025-06-07 06:46:49,858 - LLM_API_Logger - INFO - TASK: webarena
+2025-06-07 06:46:49,858 - LLM_API_Logger - INFO - MODEL_TYPE: google
+2025-06-07 06:46:49,858 - LLM_API_Logger - INFO - MAX_TOKEN_LENGTH: 4096
+2025-06-07 06:46:49,858 - LLM_API_Logger - INFO - TEMP: 0.7
+2025-06-07 06:46:49,858 - LLM_API_Logger - INFO - ========================================
+2025-06-07 06:46:50,113 - LLM_API_Logger - INFO - FuncCall initialized with model: google/gemini-2.5-flash-preview
+2025-06-07 06:46:50,113 - LLM_API_Logger - INFO - Using tokenizer for: gpt-4
+2025-06-07 06:46:50,113 - LLM_API_Logger - INFO - === Starting perform_test for task 0 ===
+2025-06-07 06:46:50,114 - LLM_API_Logger - INFO - Model: google/gemini-2.5-flash-preview, Max steps: 100
+2025-06-07 06:46:50,114 - LLM_API_Logger - INFO - Results will be saved to: test_result/webarena/google/gemini-2.5-flash-preview_google/search_results_0.json
+2025-06-07 06:46:50,114 - LLM_API_Logger - INFO - === Step 1/100 ===
+2025-06-07 06:46:50,114 - LLM_API_Logger - INFO - Token limit: 4096
+2025-06-07 06:46:50,124 - LLM_API_Logger - INFO - Current conversation length after content truncation: 2754 tokens
+2025-06-07 06:46:50,124 - LLM_API_Logger - INFO - Getting LLM response...
+2025-06-07 06:47:10,843 - LLM_API_Logger - INFO - === FuncCall.llm_func Called ===
+2025-06-07 06:47:11,396 - LLM_API_Logger - INFO - Target model: google/gemini-2.5-flash-preview
+2025-06-07 06:47:32,420 - LLM_API_Logger - INFO - Messages contained numpy arrays - converted to JSON-serializable format
+2025-06-07 06:47:36,444 - LLM_API_Logger - INFO - === Attempt 1/5 ===
+2025-06-07 06:47:37,278 - LLM_API_Logger - INFO - === API Request Details (Attempt 1) ===
+2025-06-07 06:47:37,278 - LLM_API_Logger - INFO - Model Name: google/gemini-2.5-flash-preview
+2025-06-07 06:47:37,278 - LLM_API_Logger - INFO - Message Count: 4
+2025-06-07 06:47:37,278 - LLM_API_Logger - INFO - Message 1:
+2025-06-07 06:47:37,279 - LLM_API_Logger - INFO -   Role: system
+2025-06-07 06:47:37,279 - LLM_API_Logger - INFO -   Content: You are a helpful assistant.
+2025-06-07 06:47:37,279 - LLM_API_Logger - INFO - Message 2:
+2025-06-07 06:47:37,279 - LLM_API_Logger - INFO -   Role: user
+2025-06-07 06:47:37,279 - LLM_API_Logger - INFO -   Content: You are an autonomous intelligent agent tasked with navigating a web browser. You will be given web-based tasks. These tasks will be accomplished through the use of specific actions you can issue.
+
+Here's the information you'll have:
+The user's objective: This is the task you're trying to complete.
+The current web page's accessibility tree: This is a simplified representation of the webpage, providing key information.
+The current web page's URL: This is the page you're currently navigating.
+The ... (truncated, total length: 2773)
+2025-06-07 06:47:37,280 - LLM_API_Logger - INFO - Message 3:
+2025-06-07 06:47:37,280 - LLM_API_Logger - INFO -   Role: assistant
+2025-06-07 06:47:37,280 - LLM_API_Logger - INFO -   Content: Ok.
+2025-06-07 06:47:37,280 - LLM_API_Logger - INFO - Message 4:
+2025-06-07 06:47:37,280 - LLM_API_Logger - INFO -   Role: user
+2025-06-07 06:47:37,569 - LLM_API_Logger - INFO -   Content: {'text': 'Tab 0 (current): Dashboard / Magento Admin\n\n[1] RootWebArea \'Dashboard / Magento Admin\' focused: True\n\t[178] link \'Magento Admin Panel\'\n\t\t[201] img \'Magento Admin Panel\'\n\t[85] menubar \'\' orientation: horizontal\n\t\t[87] link \'\\ue604 DASHBOARD\'\n\t\t[90] link \'\\ue60b SALES\'\n\t\t[96] link \'\\ue608 CATALOG\'\n\t\t[102] link \'\\ue603 CUSTOMERS\'\n\t\t[108] link \'\\ue609 MARKETING\'\n\t\t[114] link \'\\ue602 CONTENT\'\n\t\t[120] link \'\\ue60a REPORTS\'\n\t\t[138... (truncated, total length: 20028867)
+2025-06-07 06:47:37,570 - LLM_API_Logger - INFO - Total request size: 20031671 characters
+2025-06-07 06:47:37,570 - LLM_API_Logger - ERROR - WARNING: Request size (20031671 chars) is very large and may cause API errors!
+2025-06-07 06:48:14,522 - LLM_API_Logger - DEBUG - Full Request JSON size: 95618984 characters
+2025-06-07 06:48:14,522 - LLM_API_Logger - DEBUG - Full Request JSON (truncated): {
+  "model": "google/gemini-2.5-flash-preview",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "You are an autonomous intelligent agent tasked with navigating a web browser. You will be given web-based tasks. These tasks will be accomplished through the use of specific actions you can issue.\n\nHere's the information you'll have:\nThe user's objective: This is the task you're trying to complete.\nThe current web page's accessibility tree: This is a simplified representation of the webpage, providing key information.\nThe current web page's URL: This is the page you're currently navigating.\nThe open tabs: These are the tabs you have open.\nThe previous action: This is the action you just performed. It may be helpful to track your progress.\n\nThe actions you can perform fall into several categories:\n\nPage Operation Actions:\n`click [id]`: This action clicks on an element with a specific...
+2025-06-07 06:48:14,523 - LLM_API_Logger - INFO - ========================================
+2025-06-07 06:48:25,091 - LLM_API_Logger - INFO - === Calling Legacy OpenAI API ===
+2025-06-07 06:49:27,394 - LLM_API_Logger - ERROR - Content too large (20031671 chars), truncating messages...
+2025-06-07 06:49:28,296 - LLM_API_Logger - INFO - Truncated message content from 20028867 to 5000 chars
+2025-06-07 06:49:33,905 - LLM_API_Logger - INFO - API Base: http://10.112.59.240:3001/v1
+2025-06-07 06:49:35,963 - LLM_API_Logger - INFO - API Type: None
+2025-06-07 06:49:38,649 - LLM_API_Logger - INFO - API Version: 2023-05-15

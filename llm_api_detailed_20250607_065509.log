@@ -1,0 +1,13 @@
+2025-06-07 06:55:09,270 - LLM_API_Logger - INFO - === LLM API Logger Started - Log file: llm_api_detailed_20250607_065509.log ===
+2025-06-07 06:55:09,272 - LLM_API_Logger - INFO - === Environment Variables ===
+2025-06-07 06:55:09,272 - LLM_API_Logger - INFO - OPENAI_API_KEY: sk-yE4vSQp...***
+2025-06-07 06:55:09,272 - LLM_API_Logger - INFO - OPENAI_API_BASE: http://10.112.59.240:3001/v1
+2025-06-07 06:55:09,272 - LLM_API_Logger - INFO - OPENAI_API_TYPE: NOT SET
+2025-06-07 06:55:09,272 - LLM_API_Logger - INFO - OPENAI_API_VERSION: NOT SET
+2025-06-07 06:55:09,272 - LLM_API_Logger - INFO - MODEL_DIR: NOT SET
+2025-06-07 06:55:09,272 - LLM_API_Logger - INFO - TASK: webarena
+2025-06-07 06:55:09,272 - LLM_API_Logger - INFO - MODEL_TYPE: google
+2025-06-07 06:55:09,273 - LLM_API_Logger - INFO - MAX_TOKEN_LENGTH: 4096
+2025-06-07 06:55:09,273 - LLM_API_Logger - INFO - TEMP: 0.7
+2025-06-07 06:55:09,273 - LLM_API_Logger - INFO - ========================================
+2025-06-07 06:55:09,273 - LLM_API_Logger - INFO - LLM API Logger module loaded successfully

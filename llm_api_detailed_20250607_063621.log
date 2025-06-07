@@ -1,0 +1,202 @@
+2025-06-07 06:36:21,756 - LLM_API_Logger - INFO - === LLM API Logger Started - Log file: llm_api_detailed_20250607_063621.log ===
+2025-06-07 06:36:21,758 - LLM_API_Logger - INFO - === Environment Variables ===
+2025-06-07 06:36:21,758 - LLM_API_Logger - INFO - OPENAI_API_KEY: sk-yE4vSQp...***
+2025-06-07 06:36:21,758 - LLM_API_Logger - INFO - OPENAI_API_BASE: http://10.112.59.240:3001/v1
+2025-06-07 06:36:21,758 - LLM_API_Logger - INFO - OPENAI_API_TYPE: NOT SET
+2025-06-07 06:36:21,758 - LLM_API_Logger - INFO - OPENAI_API_VERSION: NOT SET
+2025-06-07 06:36:21,758 - LLM_API_Logger - INFO - MODEL_DIR: NOT SET
+2025-06-07 06:36:21,758 - LLM_API_Logger - INFO - TASK: webarena
+2025-06-07 06:36:21,758 - LLM_API_Logger - INFO - MODEL_TYPE: google
+2025-06-07 06:36:21,758 - LLM_API_Logger - INFO - MAX_TOKEN_LENGTH: 4096
+2025-06-07 06:36:21,759 - LLM_API_Logger - INFO - TEMP: 0.7
+2025-06-07 06:36:21,759 - LLM_API_Logger - INFO - ========================================
+2025-06-07 06:36:21,759 - LLM_API_Logger - INFO - LLM API Logger module loaded successfully
+2025-06-07 06:36:37,257 - LLM_API_Logger - INFO - === Initializing FuncCall ===
+2025-06-07 06:36:37,257 - LLM_API_Logger - INFO - === Environment Variables ===
+2025-06-07 06:36:37,258 - LLM_API_Logger - INFO - OPENAI_API_KEY: sk-yE4vSQp...***
+2025-06-07 06:36:37,258 - LLM_API_Logger - INFO - OPENAI_API_BASE: http://10.112.59.240:3001/v1
+2025-06-07 06:36:37,258 - LLM_API_Logger - INFO - OPENAI_API_TYPE: NOT SET
+2025-06-07 06:36:37,258 - LLM_API_Logger - INFO - OPENAI_API_VERSION: NOT SET
+2025-06-07 06:36:37,259 - LLM_API_Logger - INFO - MODEL_DIR: NOT SET
+2025-06-07 06:36:37,259 - LLM_API_Logger - INFO - TASK: webarena
+2025-06-07 06:36:37,259 - LLM_API_Logger - INFO - MODEL_TYPE: google
+2025-06-07 06:36:37,259 - LLM_API_Logger - INFO - MAX_TOKEN_LENGTH: 4096
+2025-06-07 06:36:37,259 - LLM_API_Logger - INFO - TEMP: 0.7
+2025-06-07 06:36:37,259 - LLM_API_Logger - INFO - ========================================
+2025-06-07 06:36:37,535 - LLM_API_Logger - INFO - FuncCall initialized with model: google/gemini-2.5-flash-preview
+2025-06-07 06:36:37,535 - LLM_API_Logger - INFO - Using tokenizer for: gpt-4
+2025-06-07 06:36:37,535 - LLM_API_Logger - INFO - === Starting perform_test for task 0 ===
+2025-06-07 06:36:37,536 - LLM_API_Logger - INFO - Model: google/gemini-2.5-flash-preview, Max steps: 100
+2025-06-07 06:36:37,536 - LLM_API_Logger - INFO - Results will be saved to: test_result/webarena/google/gemini-2.5-flash-preview_google/search_results_0.json
+2025-06-07 06:36:37,536 - LLM_API_Logger - INFO - === Step 1/100 ===
+2025-06-07 06:36:37,536 - LLM_API_Logger - INFO - Token limit: 4096
+2025-06-07 06:36:37,539 - LLM_API_Logger - INFO - Current conversation length after content truncation: 769 tokens
+2025-06-07 06:36:37,539 - LLM_API_Logger - INFO - Getting LLM response...
+2025-06-07 06:37:07,348 - LLM_API_Logger - INFO - === FuncCall.llm_func Called ===
+2025-06-07 06:37:07,872 - LLM_API_Logger - INFO - Target model: google/gemini-2.5-flash-preview
+2025-06-07 06:37:52,891 - LLM_API_Logger - INFO - === Attempt 1/5 ===
+2025-06-07 06:37:52,892 - LLM_API_Logger - INFO - === API Request Details (Attempt 1) ===
+2025-06-07 06:37:52,892 - LLM_API_Logger - INFO - Model Name: google/gemini-2.5-flash-preview
+2025-06-07 06:37:52,892 - LLM_API_Logger - INFO - Message Count: 4
+2025-06-07 06:37:52,893 - LLM_API_Logger - INFO - Message 1:
+2025-06-07 06:37:52,893 - LLM_API_Logger - INFO -   Role: system
+2025-06-07 06:37:52,893 - LLM_API_Logger - INFO -   Content: You are a helpful assistant.
+2025-06-07 06:37:52,894 - LLM_API_Logger - INFO - Message 2:
+2025-06-07 06:37:52,894 - LLM_API_Logger - INFO -   Role: user
+2025-06-07 06:37:52,894 - LLM_API_Logger - INFO -   Content: You are an autonomous intelligent agent tasked with navigating a web browser. You will be given web-based tasks. These tasks will be accomplished through the use of specific actions you can issue.
+
+Here's the information you'll have:
+The user's objective: This is the task you're trying to complete.
+The current web page's accessibility tree: This is a simplified representation of the webpage, providing key information.
+The current web page's URL: This is the page you're currently navigating.
+The ... (truncated, total length: 2773)
+2025-06-07 06:37:52,894 - LLM_API_Logger - INFO - Message 3:
+2025-06-07 06:37:52,895 - LLM_API_Logger - INFO -   Role: assistant
+2025-06-07 06:37:52,895 - LLM_API_Logger - INFO -   Content: Ok.
+2025-06-07 06:37:52,895 - LLM_API_Logger - INFO - Message 4:
+2025-06-07 06:37:52,895 - LLM_API_Logger - INFO -   Role: user
+2025-06-07 06:37:52,895 - LLM_API_Logger - INFO -   Content: {'error': "ENOENT: no such file or directory, mkdtemp '0.7/playwright-artifacts-gjFImw'"}
+2025-06-07 06:37:52,896 - LLM_API_Logger - INFO - Total request size: 2893 characters
+2025-06-07 06:37:52,897 - LLM_API_Logger - DEBUG - Full Request JSON size: 3293 characters
+2025-06-07 06:37:52,897 - LLM_API_Logger - DEBUG - Full Request JSON (truncated): {
+  "model": "google/gemini-2.5-flash-preview",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "You are an autonomous intelligent agent tasked with navigating a web browser. You will be given web-based tasks. These tasks will be accomplished through the use of specific actions you can issue.\n\nHere's the information you'll have:\nThe user's objective: This is the task you're trying to complete.\nThe current web page's accessibility tree: This is a simplified representation of the webpage, providing key information.\nThe current web page's URL: This is the page you're currently navigating.\nThe open tabs: These are the tabs you have open.\nThe previous action: This is the action you just performed. It may be helpful to track your progress.\n\nThe actions you can perform fall into several categories:\n\nPage Operation Actions:\n`click [id]`: This action clicks on an element with a specific...
+2025-06-07 06:37:52,897 - LLM_API_Logger - INFO - ========================================
+2025-06-07 06:37:52,897 - LLM_API_Logger - INFO - === Calling Legacy OpenAI API ===
+2025-06-07 06:37:52,897 - LLM_API_Logger - INFO - Normalizing message format for OpenAI API...
+2025-06-07 06:37:52,898 - LLM_API_Logger - ERROR - === API Error Details ===
+2025-06-07 06:37:52,898 - LLM_API_Logger - ERROR - Status: FAILED
+2025-06-07 06:37:52,898 - LLM_API_Logger - ERROR - Error: name 'normalize_openai_messages' is not defined
+2025-06-07 06:37:52,898 - LLM_API_Logger - ERROR - Error Type: NameError
+2025-06-07 06:37:52,898 - LLM_API_Logger - INFO - ========================================
+2025-06-07 06:37:52,899 - LLM_API_Logger - INFO - Waiting 2 seconds before retry...
+2025-06-07 06:37:54,901 - LLM_API_Logger - INFO - === Attempt 2/5 ===
+2025-06-07 06:37:54,902 - LLM_API_Logger - INFO - === API Request Details (Attempt 2) ===
+2025-06-07 06:37:54,902 - LLM_API_Logger - INFO - Model Name: google/gemini-2.5-flash-preview
+2025-06-07 06:37:54,902 - LLM_API_Logger - INFO - Message Count: 4
+2025-06-07 06:37:54,902 - LLM_API_Logger - INFO - Message 1:
+2025-06-07 06:37:54,902 - LLM_API_Logger - INFO -   Role: system
+2025-06-07 06:37:54,903 - LLM_API_Logger - INFO -   Content: You are a helpful assistant.
+2025-06-07 06:37:54,903 - LLM_API_Logger - INFO - Message 2:
+2025-06-07 06:37:54,903 - LLM_API_Logger - INFO -   Role: user
+2025-06-07 06:37:54,903 - LLM_API_Logger - INFO -   Content: You are an autonomous intelligent agent tasked with navigating a web browser. You will be given web-based tasks. These tasks will be accomplished through the use of specific actions you can issue.
+
+Here's the information you'll have:
+The user's objective: This is the task you're trying to complete.
+The current web page's accessibility tree: This is a simplified representation of the webpage, providing key information.
+The current web page's URL: This is the page you're currently navigating.
+The ... (truncated, total length: 2773)
+2025-06-07 06:37:54,903 - LLM_API_Logger - INFO - Message 3:
+2025-06-07 06:37:54,904 - LLM_API_Logger - INFO -   Role: assistant
+2025-06-07 06:37:54,904 - LLM_API_Logger - INFO -   Content: Ok.
+2025-06-07 06:37:54,904 - LLM_API_Logger - INFO - Message 4:
+2025-06-07 06:37:54,904 - LLM_API_Logger - INFO -   Role: user
+2025-06-07 06:37:54,904 - LLM_API_Logger - INFO -   Content: {'error': "ENOENT: no such file or directory, mkdtemp '0.7/playwright-artifacts-gjFImw'"}
+2025-06-07 06:37:54,904 - LLM_API_Logger - INFO - Total request size: 2893 characters
+2025-06-07 06:37:54,905 - LLM_API_Logger - DEBUG - Full Request JSON size: 3293 characters
+2025-06-07 06:37:54,905 - LLM_API_Logger - DEBUG - Full Request JSON (truncated): {
+  "model": "google/gemini-2.5-flash-preview",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "You are an autonomous intelligent agent tasked with navigating a web browser. You will be given web-based tasks. These tasks will be accomplished through the use of specific actions you can issue.\n\nHere's the information you'll have:\nThe user's objective: This is the task you're trying to complete.\nThe current web page's accessibility tree: This is a simplified representation of the webpage, providing key information.\nThe current web page's URL: This is the page you're currently navigating.\nThe open tabs: These are the tabs you have open.\nThe previous action: This is the action you just performed. It may be helpful to track your progress.\n\nThe actions you can perform fall into several categories:\n\nPage Operation Actions:\n`click [id]`: This action clicks on an element with a specific...
+2025-06-07 06:37:54,905 - LLM_API_Logger - INFO - ========================================
+2025-06-07 06:37:54,906 - LLM_API_Logger - INFO - === Calling Legacy OpenAI API ===
+2025-06-07 06:37:54,906 - LLM_API_Logger - INFO - Normalizing message format for OpenAI API...
+2025-06-07 06:37:54,906 - LLM_API_Logger - ERROR - === API Error Details ===
+2025-06-07 06:37:54,906 - LLM_API_Logger - ERROR - Status: FAILED
+2025-06-07 06:37:54,906 - LLM_API_Logger - ERROR - Error: name 'normalize_openai_messages' is not defined
+2025-06-07 06:37:54,906 - LLM_API_Logger - ERROR - Error Type: NameError
+2025-06-07 06:37:54,907 - LLM_API_Logger - INFO - ========================================
+2025-06-07 06:37:54,907 - LLM_API_Logger - INFO - Waiting 4 seconds before retry...
+2025-06-07 06:37:58,911 - LLM_API_Logger - INFO - === Attempt 3/5 ===
+2025-06-07 06:37:58,912 - LLM_API_Logger - INFO - === API Request Details (Attempt 3) ===
+2025-06-07 06:37:58,912 - LLM_API_Logger - INFO - Model Name: google/gemini-2.5-flash-preview
+2025-06-07 06:37:58,912 - LLM_API_Logger - INFO - Message Count: 4
+2025-06-07 06:37:58,912 - LLM_API_Logger - INFO - Message 1:
+2025-06-07 06:37:58,912 - LLM_API_Logger - INFO -   Role: system
+2025-06-07 06:37:58,912 - LLM_API_Logger - INFO -   Content: You are a helpful assistant.
+2025-06-07 06:37:58,913 - LLM_API_Logger - INFO - Message 2:
+2025-06-07 06:37:58,913 - LLM_API_Logger - INFO -   Role: user
+2025-06-07 06:37:58,913 - LLM_API_Logger - INFO -   Content: You are an autonomous intelligent agent tasked with navigating a web browser. You will be given web-based tasks. These tasks will be accomplished through the use of specific actions you can issue.
+
+Here's the information you'll have:
+The user's objective: This is the task you're trying to complete.
+The current web page's accessibility tree: This is a simplified representation of the webpage, providing key information.
+The current web page's URL: This is the page you're currently navigating.
+The ... (truncated, total length: 2773)
+2025-06-07 06:37:58,913 - LLM_API_Logger - INFO - Message 3:
+2025-06-07 06:37:58,913 - LLM_API_Logger - INFO -   Role: assistant
+2025-06-07 06:37:58,913 - LLM_API_Logger - INFO -   Content: Ok.
+2025-06-07 06:37:58,914 - LLM_API_Logger - INFO - Message 4:
+2025-06-07 06:37:58,914 - LLM_API_Logger - INFO -   Role: user
+2025-06-07 06:37:58,914 - LLM_API_Logger - INFO -   Content: {'error': "ENOENT: no such file or directory, mkdtemp '0.7/playwright-artifacts-gjFImw'"}
+2025-06-07 06:37:58,914 - LLM_API_Logger - INFO - Total request size: 2893 characters
+2025-06-07 06:37:58,915 - LLM_API_Logger - DEBUG - Full Request JSON size: 3293 characters
+2025-06-07 06:37:58,915 - LLM_API_Logger - DEBUG - Full Request JSON (truncated): {
+  "model": "google/gemini-2.5-flash-preview",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "You are an autonomous intelligent agent tasked with navigating a web browser. You will be given web-based tasks. These tasks will be accomplished through the use of specific actions you can issue.\n\nHere's the information you'll have:\nThe user's objective: This is the task you're trying to complete.\nThe current web page's accessibility tree: This is a simplified representation of the webpage, providing key information.\nThe current web page's URL: This is the page you're currently navigating.\nThe open tabs: These are the tabs you have open.\nThe previous action: This is the action you just performed. It may be helpful to track your progress.\n\nThe actions you can perform fall into several categories:\n\nPage Operation Actions:\n`click [id]`: This action clicks on an element with a specific...
+2025-06-07 06:37:58,915 - LLM_API_Logger - INFO - ========================================
+2025-06-07 06:37:58,915 - LLM_API_Logger - INFO - === Calling Legacy OpenAI API ===
+2025-06-07 06:37:58,916 - LLM_API_Logger - INFO - Normalizing message format for OpenAI API...
+2025-06-07 06:37:58,916 - LLM_API_Logger - ERROR - === API Error Details ===
+2025-06-07 06:37:58,916 - LLM_API_Logger - ERROR - Status: FAILED
+2025-06-07 06:37:58,916 - LLM_API_Logger - ERROR - Error: name 'normalize_openai_messages' is not defined
+2025-06-07 06:37:58,916 - LLM_API_Logger - ERROR - Error Type: NameError
+2025-06-07 06:37:58,917 - LLM_API_Logger - INFO - ========================================
+2025-06-07 06:37:58,917 - LLM_API_Logger - INFO - Waiting 8 seconds before retry...
+2025-06-07 06:38:06,926 - LLM_API_Logger - INFO - === Attempt 4/5 ===
+2025-06-07 06:38:06,927 - LLM_API_Logger - INFO - === API Request Details (Attempt 4) ===
+2025-06-07 06:38:06,927 - LLM_API_Logger - INFO - Model Name: google/gemini-2.5-flash-preview
+2025-06-07 06:38:06,927 - LLM_API_Logger - INFO - Message Count: 4
+2025-06-07 06:38:06,928 - LLM_API_Logger - INFO - Message 1:
+2025-06-07 06:38:06,928 - LLM_API_Logger - INFO -   Role: system
+2025-06-07 06:38:06,928 - LLM_API_Logger - INFO -   Content: You are a helpful assistant.
+2025-06-07 06:38:06,928 - LLM_API_Logger - INFO - Message 2:
+2025-06-07 06:38:06,928 - LLM_API_Logger - INFO -   Role: user
+2025-06-07 06:38:06,928 - LLM_API_Logger - INFO -   Content: You are an autonomous intelligent agent tasked with navigating a web browser. You will be given web-based tasks. These tasks will be accomplished through the use of specific actions you can issue.
+
+Here's the information you'll have:
+The user's objective: This is the task you're trying to complete.
+The current web page's accessibility tree: This is a simplified representation of the webpage, providing key information.
+The current web page's URL: This is the page you're currently navigating.
+The ... (truncated, total length: 2773)
+2025-06-07 06:38:06,929 - LLM_API_Logger - INFO - Message 3:
+2025-06-07 06:38:06,929 - LLM_API_Logger - INFO -   Role: assistant
+2025-06-07 06:38:06,929 - LLM_API_Logger - INFO -   Content: Ok.
+2025-06-07 06:38:06,929 - LLM_API_Logger - INFO - Message 4:
+2025-06-07 06:38:06,929 - LLM_API_Logger - INFO -   Role: user
+2025-06-07 06:38:06,929 - LLM_API_Logger - INFO -   Content: {'error': "ENOENT: no such file or directory, mkdtemp '0.7/playwright-artifacts-gjFImw'"}
+2025-06-07 06:38:06,929 - LLM_API_Logger - INFO - Total request size: 2893 characters
+2025-06-07 06:38:06,930 - LLM_API_Logger - DEBUG - Full Request JSON size: 3293 characters
+2025-06-07 06:38:06,930 - LLM_API_Logger - DEBUG - Full Request JSON (truncated): {
+  "model": "google/gemini-2.5-flash-preview",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "You are an autonomous intelligent agent tasked with navigating a web browser. You will be given web-based tasks. These tasks will be accomplished through the use of specific actions you can issue.\n\nHere's the information you'll have:\nThe user's objective: This is the task you're trying to complete.\nThe current web page's accessibility tree: This is a simplified representation of the webpage, providing key information.\nThe current web page's URL: This is the page you're currently navigating.\nThe open tabs: These are the tabs you have open.\nThe previous action: This is the action you just performed. It may be helpful to track your progress.\n\nThe actions you can perform fall into several categories:\n\nPage Operation Actions:\n`click [id]`: This action clicks on an element with a specific...
+2025-06-07 06:38:06,931 - LLM_API_Logger - INFO - ========================================
+2025-06-07 06:38:06,931 - LLM_API_Logger - INFO - === Calling Legacy OpenAI API ===
+2025-06-07 06:38:06,931 - LLM_API_Logger - INFO - Normalizing message format for OpenAI API...

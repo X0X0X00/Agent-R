@@ -47,8 +47,6 @@ import time
 from pathlib import Path
 import openai
 
-
-
 # 导入 WebArena 组件和 agent 构建逻辑
 from agent import (
     Agent,

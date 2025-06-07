@@ -24,6 +24,11 @@ from AgentGym.agentenv.agentenv.envs import WebshopEnvClient, SciworldEnvClient,
 # from agentenv.envs import WebshopEnvClient, SciworldEnvClient, TextCraftEnvClient, WebarenaEnvClient
 # ...existing code...
 # from agentenv.envs import WebshopEnvClient, SciworldEnvClient, TextCraftEnvClient, WebarenaEnvClient
+import importlib
+module = importlib.import_module("AgentGym.agentenv-webarena.webarena.agent.agent")
+construct_agent = getattr(module, "construct_agent")
+module = importlib.import_module("AgentGym.agentenv-webarena.webarena.run")
+config = getattr(module, "config")
 
 import argparse
 import os
@@ -53,7 +58,10 @@ def initialize_environment(Task: str, env_server_base: str, data_len: int = 200)
     elif Task == "textcraft":
         return TextCraftEnvClient(env_server_base=env_server_base, data_len=data_len)
     elif Task == "webarena":
-        return WebarenaEnvClient(env_server_base=env_server_base, data_len=data_len)
+        args = config()
+        agent = construct_agent(args)
+        
+        return WebarenaEnvClient(env_server_base=env_server_base, data_len=data_len, agent=agent)
         # from mcts_utils.webarena.env_local import WebarenaEnvLocal
         # return WebarenaEnvLocal(data_len=data_len)
     else:

@@ -35,6 +35,7 @@ class WebarenaEnvClient(BaseEnvClient):
         viewport_height: int = 720,
         save_trace_enabled: bool = False,
         sleep_after_execution: float = 2.0,
+        agent: Any = None,  # Placeholder for agent, if needed
         *args, 
         **kwargs
     ):
@@ -64,6 +65,7 @@ class WebarenaEnvClient(BaseEnvClient):
         self._current_observation = ""
         self._current_config_file = None
         self._task_intent = ""
+        self.agent = agent
 
     def __len__(self):
         return self.data_len
