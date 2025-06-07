@@ -35,6 +35,7 @@ import os
 from mcts_utils.llm_server import FuncCall
 
 # os.environ["TASK"] = 'webarena'
+# os.environ["TASK"] = 'webarena'
 Task = os.environ["TASK"]
 if Task == "webshop":
     from mcts_utils.webshop.mcts_ws import *
@@ -45,6 +46,8 @@ elif Task == "textcraft":
 elif Task == "webarena":
     from mcts_utils.webarena.mcts_we import *
 
+
+# 环境初始化
 
 # 环境初始化
 def initialize_environment(Task: str, env_server_base: str, data_len: int = 200):
@@ -66,6 +69,9 @@ def initialize_environment(Task: str, env_server_base: str, data_len: int = 200)
         # return WebarenaEnvLocal(data_len=data_len)
     else:
         raise ValueError(f"Unknown Task: {Task}")
+
+# 对话设置
+# 对于每个测试用例，系统都会建立一个对话上下文，作为代理与环境交互的起点。
 
 # 对话设置
 # 对于每个测试用例，系统都会建立一个对话上下文，作为代理与环境交互的起点。
@@ -106,11 +112,14 @@ def setup_conversation(env):
 
 # 测试执行
 # 系统对测试集中的每个任务索引执行测试，使用指定的语言模型生成代理响应。 
+# 测试执行
+# 系统对测试集中的每个任务索引执行测试，使用指定的语言模型生成代理响应。 
 
 def main(Task: str, model_name: str, env_server_base: str, max_steps: int):
     """
     Main execution function for handling tasks and initiating tests.
     """
+
 
     # Initialize environment
     env = initialize_environment(Task, env_server_base)
@@ -119,10 +128,14 @@ def main(Task: str, model_name: str, env_server_base: str, max_steps: int):
     # temp = read_json(f"test_id/{Task}_test.json")
     # 载荷试验指标
     # 评估系统从test_id目录中存储的 JSON 文件中加载预定义的测试指标。每个支持的任务都有自己的测试集文件。
+    # 载荷试验指标
+    # 评估系统从test_id目录中存储的 JSON 文件中加载预定义的测试指标。每个支持的任务都有自己的测试集文件。
     temp = read_json(f"mcts_utils/{Task}/{Task}_test.json")
     task_inds = [ind["item_id"].replace(f"{Task}_", "") for ind in temp]
 
     # Process each task index
+    # 结果存储
+    # 测试结果存储在结构化的目录层次中：
     # 结果存储
     # 测试结果存储在结构化的目录层次中：
     for idx in task_inds:
@@ -143,6 +156,7 @@ if __name__ == "__main__":
     # Argument parsing
     parser = argparse.ArgumentParser(description="Run MCTS tests for specified tasks.")
     parser.add_argument("--env_server_base", type=str, default="http://127.0.0.1:8000", help="Base URL for the environment server.")
+    parser.add_argument("--model_name", type=str, default="google/gemini-2.5-flash-preview", help="Model name to be used.")
     parser.add_argument("--model_name", type=str, default="google/gemini-2.5-flash-preview", help="Model name to be used.")
     parser.add_argument("--max_steps", type=int, default=100, help="Maximum steps allowed for a task.")
     # parser.add_argument("--model_name", type=str, default='gpt-4o-mini')

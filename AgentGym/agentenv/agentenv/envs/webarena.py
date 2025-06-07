@@ -304,6 +304,7 @@ class WebarenaEnvClient(BaseEnvClient):
     )
 
     # 初始化一个env
+    # 初始化一个env
     def __init__(
         self, env_server_base: str, data_len: int, *args, timeout: int = 300, **kwargs
     ):
@@ -316,16 +317,24 @@ class WebarenaEnvClient(BaseEnvClient):
         #     f"{self.env_server_base}/create",
         #     timeout=self.timeout,
         # )
+        # ok = requests.post(
+        #     f"{self.env_server_base}/create",
+        #     timeout=self.timeout,
+        # )
         
         # if ok.status_code != 200:
         #     raise RequestException(f"Failed to create environment: {ok}")
+        # if ok.status_code != 200:
+        #     raise RequestException(f"Failed to create environment: {ok}")
 
+        # self.env_id = ok.json()["env_idx"]
         # self.env_id = ok.json()["env_idx"]
 
         self.env_id = 0
 
     def __len__(self):
         return self.data_len
+
 
 
     def _post(self, path: str, data: Dict[str, Any]) -> Dict[str, Any]:
@@ -351,6 +360,7 @@ class WebarenaEnvClient(BaseEnvClient):
         return response
 
     # run.py next action
+    # run.py next action
     def step(self, action: str) -> StepOutput:
         # action is the original output of llm
         response = self._post("step", {"action": action})
@@ -361,7 +371,9 @@ class WebarenaEnvClient(BaseEnvClient):
         )
 
 
+
     def reset(self, idx: int) -> Dict[str, Any]:
+        pass
         pass
 
 
@@ -377,4 +389,5 @@ class WebarenaTask(BaseTask):
         **kwargs,
     ):
         super().__init__(client_args, n_clients, *args, **kwargs)
+'''
 '''
